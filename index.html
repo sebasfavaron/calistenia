@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Semanal de Entrenamiento - Calistenia</title>
+    <style>
+        :root {
+            --primary-dark: #0F172A;
+            --primary: #1E293B;
+            --secondary: #0EA5E9;
+            --accent: #06B6D4;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --danger: #EF4444;
+            --text-dark: #1E293B;
+            --text-light: #64748B;
+            --bg-card: #FFFFFF;
+            --bg-light: #F8FAFC;
+            --border: #E2E8F0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%);
+            min-height: 100vh;
+            font-size: 16px;
+            color: var(--text-dark);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: pulse 15s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1) translate(0, 0);
+            }
+
+            50% {
+                transform: scale(1.1) translate(-10%, -10%);
+            }
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            margin: 12px 0 0 0;
+            opacity: 0.95;
+            font-size: 1.1em;
+            font-weight: 500;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            padding: 40px 30px;
+            background: var(--bg-light);
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background: var(--bg-card);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+        }
+
+        .section h2 {
+            color: var(--primary-dark);
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 25px;
+            font-size: 1.75em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 32px;
+            background: linear-gradient(180deg, var(--secondary) 0%, var(--accent) 100%);
+            border-radius: 2px;
+        }
+
+        .plan-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0 0 0;
+            background: var(--bg-card);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .plan-table thead {
+            display: block;
+        }
+
+        .plan-table tbody {
+            display: block;
+        }
+
+        .plan-table tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .plan-table th {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+            color: white;
+            padding: 16px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .plan-table td {
+            padding: 16px 12px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95em;
+            white-space: normal;
+            word-wrap: break-word;
+            color: var(--text-light);
+        }
+
+        .plan-table td strong {
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+
+        .plan-table tbody tr {
+            background: var(--bg-card);
+            transition: all 0.2s ease;
+        }
+
+        .plan-table tbody tr:nth-child(even) {
+            background: var(--bg-light);
+        }
+
+        .plan-table tbody tr:hover {
+            background: #E0F2FE;
+            transform: scale(1.01);
+            box-shadow: 0 2px 8px rgba(14, 165, 233, 0.1);
+        }
+
+        .plan-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .exercise-list {
+            background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid var(--secondary);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
+        }
+
+        .exercise-list:hover {
+            border-left-width: 6px;
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
+        }
+
+        .exercise-list h3 {
+            color: var(--primary-dark);
+            margin-top: 0;
+            margin-bottom: 18px;
+            font-size: 1.3em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .exercise-list h3::before {
+            content: '💪';
+            font-size: 1.2em;
+        }
+
+        .exercise-list ul {
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        .exercise-list li {
+            margin-bottom: 12px;
+            color: var(--text-light);
+            font-size: 1em;
+            line-height: 1.7;
+            position: relative;
+        }
+
+        .exercise-list li strong {
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+
+        .exercise-list p {
+            margin: 16px 0 0 0;
+            padding: 12px;
+            background: rgba(14, 165, 233, 0.1);
+            border-radius: 8px;
+            color: var(--primary-dark);
+            font-weight: 500;
+        }
+
+        .exercise-container {
+            text-align: center;
+            margin: 30px 0;
+            background: var(--bg-card);
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .exercise-container h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            background: var(--bg-light);
+        }
+
+        img[poster] {
+            object-fit: contain;
+        }
+
+        .exercise-container p {
+            margin-top: 16px;
+            color: var(--text-light);
+            font-size: 0.95em;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+            border: none;
+            border-left: 4px solid var(--warning);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+            font-size: 1em;
+            line-height: 1.8;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        }
+
+        .highlight strong {
+            color: #92400E;
+            font-weight: 700;
+            font-size: 1.05em;
+        }
+
+        .tips {
+            background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%);
+            border: none;
+            border-left: 4px solid var(--success);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        }
+
+        .tips h4 {
+            color: #065F46;
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 1.3em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tips ul {
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        .tips li {
+            color: #047857;
+            margin-bottom: 12px;
+            font-size: 1em;
+            line-height: 1.7;
+            font-weight: 500;
+        }
+
+        .tips li::marker {
+            color: var(--success);
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 16px;
+                line-height: 1.7;
+            }
+
+            .container {
+                border-radius: 16px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+                line-height: 1.3;
+            }
+
+            .header p {
+                font-size: 1em;
+                line-height: 1.5;
+            }
+
+            .content {
+                padding: 20px 15px;
+            }
+
+            .section {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5em;
+                line-height: 1.3;
+            }
+
+            .plan-table {
+                font-size: 0.95em;
+            }
+
+            .plan-table th,
+            .plan-table td {
+                padding: 12px 10px;
+                line-height: 1.6;
+            }
+
+            .exercise-list {
+                padding: 20px;
+            }
+
+            .exercise-list h3 {
+                font-size: 1.2em;
+                line-height: 1.4;
+            }
+
+            .exercise-list li {
+                font-size: 0.95em;
+                line-height: 1.7;
+                margin-bottom: 10px;
+            }
+
+            .exercise-container {
+                padding: 20px;
+            }
+
+            .exercise-container h3 {
+                color: var(--primary-light);
+                font-size: 1.3em;
+                line-height: 1.4;
+            }
+
+            .highlight {
+                padding: 20px;
+                font-size: 0.95em;
+                line-height: 1.7;
+            }
+
+            .tips {
+                padding: 20px;
+            }
+
+            .tips h4 {
+                font-size: 1.2em;
+                line-height: 1.4;
+            }
+
+            .tips li {
+                font-size: 0.95em;
+                line-height: 1.7;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 15px;
+                padding: 8px;
+            }
+
+            .header {
+                padding: 24px 16px;
+            }
+
+            .header h1 {
+                font-size: 1.75em;
+                line-height: 1.3;
+            }
+
+            .content {
+                padding: 16px 12px;
+            }
+
+            .section {
+                padding: 16px;
+            }
+
+            .section h2 {
+                font-size: 1.4em;
+                line-height: 1.3;
+            }
+
+            .plan-table th,
+            .plan-table td {
+                padding: 10px 8px;
+                font-size: 0.9em;
+                line-height: 1.6;
+            }
+
+            .exercise-list {
+                padding: 16px;
+            }
+
+            .exercise-list li {
+                font-size: 0.95em;
+                line-height: 1.7;
+            }
+        }
+
+        /* Landscape mobile optimization */
+        @media (max-width: 768px) and (orientation: landscape) {
+            .plan-table {
+                font-size: 0.9em;
+            }
+
+            .plan-table th,
+            .plan-table td {
+                padding: 10px 8px;
+                line-height: 1.5;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗓️ PLAN SEMANAL</h1>
+            <p>Rendimiento general + RR adaptada</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>📅 Cronograma Semanal</h2>
+                <table class="plan-table">
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Actividad</th>
+                            <th>Objetivo</th>
+                            <th>Detalle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Lunes</strong></td>
+                            <td>Correr (20–30 min suave o técnica)</td>
+                            <td>Cardio / base aeróbica</td>
+                            <td>Ritmo cómodo, pasto o pista; técnica y movilidad</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Martes</strong></td>
+                            <td>Calistenia (fuerza) + opcional bici suave 10–15 min</td>
+                            <td>Potencia / técnica</td>
+                            <td>Empuje + tracción + pierna + core</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Miércoles</strong></td>
+                            <td>Fútbol + calistenia liviana</td>
+                            <td>Cardio + mantenimiento fuerza</td>
+                            <td>Sesión corta de cali pre o post partido</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Jueves</strong></td>
+                            <td>Descanso activo / bici 30–45 min</td>
+                            <td>Recuperación</td>
+                            <td>Baja intensidad, cadencia alta</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Viernes</strong></td>
+                            <td>Calistenia (resistencia / circuito)</td>
+                            <td>Capacidad de trabajo</td>
+                            <td>Alta intensidad, cuerpo completo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sábado o Domingo</strong></td>
+                            <td>Opcional: caminata, core o movilidad</td>
+                            <td>Recuperación / estabilidad</td>
+                            <td>Ligero y sin impacto</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>💪 Calistenia – Detalle de sesiones</h2>
+
+                <div class="exercise-list">
+                    <h3>Martes – Fuerza</h3>
+                    <ul>
+                        <li><strong>Par 1:</strong> Pull-ups 3×5–8 | Dips 3×8–12</li>
+                        <li><strong>Par 2:</strong> Sentadilla controlada 3×8–10 | Hip thrust 3×10–15</li>
+                        <li><strong>Par 3:</strong> Pike push-up 3×6–10 | Australian rows 3×8–12</li>
+                        <li><strong>Core triplete:</strong> Hollow hold / Side plank / Superman hold</li>
+                    </ul>
+                </div>
+
+                <div class="exercise-list">
+                    <h3>Miércoles – Liviano (pre o post fútbol)</h3>
+                    <ul>
+                        <li>Pull-ups excéntricos o australian rows 2×8</li>
+                        <li>Push-ups 2×12</li>
+                        <li>Sentadilla isométrica 2×30 s</li>
+                        <li>Plancha frontal y lateral 2×30 s</li>
+                        <li>Estiramiento 10 min</li>
+                    </ul>
+                </div>
+
+                <div class="exercise-list">
+                    <h3>Viernes – Circuito (3–4 rondas)</h3>
+                    <ul>
+                        <li>Pull-ups</li>
+                        <li>Push-ups</li>
+                        <li>Dips</li>
+                        <li>Sentadilla</li>
+                        <li>Pike push-ups</li>
+                        <li>Hollow hold</li>
+                        <li>Side plank (30 s/lado)</li>
+                        <li>Mountain climbers</li>
+                    </ul>
+                    <p><strong>👉 45 s trabajo / 15 s pausa — 90 s entre rondas.</strong></p>
+                </div>
+            </div>
+
+            <div class="exercise-container">
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Pull-ups</h3>
+                    <img src="pull-up.gif" alt="Pull-ups exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Push-ups</h3>
+                    <img src="push-up.gif" alt="Push-ups exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Dips</h3>
+                    <img src="dips.gif" alt="Dips exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Sentadilla</h3>
+                    <img src="squat.gif" alt="Squat exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Bulgarian Split Squat</h3>
+                    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzAxOHN0b3hvY2VhZjFmMTgxZ3UyZTNvc2t5NTNkdDN1MmFueGpuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t0iDjHU8VM04mzc299/giphy.gif"
+                        alt="Bulgarian Split Squat exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Wall sit</h3>
+                    <img src="wall-sit.gif" alt="Wall sit exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Wall angels</h3>
+                    <img src="wall-angels.gif" alt="Wall angels exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Step-up</h3>
+                    <img src="step-up.gif" alt="Step-up exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Calf raise</h3>
+                    <img src="calf-raise.gif" alt="Calf raise exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Mountain climbers</h3>
+                    <img src="mountain-climbers.gif" alt="Mountain climbers exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Pike pushup</h3>
+                    <img src="pike-pushup.gif" alt="Pike pushup exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Hollow hold</h3>
+                    <img src="hollow-hold.gif" alt="Hollow hold exercise">
+                </div>
+                <div style="position: relative;">
+                    <h3
+                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
+                        Superman hold</h3>
+                    <img src="superman-hold.gif" alt="Superman hold exercise">
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🦵 Complementos rodilla (1–2× semana)</h2>
+                <div class="exercise-list">
+                    <ul>
+                        <li>Wall sit — 3×45 s</li>
+                        <li>Step-up bajo — 3×10 por pierna</li>
+                        <li>Calf raise — 3×20</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>✅ Con este orden:</strong><br>
+                Lunes impacto moderado (solo correr).<br>
+                Martes fuerza fresca.<br>
+                Fútbol miércoles con carga baja de piernas el día anterior.<br>
+                Recuperación real jueves.<br>
+                Vuelven piernas fuertes viernes.
+            </div>
+
+            <div class="tips">
+                <h4>💡 Consejos importantes:</h4>
+                <ul>
+                    <li>Calienta siempre antes de cada sesión (5-10 minutos)</li>
+                    <li>Mantén una buena hidratación durante todo el día</li>
+                    <li>Escucha a tu cuerpo y ajusta la intensidad según te sientas</li>
+                    <li>El descanso es tan importante como el entrenamiento</li>
+                    <li>Progresiona gradualmente en los ejercicios</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
