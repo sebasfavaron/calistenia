@@ -1,8 +1,0 @@
-Name: Band Pallof Press
-Muscle: Obliques
-Equipment: Band
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/band-pallof-press
-
-1. No instructions parsed from page

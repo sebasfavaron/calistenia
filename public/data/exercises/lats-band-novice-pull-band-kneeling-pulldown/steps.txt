@@ -1,8 +1,0 @@
-Name: Band Kneeling Pulldown
-Muscle: Lats
-Equipment: Band
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/band-kneeling-pulldown
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bosu Ball Row
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/bosu-ball-row
-
-1. No instructions parsed from page

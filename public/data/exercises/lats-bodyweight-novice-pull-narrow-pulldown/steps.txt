@@ -1,8 +1,0 @@
-Name: Narrow Pulldown
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/narrow-pulldown
-
-1. No instructions parsed from page

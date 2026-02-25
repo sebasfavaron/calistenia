@@ -1,8 +1,0 @@
-Name: Band Horizontal Shrug
-Muscle: Traps (mid-back)
-Equipment: Band
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/band-horizontal-shrug
-
-1. No instructions parsed from page

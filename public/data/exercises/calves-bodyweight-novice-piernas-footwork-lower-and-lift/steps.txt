@@ -1,8 +1,0 @@
-Name: Footwork Lower And Lift
-Muscle: Calves
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/pilates-footwork-lower-and-lift
-
-1. No instructions parsed from page

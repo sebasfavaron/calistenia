@@ -1,8 +1,0 @@
-Name: Medicine Ball Ball Headlock Squat
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/ball-headlock-squat
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Deadlift Bounces Stretch
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/deadlift-bounces-stretch
-
-1. No instructions parsed from page

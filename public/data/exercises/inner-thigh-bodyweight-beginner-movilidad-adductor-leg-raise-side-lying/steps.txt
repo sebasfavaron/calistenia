@@ -1,8 +1,0 @@
-Name: Adductor Leg Raise Side Lying
-Muscle: Inner Thigh
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: movilidad
-Source: https://musclewiki.com/exercise/adductor-leg-raise-side-lying
-
-1. No instructions parsed from page

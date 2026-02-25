@@ -1,8 +1,0 @@
-Name: Plate Good Morning Anterior
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/plate-good-morning-anterior
-
-1. No instructions parsed from page

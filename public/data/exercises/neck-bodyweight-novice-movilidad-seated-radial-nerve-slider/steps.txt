@@ -1,8 +1,0 @@
-Name: Seated Radial Nerve Slider
-Muscle: Neck
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/seated-radial-nerve-slider
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Cardio Single Leg Lateral Hop
-Muscle: Calves
-Equipment: Cardio
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/cardio-single-leg-lateral-hop
-
-1. No instructions parsed from page

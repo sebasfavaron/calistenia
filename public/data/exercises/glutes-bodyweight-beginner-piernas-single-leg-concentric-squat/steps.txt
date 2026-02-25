@@ -1,8 +1,0 @@
-Name: Single Leg Concentric Squat
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/squat-concentric-single-leg
-
-1. No instructions parsed from page

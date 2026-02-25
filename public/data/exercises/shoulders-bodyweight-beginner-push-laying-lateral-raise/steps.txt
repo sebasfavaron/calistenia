@@ -1,8 +1,0 @@
-Name: Laying Lateral Raise
-Muscle: Shoulders
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/laying-lateral-raise
-
-1. No instructions parsed from page

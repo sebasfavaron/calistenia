@@ -1,8 +1,0 @@
-Name: Half Kneeling Hip Hinge
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/half-kneeling-hip-hinge
-
-1. No instructions parsed from page

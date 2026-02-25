@@ -1,8 +1,0 @@
-Name: TRX Mountain Climber
-Muscle: Abdominals
-Equipment: TRX
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/trx-mountain-climber
-
-1. No instructions parsed from page

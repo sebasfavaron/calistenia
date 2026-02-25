@@ -1,8 +1,0 @@
-Name: Weighted Wall Sit
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/weighted-wall-sit
-
-1. No instructions parsed from page

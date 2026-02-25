@@ -1,8 +1,0 @@
-Name: Serratus Activation Cross Punch
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/serratus-activation-cross-punch
-
-1. No instructions parsed from page

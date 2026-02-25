@@ -1,8 +1,0 @@
-Name: Single Leg Glute Bridge
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/single-leg-glute-bridge
-
-1. No instructions parsed from page

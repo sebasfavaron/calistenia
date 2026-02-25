@@ -1,8 +1,0 @@
-Name: Band Single Arm Internally Rotated Chest Fly
-Muscle: Chest
-Equipment: Band
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/band-single-arm-internally-rotated-chest-fly
-
-1. No instructions parsed from page

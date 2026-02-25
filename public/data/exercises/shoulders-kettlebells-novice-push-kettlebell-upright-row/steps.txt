@@ -1,8 +1,0 @@
-Name: Kettlebell Upright Row
-Muscle: Shoulders
-Equipment: Kettlebells
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/kettlebell-upright-row
-
-1. No instructions parsed from page

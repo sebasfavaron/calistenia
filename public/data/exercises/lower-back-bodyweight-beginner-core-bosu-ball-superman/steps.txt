@@ -1,8 +1,0 @@
-Name: Bosu Ball Superman
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/bosu-ball-superman
-
-1. No instructions parsed from page

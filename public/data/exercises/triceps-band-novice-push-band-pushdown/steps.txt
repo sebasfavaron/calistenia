@@ -1,8 +1,0 @@
-Name: Band Pushdown
-Muscle: Triceps
-Equipment: Band
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/band-pushdown
-
-1. No instructions parsed from page

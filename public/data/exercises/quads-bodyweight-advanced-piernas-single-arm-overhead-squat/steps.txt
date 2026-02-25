@@ -1,8 +1,0 @@
-Name: Single Arm Overhead Squat
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/single-arm-overhead-squat
-
-1. No instructions parsed from page

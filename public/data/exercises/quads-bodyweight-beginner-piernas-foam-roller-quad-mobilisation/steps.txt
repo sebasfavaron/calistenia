@@ -1,8 +1,0 @@
-Name: Foam Roller Quad Mobilisation
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/quad-mobilisation-floor-foam-roller
-
-1. No instructions parsed from page

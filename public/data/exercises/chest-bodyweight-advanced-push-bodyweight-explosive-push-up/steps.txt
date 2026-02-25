@@ -1,8 +1,0 @@
-Name: Bodyweight Explosive Push Up
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: push
-Source: https://musclewiki.com/exercise/bodyweight-explosive-push-up
-
-1. No instructions parsed from page

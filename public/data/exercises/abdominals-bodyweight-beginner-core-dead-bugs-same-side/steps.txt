@@ -1,8 +1,0 @@
-Name: Dead Bugs Same Side
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/dead-bugs-same-side
-
-1. No instructions parsed from page

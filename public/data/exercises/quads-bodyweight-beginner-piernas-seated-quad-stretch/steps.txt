@@ -1,8 +1,0 @@
-Name: Seated Quad Stretch
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/quad-stretch-seated
-
-1. No instructions parsed from page

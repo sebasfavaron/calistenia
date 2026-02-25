@@ -1,8 +1,0 @@
-Name: Bosu Ball Front Raise
-Muscle: Anterior Deltoid
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/bosu-ball-front-raise
-
-1. No instructions parsed from page

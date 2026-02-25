@@ -1,8 +1,0 @@
-Name: Core Stability 1 Crosslateral Limb Raise 4Pt Position
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/core-stability-1-crosslateral-limb-raise-4pt-position
-
-1. No instructions parsed from page

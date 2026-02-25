@@ -1,8 +1,0 @@
-Name: TRX Glute Bridge
-Muscle: Glutes
-Equipment: TRX
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/trx-glute-bridge
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Laying Leg Raises
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/laying-leg-raises
-
-1. No instructions parsed from page

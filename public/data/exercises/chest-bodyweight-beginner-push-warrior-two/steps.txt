@@ -1,8 +1,0 @@
-Name: Warrior Two
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/warrior-two
-
-1. No instructions parsed from page

@@ -15,7 +15,6 @@ export function createLightbox(onNavigate) {
             <h2 class="lb-title"></h2>
           </div>
           <div class="lb-tags"></div>
-          <pre class="lb-steps">Cargando pasos…</pre>
         </div>
       </div>
     </div>
@@ -24,7 +23,6 @@ export function createLightbox(onNavigate) {
   const stageGrid = root.querySelector('.lb-stage-grid');
   const title = root.querySelector('.lb-title');
   const tags = root.querySelector('.lb-tags');
-  const steps = root.querySelector('.lb-steps');
 
   root.querySelector('.lb-close').addEventListener('click', close);
   root.querySelector('.lb-prev').addEventListener('click', () => onNavigate(-1));
@@ -34,21 +32,20 @@ export function createLightbox(onNavigate) {
   });
 
   let current = null;
-  function open(ex, stepsText) {
+  function open(ex) {
     current = ex;
     root.classList.add('open');
     document.body.classList.add('no-scroll');
-    render(stepsText);
+    render();
   }
 
-  function render(stepsText) {
+  function render() {
     if (!current) return;
     title.textContent = current.name || 'Ejercicio';
     tags.innerHTML = [current.group, current.muscle, current.equipment, current.difficulty]
       .filter(Boolean)
       .map((t) => `<span>${escapeHtml(t)}</span>`)
       .join('');
-    steps.textContent = stepsText || 'Sin pasos';
 
     stageGrid.innerHTML = '';
     for (const angle of ['front', 'side']) {

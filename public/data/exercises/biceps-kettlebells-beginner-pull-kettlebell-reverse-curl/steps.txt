@@ -1,8 +1,0 @@
-Name: Kettlebell Reverse Curl
-Muscle: Biceps
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/kettlebell-reverse-curl
-
-1. No instructions parsed from page

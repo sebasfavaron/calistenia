@@ -1,8 +1,0 @@
-Name: Seated Ulnar Nerve Slider
-Muscle: Biceps
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/seated-ulnar-nerve-slider
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Lumbar Extensor Mobilisation Supine Bent Knees Peanut Tool
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool
-
-1. No instructions parsed from page

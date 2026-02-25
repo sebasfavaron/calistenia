@@ -1,8 +1,0 @@
-Name: Landmine Single Arm Overhead Press
-Muscle: Shoulders
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/landmine-single-arm-overhead-press
-
-1. No instructions parsed from page

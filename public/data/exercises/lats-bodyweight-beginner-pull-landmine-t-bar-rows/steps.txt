@@ -1,8 +1,0 @@
-Name: Landmine T Bar Rows
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/landmine-t-bar-rows
-
-1. No instructions parsed from page

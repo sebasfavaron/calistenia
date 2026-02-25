@@ -1,8 +1,0 @@
-Name: Bosu Ball Plank Glute Kickback
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/bosu-ball-plank-glute-kickback
-
-1. No instructions parsed from page

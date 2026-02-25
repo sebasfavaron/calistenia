@@ -1,8 +1,0 @@
-Name: Medicine Ball Half Kneeling Wood Chopper
-Muscle: Obliques
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/half-kneeling-wood-chopper
-
-1. No instructions parsed from page

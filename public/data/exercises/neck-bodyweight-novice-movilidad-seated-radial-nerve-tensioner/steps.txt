@@ -1,8 +1,0 @@
-Name: Seated Radial Nerve Tensioner
-Muscle: Neck
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/seated-radial-nerve-tensioner
-
-1. No instructions parsed from page

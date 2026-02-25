@@ -1,8 +1,0 @@
-Name: TRX Knee Tuck
-Muscle: Abdominals
-Equipment: TRX
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/trx-knee-tuck
-
-1. No instructions parsed from page

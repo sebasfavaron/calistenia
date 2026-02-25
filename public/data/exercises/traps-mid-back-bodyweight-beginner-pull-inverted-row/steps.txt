@@ -1,8 +1,0 @@
-Name: Inverted Row
-Muscle: Traps (mid-back)
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/inverted-row
-
-1. No instructions parsed from page

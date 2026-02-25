@@ -1,8 +1,0 @@
-Name: Kettlebell Single Arm Snatch
-Muscle: Glutes
-Equipment: Kettlebells
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebells-single-arm-snatch
-
-1. No instructions parsed from page

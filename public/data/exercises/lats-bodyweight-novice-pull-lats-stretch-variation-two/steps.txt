@@ -1,8 +1,0 @@
-Name: Lats Stretch Variation Two
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/lats-stretch-variation-two
-
-1. No instructions parsed from page

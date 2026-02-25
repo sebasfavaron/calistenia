@@ -1,8 +1,0 @@
-Name: Kettlebell Snatch (Double)
-Muscle: Glutes
-Equipment: Kettlebells
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebell-snatch-double
-
-1. No instructions parsed from page

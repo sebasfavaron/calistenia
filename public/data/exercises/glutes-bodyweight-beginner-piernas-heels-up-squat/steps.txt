@@ -1,8 +1,0 @@
-Name: Heels Up Squat
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/heels-up-squat
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Puppy Pose
-Muscle: Shoulders
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/puppy-pose
-
-1. No instructions parsed from page

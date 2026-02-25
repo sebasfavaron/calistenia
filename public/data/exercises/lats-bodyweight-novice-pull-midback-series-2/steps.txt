@@ -1,8 +1,0 @@
-Name: Midback Series 2
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/pilates-midback-series-2
-
-1. No instructions parsed from page

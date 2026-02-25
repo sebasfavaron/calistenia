@@ -1,8 +1,0 @@
-Name: Standing Shoulder Flexion Mobility
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/standing-shoulder-flexion-mobility
-
-1. No instructions parsed from page

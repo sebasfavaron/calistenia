@@ -1,8 +1,0 @@
-Name: Medicine Ball Halo
-Muscle: Shoulders
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/halo
-
-1. No instructions parsed from page

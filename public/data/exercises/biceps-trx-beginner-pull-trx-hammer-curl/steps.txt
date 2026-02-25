@@ -1,8 +1,0 @@
-Name: TRX Hammer Curl
-Muscle: Biceps
-Equipment: TRX
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/trx-hammer-curl
-
-1. No instructions parsed from page

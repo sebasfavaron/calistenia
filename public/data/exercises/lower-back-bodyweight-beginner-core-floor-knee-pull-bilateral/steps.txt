@@ -1,8 +1,0 @@
-Name: Floor Knee Pull Bilateral
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/lumbar-flexion-knee-pull-bilateral-floor
-
-1. No instructions parsed from page

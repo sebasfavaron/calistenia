@@ -1,8 +1,0 @@
-Name: Kettlebell Russian Twist
-Muscle: Obliques
-Equipment: Kettlebells
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/kettlebell-russian-twist
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Landmine Sumo Deadlift
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/landmine-sumo-deadlift
-
-1. No instructions parsed from page

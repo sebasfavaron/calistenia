@@ -1,8 +1,0 @@
-Name: Rotator Cuff External Rotations 1
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/rotator-cuff-external-rotations-1
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Leg Lowers
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/leg-lowers
-
-1. No instructions parsed from page

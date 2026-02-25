@@ -1,8 +1,0 @@
-Name: Band Glute Kickback
-Muscle: Glutes
-Equipment: Band
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/band-glute-kickback
-
-1. No instructions parsed from page

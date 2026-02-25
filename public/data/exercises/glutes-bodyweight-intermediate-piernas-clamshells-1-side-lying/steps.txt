@@ -1,8 +1,0 @@
-Name: Clamshells 1 Side Lying
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/clamshells-1-side-lying
-
-1. No instructions parsed from page

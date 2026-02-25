@@ -1,8 +1,0 @@
-Name: Chest Stretch Variation One
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/chest-stretch-variation-one
-
-1. No instructions parsed from page

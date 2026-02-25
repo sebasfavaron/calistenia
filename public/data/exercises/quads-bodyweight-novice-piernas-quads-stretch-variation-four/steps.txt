@@ -1,8 +1,0 @@
-Name: Quads Stretch Variation Four
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/quads-stretch-variation-four
-
-1. No instructions parsed from page

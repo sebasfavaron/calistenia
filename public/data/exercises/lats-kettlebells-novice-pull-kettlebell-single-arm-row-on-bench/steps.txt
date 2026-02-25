@@ -1,8 +1,0 @@
-Name: Kettlebell Single Arm Row On Bench
-Muscle: Lats
-Equipment: Kettlebells
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/kettlebell-single-arm-row-on-bench
-
-1. No instructions parsed from page

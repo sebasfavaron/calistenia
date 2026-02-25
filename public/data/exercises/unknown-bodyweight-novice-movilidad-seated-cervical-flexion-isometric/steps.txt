@@ -1,8 +1,0 @@
-Name: Seated Cervical Flexion Isometric
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/cervical-flexion-1-seated-isometric
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Kettlebell Walking Shoulder Flexion Bent Elbow Hold
-Muscle: Unknown
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: movilidad
-Source: https://musclewiki.com/exercise/kettlebell-walking-shoulder-flexion-bent-elbow-hold
-
-1. No instructions parsed from page

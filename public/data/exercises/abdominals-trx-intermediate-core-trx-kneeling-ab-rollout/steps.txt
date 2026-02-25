@@ -1,8 +1,0 @@
-Name: TRX Kneeling Ab Rollout
-Muscle: Abdominals
-Equipment: TRX
-Difficulty: Intermediate
-Group: core
-Source: https://musclewiki.com/exercise/trx-kneeling-ab-rollout
-
-1. No instructions parsed from page

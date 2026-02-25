@@ -1,8 +1,0 @@
-Name: Kettlebell Single Arm Calf Raise
-Muscle: Calves
-Equipment: Kettlebells
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebell-single-arm-calf-raise
-
-1. No instructions parsed from page

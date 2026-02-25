@@ -1,8 +1,0 @@
-Name: Ankle Circle
-Muscle: Calves
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/ankle-circle
-
-1. No instructions parsed from page

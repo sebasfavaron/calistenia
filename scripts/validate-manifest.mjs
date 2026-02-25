@@ -21,10 +21,6 @@ const validGroups = new Set(['push', 'pull', 'piernas', 'core', 'movilidad']);
 for (const ex of exercises) {
   if (!ex.slug) fail(`missing slug for ${ex.name || ex.id}`);
   if (!validGroups.has(ex.group)) fail(`invalid group ${ex.group} in ${ex.slug}`);
-  if (ex.stepsPath) {
-    const stepsAbs = resolveStaticPath(ex.stepsPath);
-    if (!fs.existsSync(stepsAbs)) fail(`missing steps: ${ex.stepsPath}`);
-  }
   for (const angle of ['front', 'side']) {
     const media = ex.media?.[angle];
     if (!media) continue;

@@ -1,8 +1,0 @@
-Name: Landmine Squat
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/landmine-squat
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bodyweight Donkey Calf Raise
-Muscle: Calves
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/bodyweight-donkey-calf-raise
-
-1. No instructions parsed from page

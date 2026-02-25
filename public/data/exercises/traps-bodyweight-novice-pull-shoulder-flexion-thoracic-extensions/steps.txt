@@ -1,8 +1,0 @@
-Name: Shoulder Flexion Thoracic Extensions
-Muscle: Traps
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/shoulder-flexion-thoracic-extensions
-
-1. No instructions parsed from page

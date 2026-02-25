@@ -1,8 +1,0 @@
-Name: Bodyweight Reverse Step Up
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/bodyweight-reverse-step-up
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Alternating Heel Touch
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/alternating-heel-touch
-
-1. No instructions parsed from page

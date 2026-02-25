@@ -1,8 +1,0 @@
-Name: Band Curl
-Muscle: Biceps
-Equipment: Band
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/band-curl
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bosu Ball Situp
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/bosu-ball-situp
-
-1. No instructions parsed from page

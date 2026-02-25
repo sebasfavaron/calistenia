@@ -1,8 +1,0 @@
-Name: Wall Sit
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/wall-sit
-
-1. No instructions parsed from page

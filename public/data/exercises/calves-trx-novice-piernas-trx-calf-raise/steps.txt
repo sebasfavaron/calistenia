@@ -1,8 +1,0 @@
-Name: TRX Calf Raise
-Muscle: Calves
-Equipment: TRX
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/trx-calf-raise
-
-1. No instructions parsed from page

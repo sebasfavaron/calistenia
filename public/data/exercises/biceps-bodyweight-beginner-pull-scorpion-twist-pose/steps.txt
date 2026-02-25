@@ -1,8 +1,0 @@
-Name: Scorpion Twist Pose
-Muscle: Biceps
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/scorpion-twist-pose
-
-1. No instructions parsed from page

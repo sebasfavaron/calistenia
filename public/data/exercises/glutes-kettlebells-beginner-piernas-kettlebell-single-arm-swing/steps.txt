@@ -1,8 +1,0 @@
-Name: Kettlebell Single Arm Swing
-Muscle: Glutes
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebell-single-arm-swing
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Lawnmower Row
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: pull
-Source: https://musclewiki.com/exercise/lawnmower-row
-
-1. No instructions parsed from page

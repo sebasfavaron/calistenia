@@ -1,8 +1,0 @@
-Name: Band Pullthrough
-Muscle: Glutes
-Equipment: Band
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/band-pullthrough
-
-1. No instructions parsed from page

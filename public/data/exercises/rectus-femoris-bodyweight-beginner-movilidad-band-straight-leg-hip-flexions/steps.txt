@@ -1,8 +1,0 @@
-Name: Band Straight Leg Hip Flexions
-Muscle: Rectus Femoris
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: movilidad
-Source: https://musclewiki.com/exercise/hip-flexions-straight-leg-standing-resisted
-
-1. No instructions parsed from page

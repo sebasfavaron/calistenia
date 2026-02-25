@@ -1,8 +1,0 @@
-Name: Kettlebell Windmill
-Muscle: Obliques
-Equipment: Kettlebells
-Difficulty: Advanced
-Group: core
-Source: https://musclewiki.com/exercise/kettlebell-windmill
-
-1. No instructions parsed from page

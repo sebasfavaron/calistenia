@@ -1,8 +1,0 @@
-Name: Bosu Serratus Activation Active Plank
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/bosu-serratus-activation-active-plank
-
-1. No instructions parsed from page

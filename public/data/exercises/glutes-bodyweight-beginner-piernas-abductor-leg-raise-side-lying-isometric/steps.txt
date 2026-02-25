@@ -1,8 +1,0 @@
-Name: Abductor Leg Raise Side Lying Isometric
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/abductor-leg-raise-side-lying-isometric
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Kettlebell Gorilla Row
-Muscle: Lats
-Equipment: Kettlebells
-Difficulty: Intermediate
-Group: pull
-Source: https://musclewiki.com/exercise/kettlebell-gorilla-row
-
-1. No instructions parsed from page

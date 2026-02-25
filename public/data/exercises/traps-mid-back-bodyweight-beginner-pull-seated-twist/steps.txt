@@ -1,8 +1,0 @@
-Name: Seated Twist
-Muscle: Traps (mid-back)
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/seated-twist
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Abdominals Stretch Variation Three
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/abdominals-stretch-variation-three
-
-1. No instructions parsed from page

@@ -70,12 +70,6 @@ await runWorkers(concurrency, queue, async (summary) => {
       await fs.writeFile(metaPath, JSON.stringify(ex, null, 2));
     }
 
-    const stepsText = buildStepsText(ex);
-    const stepsFile = path.join(dir, 'steps.txt');
-    if (!resume || !fssync.existsSync(stepsFile)) {
-      await fs.writeFile(stepsFile, stepsText, 'utf8');
-    }
-
     if (!skipMedia) {
       await syncMediaForExercise(api, detail, ex, dir, { gender, angles, resume });
     }
@@ -285,7 +279,6 @@ async function buildManifestEntryFromDir(ex, dir) {
     group: VALID_GROUPS.includes(ex.group) ? ex.group : 'movilidad',
     angles: Object.keys(media),
     media,
-    stepsPath: `${rel}/steps.txt`,
     tags: [ex.group, ex.muscle, ex.equipment, ex.difficulty].filter(Boolean).map((s) => String(s).toLowerCase()),
   };
 }
@@ -317,26 +310,6 @@ async function rebuildManifestFromDisk(outDir) {
     entries.push(await buildManifestEntryFromDir(ex, dir));
   }
   return buildManifest(entries);
-}
-
-function buildStepsText(ex) {
-  const instructions = extractInstructions(ex.sourceDetail);
-  const lines = [
-    `Name: ${ex.name}`,
-    `Muscle: ${ex.muscle}`,
-    `Equipment: ${ex.equipment}`,
-    `Difficulty: ${ex.difficulty}`,
-    `Group: ${ex.group}`,
-    `Source ID: ${ex.sourceId}`,
-    `Source: MuscleWiki (ingested ${new Date().toISOString().slice(0, 10)})`,
-    '',
-  ];
-  if (instructions.length) {
-    instructions.forEach((step, idx) => lines.push(`${idx + 1}. ${step}`));
-  } else {
-    lines.push('1. No instructions parsed from source detail.');
-  }
-  return lines.join('\n');
 }
 
 function extractInstructions(detail) {
