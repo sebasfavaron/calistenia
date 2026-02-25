@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-plank-glute-kickback",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-plank-glute-kickback",
+  "slug": "glutes-bodyweight-intermediate-piernas-bosu-ball-plank-glute-kickback",
+  "name": "Bosu Ball Plank Glute Kickback",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-plank-glute-kickback-front_iUcYQcQ.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-plank-glute-kickback-side_tb3dVqO.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-plank-glute-kickback-front_i0rkqwq.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-plank-glute-kickback-side_p8l0aNK.png"
+  }
+}

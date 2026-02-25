@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/medicine-ball-lateral-lunge-slam",
+  "sourceUrl": "https://musclewiki.com/exercise/medicine-ball-lateral-lunge-slam",
+  "slug": "glutes-bodyweight-intermediate-piernas-medicine-ball-lateral-lunge-slam",
+  "name": "Medicine Ball Lateral Lunge Slam",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Quads",
+    "Inner Quadriceps",
+    "Outer Quadricep"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-lateral-lunge-slam-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-lateral-lunge-slam-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-lateral-lunge-slam-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-lateral-lunge-slam-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/cobra-stretch-1",
+  "sourceUrl": "https://musclewiki.com/exercise/cobra-stretch-1",
+  "slug": "lower-back-bodyweight-beginner-core-cobra-stretch-1",
+  "name": "Cobra Stretch 1",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-cobra-stretch-1-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-cobra-stretch-1-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cobra-stretch-1-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cobra-stretch-1-side.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-box-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-box-squat",
+  "slug": "glutes-kettlebells-beginner-piernas-kettlebell-box-squat",
+  "name": "Kettlebell Box Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-box-squat-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-box-squat-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-box-squat-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-box-squat-side.jpg"
+  }
+}

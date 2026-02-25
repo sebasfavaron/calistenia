@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-squat",
+  "slug": "glutes-bodyweight-novice-piernas-bosu-ball-squat",
+  "name": "Bosu Ball Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-squat-front_7X4Ozx5.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-squat-side_kHbvSnp.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-squat-front_lSEcVQW.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-squat-side_fKchOS3.png"
+  }
+}

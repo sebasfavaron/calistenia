@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/cardio-seal-jacks",
+  "sourceUrl": "https://musclewiki.com/exercise/cardio-seal-jacks",
+  "slug": "calves-cardio-beginner-piernas-cardio-seal-jacks",
+  "name": "Cardio Seal Jacks",
+  "muscle": "Calves",
+  "musclesSecondary": [
+    "Front Shoulders",
+    "Rear Shoulders"
+  ],
+  "equipment": "Cardio",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-cardio-seal-jacks-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-cardio-seal-jacks-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Cardio-cardio-seal-jacks-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Cardio-cardio-seal-jacks-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/clamshells-4-side-lying-resisted",
+  "sourceUrl": "https://musclewiki.com/exercise/clamshells-4-side-lying-resisted",
+  "slug": "glutes-bodyweight-intermediate-piernas-clamshells-4-side-lying-resisted",
+  "name": "Clamshells 4 Side Lying Resisted",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-Recovery-clamshells-4-side-lying-resisted-front.jpg",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-clamshells-4-side-lying-resisted-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-clamshells-4-side-lying-resisted-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-clamshells-4-side-lying-resisted-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/jump-rope",
+  "sourceUrl": "https://musclewiki.com/exercise/jump-rope",
+  "slug": "calves-bodyweight-beginner-piernas-jump-rope",
+  "name": "Jump Rope",
+  "muscle": "Calves",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-jump-rope-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-jump-rope-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Cardio-jump-rope-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Cardio-jump-rope-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: TRX Pike
+Muscle: Abdominals
+Equipment: TRX
+Difficulty: Intermediate
+Group: core
+Source: https://musclewiki.com/exercise/trx-pike
+
+1. No instructions parsed from page

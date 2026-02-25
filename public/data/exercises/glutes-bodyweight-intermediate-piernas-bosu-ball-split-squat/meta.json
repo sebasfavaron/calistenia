@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-split-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-split-squat",
+  "slug": "glutes-bodyweight-intermediate-piernas-bosu-ball-split-squat",
+  "name": "Bosu Ball Split Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-split-squat-front_mVICkv9.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-split-squat-side_Mrftskp.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-split-squat-front_0bebNZz.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-split-squat-side_pF5PK7h.png"
+  }
+}

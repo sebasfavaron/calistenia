@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-staggered-waiters-bow",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-staggered-waiters-bow",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-staggered-waiters-bow",
+  "name": "Kettlebell Staggered Waiters Bow",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-staggered-waiters-bow-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-staggered-waiters-bow-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-staggered-waiters-bow-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-staggered-waiters-bow-side.jpg"
+  }
+}

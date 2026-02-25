@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/shoulders-stretch-variation-four",
+  "sourceUrl": "https://musclewiki.com/exercise/shoulders-stretch-variation-four",
+  "slug": "shoulders-bodyweight-beginner-push-shoulders-stretch-variation-four",
+  "name": "Shoulders Stretch Variation Four",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-shoulders-stretch-variation-4-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-shoulders-stretch-variation-4-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-female-shoulders-stretch-variation-4-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-female-shoulders-stretch-variation-4-side.jpg"
+  }
+}

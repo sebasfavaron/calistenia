@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-thruster",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-thruster",
+  "slug": "glutes-bodyweight-intermediate-piernas-landmine-thruster",
+  "name": "Landmine Thruster",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-thruster-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-thruster-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-thruster-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-thruster-side.jpg"
+  }
+}

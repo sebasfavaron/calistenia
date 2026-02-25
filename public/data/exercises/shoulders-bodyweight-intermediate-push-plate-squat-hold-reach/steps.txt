@@ -1,0 +1,8 @@
+Name: Plate Squat Hold Reach
+Muscle: Shoulders
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: push
+Source: https://musclewiki.com/exercise/plate-squat-hold-reach
+
+1. No instructions parsed from page

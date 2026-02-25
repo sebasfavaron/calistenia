@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-squat-hold-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-squat-hold-curl",
+  "slug": "biceps-bodyweight-intermediate-pull-plate-squat-hold-curl",
+  "name": "Plate Squat Hold Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Glutes",
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-hold-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-hold-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-hold-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-hold-curl-side.jpg"
+  }
+}

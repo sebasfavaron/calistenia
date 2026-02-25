@@ -1,0 +1,8 @@
+Name: Kettlebell Curl
+Muscle: Biceps
+Equipment: Kettlebells
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/kettlebell-curl
+
+1. No instructions parsed from page

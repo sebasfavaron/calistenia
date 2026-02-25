@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/seated-side-bend-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/seated-side-bend-pose",
+  "slug": "obliques-bodyweight-beginner-core-seated-side-bend-pose",
+  "name": "Seated Side Bend Pose",
+  "muscle": "Obliques",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-side-bend-pose-front.jpg",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-seated-side-bend-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-side-bend-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-side-bend-pose-side.jpg"
+  }
+}

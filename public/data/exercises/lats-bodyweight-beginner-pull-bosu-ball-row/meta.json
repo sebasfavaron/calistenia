@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-row",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-row",
+  "slug": "lats-bodyweight-beginner-pull-bosu-ball-row",
+  "name": "Bosu Ball Row",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-row-front_vJao3jZ.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-row-side_Pk4xlaf.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-row-front_IaQd7Es.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-row-side_sSUkObX.png"
+  }
+}

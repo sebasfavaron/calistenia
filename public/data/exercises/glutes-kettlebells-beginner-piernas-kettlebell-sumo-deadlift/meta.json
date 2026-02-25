@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-sumo-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-sumo-deadlift",
+  "slug": "glutes-kettlebells-beginner-piernas-kettlebell-sumo-deadlift",
+  "name": "Kettlebell Sumo Deadlift",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back",
+    "Quads"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-sumo-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-sumo-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-sumo-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-sumo-deadlift-side.jpg"
+  }
+}

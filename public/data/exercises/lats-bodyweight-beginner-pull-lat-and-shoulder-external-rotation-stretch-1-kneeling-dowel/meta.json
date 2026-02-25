@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel",
+  "sourceUrl": "https://musclewiki.com/exercise/lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel",
+  "slug": "lats-bodyweight-beginner-pull-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel",
+  "name": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lat-and-shoulder-external-rotation-stretch-1-kneeling-dowel-side.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-forward-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-forward-lunge",
+  "slug": "quads-bodyweight-novice-piernas-plate-forward-lunge",
+  "name": "Plate Forward Lunge",
+  "muscle": "Quads",
+  "musclesSecondary": [
+    "Glutes"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-forward-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-forward-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-forward-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-forward-lunge-side.jpg"
+  }
+}

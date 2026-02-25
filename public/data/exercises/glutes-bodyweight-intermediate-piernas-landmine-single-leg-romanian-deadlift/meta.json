@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-single-leg-romanian-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-single-leg-romanian-deadlift",
+  "slug": "glutes-bodyweight-intermediate-piernas-landmine-single-leg-romanian-deadlift",
+  "name": "Landmine Single Leg Romanian Deadlift",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-single-leg-romanian-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-single-leg-romanian-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-single-leg-romanian-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-single-leg-romanian-deadlift-side.jpg"
+  }
+}

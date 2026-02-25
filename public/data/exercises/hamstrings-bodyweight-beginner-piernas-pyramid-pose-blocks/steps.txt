@@ -1,0 +1,8 @@
+Name: Pyramid Pose Blocks
+Muscle: Hamstrings
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: piernas
+Source: https://musclewiki.com/exercise/pyramid-pose-blocks
+
+1. No instructions parsed from page

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-forearm-plank",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-forearm-plank",
+  "slug": "abdominals-bodyweight-beginner-core-bosu-ball-forearm-plank",
+  "name": "Bosu Ball Forearm Plank",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-forearm-plank-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-forearm-plank-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-forearm-plank-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-forearm-plank-side.jpg"
+  }
+}

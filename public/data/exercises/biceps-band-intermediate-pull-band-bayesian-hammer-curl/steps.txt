@@ -1,0 +1,8 @@
+Name: Band Bayesian Hammer Curl
+Muscle: Biceps
+Equipment: Band
+Difficulty: Intermediate
+Group: pull
+Source: https://musclewiki.com/exercise/band-bayesian-hammer-curl
+
+1. No instructions parsed from page

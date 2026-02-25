@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-windmill-bottom-hand",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-windmill-bottom-hand",
+  "slug": "obliques-kettlebells-intermediate-core-kettlebell-windmill-bottom-hand",
+  "name": "Kettlebell Windmill Bottom Hand",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-windmill-bottom-hand-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-windmill-bottom-hand-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-windmill-bottom-hand-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-windmill-bottom-hand-side.jpg"
+  }
+}

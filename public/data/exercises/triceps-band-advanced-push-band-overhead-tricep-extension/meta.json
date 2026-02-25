@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-overhead-tricep-extension",
+  "sourceUrl": "https://musclewiki.com/exercise/band-overhead-tricep-extension",
+  "slug": "triceps-band-advanced-push-band-overhead-tricep-extension",
+  "name": "Band Overhead Tricep Extension",
+  "muscle": "Triceps",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-overhead-tricep-extension-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-overhead-tricep-extension-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-overhead-tricep-extension-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-overhead-tricep-extension-side.jpg"
+  }
+}

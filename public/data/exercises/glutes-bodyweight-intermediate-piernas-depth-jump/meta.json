@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/depth-jump",
+  "sourceUrl": "https://musclewiki.com/exercise/depth-jump",
+  "slug": "glutes-bodyweight-intermediate-piernas-depth-jump",
+  "name": "Depth Jump",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-depth-jump-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-depth-jump-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-depth-jump-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-depth-jump-side.jpg"
+  }
+}

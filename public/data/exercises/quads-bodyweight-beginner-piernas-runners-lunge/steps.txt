@@ -1,0 +1,8 @@
+Name: Runners Lunge
+Muscle: Quads
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: piernas
+Source: https://musclewiki.com/exercise/runners-lunge
+
+1. No instructions parsed from page

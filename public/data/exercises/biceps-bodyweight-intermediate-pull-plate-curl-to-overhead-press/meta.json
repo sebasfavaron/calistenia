@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-curl-to-overhead-press",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-curl-to-overhead-press",
+  "slug": "biceps-bodyweight-intermediate-pull-plate-curl-to-overhead-press",
+  "name": "Plate Curl To Overhead Press",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Shoulders",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-curl-to-overhead-press-front_kQDPle2.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-curl-to-overhead-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-curl-to-overhead-press-front_kQDPle2.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-curl-to-overhead-press-side.jpg"
+  }
+}

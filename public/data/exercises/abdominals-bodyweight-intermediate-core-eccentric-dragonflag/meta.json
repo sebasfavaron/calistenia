@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/eccentric-dragonflag",
+  "sourceUrl": "https://musclewiki.com/exercise/eccentric-dragonflag",
+  "slug": "abdominals-bodyweight-intermediate-core-eccentric-dragonflag",
+  "name": "Eccentric Dragonflag",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-eccentric-dragonflag-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-eccentric-dragonflag-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-eccentric-dragonflag-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-eccentric-dragonflag-side.jpg"
+  }
+}

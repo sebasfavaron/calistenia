@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-hundred-straight-legs",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-hundred-straight-legs",
+  "slug": "abdominals-bodyweight-novice-core-hundred-straight-legs",
+  "name": "Hundred Straight Legs",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-hundred-straight-legs-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-hundred-straight-legs-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-hundred-straight-legs-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-hundred-straight-legs-side.jpg"
+  }
+}

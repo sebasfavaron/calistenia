@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/clean-and-press-slam",
+  "sourceUrl": "https://musclewiki.com/exercise/clean-and-press-slam",
+  "slug": "glutes-bodyweight-intermediate-piernas-medicine-ball-clean-and-press-slam",
+  "name": "Medicine Ball Clean And Press Slam",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Quads",
+    "Inner Quadriceps",
+    "Outer Quadricep"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-clean-and-press-slam-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-clean-and-press-slam-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-clean-and-press-slam-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-clean-and-press-slam-side.jpg"
+  }
+}

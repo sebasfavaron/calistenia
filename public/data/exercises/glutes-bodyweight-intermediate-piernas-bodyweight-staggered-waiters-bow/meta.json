@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-staggered-waiters-bow",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-staggered-waiters-bow",
+  "slug": "glutes-bodyweight-intermediate-piernas-bodyweight-staggered-waiters-bow",
+  "name": "Bodyweight Staggered Waiters Bow",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-staggered-waiters-bow-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-staggered-waiters-bow-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-staggered-waiters-bow-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-staggered-waiters-bow-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/butt-kick",
+  "sourceUrl": "https://musclewiki.com/exercise/butt-kick",
+  "slug": "hamstrings-bodyweight-novice-piernas-butt-kick",
+  "name": "Butt Kick",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-butt-kick-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-butt-kick-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Cardio-butt-kick-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Cardio-butt-kick-side.jpg"
+  }
+}

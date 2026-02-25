@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/weighted-diamond-push-ups",
+  "sourceUrl": "https://musclewiki.com/exercise/weighted-diamond-push-ups",
+  "slug": "triceps-bodyweight-intermediate-push-weighted-diamond-push-ups",
+  "name": "Weighted Diamond Push Ups",
+  "muscle": "Triceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-diamond-push-ups-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-diamond-push-ups-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-diamond-push-ups-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-diamond-push-ups-side.jpg"
+  }
+}

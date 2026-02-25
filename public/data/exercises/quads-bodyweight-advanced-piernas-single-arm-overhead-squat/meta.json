@@ -1,0 +1,36 @@
+{
+  "id": "https://musclewiki.com/exercise/single-arm-overhead-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/single-arm-overhead-squat",
+  "slug": "quads-bodyweight-advanced-piernas-single-arm-overhead-squat",
+  "name": "Single Arm Overhead Squat",
+  "muscle": "Quads",
+  "musclesSecondary": [
+    "Shoulders",
+    "Lateral Deltoid",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-single-arm-overhead-squat-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-single-arm-overhead-squat-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-single-arm-overhead-squat-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-single-arm-overhead-squat-side.jpg"
+  }
+}

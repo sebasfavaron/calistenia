@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-pullover",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-pullover",
+  "slug": "lats-bodyweight-beginner-pull-bosu-ball-pullover",
+  "name": "Bosu Ball Pullover",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-pullover-front_d3yCntO.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-pullover-side_PgRC1Vt.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-pullover-front_MJGAVbX.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-pullover-side_kowUT35.png"
+  }
+}

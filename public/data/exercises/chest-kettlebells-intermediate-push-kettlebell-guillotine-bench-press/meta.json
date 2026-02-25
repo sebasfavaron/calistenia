@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-guillotine-bench-press",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-guillotine-bench-press",
+  "slug": "chest-kettlebells-intermediate-push-kettlebell-guillotine-bench-press",
+  "name": "Kettlebell Guillotine Bench Press",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-guillotine-bench-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-guillotine-bench-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-guillotine-bench-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-guillotine-bench-press-side.jpg"
+  }
+}

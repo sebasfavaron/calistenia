@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-gorilla-row",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-gorilla-row",
+  "slug": "lats-kettlebells-intermediate-pull-kettlebell-gorilla-row",
+  "name": "Kettlebell Gorilla Row",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-gorilla-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-gorilla-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-gorilla-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-gorilla-row-side.jpg"
+  }
+}

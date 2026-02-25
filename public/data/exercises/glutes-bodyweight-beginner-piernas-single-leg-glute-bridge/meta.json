@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/single-leg-glute-bridge",
+  "sourceUrl": "https://musclewiki.com/exercise/single-leg-glute-bridge",
+  "slug": "glutes-bodyweight-beginner-piernas-single-leg-glute-bridge",
+  "name": "Single Leg Glute Bridge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-single-leg-glute-bridge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-single-leg-glute-bridge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-single-leg-glute-bridge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-single-leg-glute-bridge-side.jpg"
+  }
+}

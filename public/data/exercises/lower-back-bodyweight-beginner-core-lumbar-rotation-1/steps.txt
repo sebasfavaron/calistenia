@@ -1,0 +1,8 @@
+Name: Lumbar Rotation 1
+Muscle: Lower back
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/lumbar-rotation-1-supine-passive
+
+1. No instructions parsed from page

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-single-arm-swing",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-single-arm-swing",
+  "slug": "glutes-kettlebells-beginner-piernas-kettlebell-single-arm-swing",
+  "name": "Kettlebell Single Arm Swing",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-swing-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-swing-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-swing-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-swing-side.jpg"
+  }
+}

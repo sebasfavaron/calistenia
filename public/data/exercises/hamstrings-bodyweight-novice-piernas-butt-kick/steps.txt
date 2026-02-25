@@ -1,0 +1,8 @@
+Name: Butt Kick
+Muscle: Hamstrings
+Equipment: Bodyweight
+Difficulty: Novice
+Group: piernas
+Source: https://musclewiki.com/exercise/butt-kick
+
+1. No instructions parsed from page

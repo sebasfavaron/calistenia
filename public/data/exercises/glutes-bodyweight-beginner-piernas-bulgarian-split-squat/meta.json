@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bulgarian-split-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/bulgarian-split-squat",
+  "slug": "glutes-bodyweight-beginner-piernas-bulgarian-split-squat",
+  "name": "Bulgarian Split Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bulgarian-split-squat-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bulgarian-split-squat-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bulgarian-split-squat-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bulgarian-split-squat-side.jpg"
+  }
+}

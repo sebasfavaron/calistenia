@@ -1,0 +1,8 @@
+Name: Plank IYTW
+Muscle: Abdominals
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: core
+Source: https://musclewiki.com/exercise/plank-iytw
+
+1. No instructions parsed from page

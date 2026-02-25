@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-waiters-bow",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-waiters-bow",
+  "slug": "glutes-bodyweight-beginner-piernas-bodyweight-waiters-bow",
+  "name": "Bodyweight Waiters Bow",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-waiters-bow-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-waiters-bow-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-waiters-bow-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-waiters-bow-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/toe-tap",
+  "sourceUrl": "https://musclewiki.com/exercise/toe-tap",
+  "slug": "abdominals-bodyweight-novice-core-toe-tap",
+  "name": "Toe Tap",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-toe-tap-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-toe-tap-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-toe-tap-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-toe-tap-side.jpg"
+  }
+}

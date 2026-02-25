@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebells-single-arm-snatch",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebells-single-arm-snatch",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-single-arm-snatch",
+  "name": "Kettlebell Single Arm Snatch",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Shoulders",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-snatch-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-snatch-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-snatch-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-snatch-side.jpg"
+  }
+}

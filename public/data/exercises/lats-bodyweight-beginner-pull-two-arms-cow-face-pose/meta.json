@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/two-arms-cow-face-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/two-arms-cow-face-pose",
+  "slug": "lats-bodyweight-beginner-pull-two-arms-cow-face-pose",
+  "name": "Two Arms Cow Face Pose",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-two-arms-cow-face-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-two-arms-cow-face-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-two-arms-cow-face-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-two-arms-cow-face-pose-side.jpg"
+  }
+}

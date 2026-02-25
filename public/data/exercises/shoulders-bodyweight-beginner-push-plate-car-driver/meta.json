@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-car-driver",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-car-driver",
+  "slug": "shoulders-bodyweight-beginner-push-plate-car-driver",
+  "name": "Plate Car Driver",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-car-driver-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-car-driver-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-car-driver-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-car-driver-side.jpg"
+  }
+}

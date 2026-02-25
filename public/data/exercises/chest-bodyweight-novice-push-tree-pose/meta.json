@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/tree-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/tree-pose",
+  "slug": "chest-bodyweight-novice-push-tree-pose",
+  "name": "Tree Pose",
+  "muscle": "Chest",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-tree-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-tree-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-tree-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-tree-pose-side.jpg"
+  }
+}

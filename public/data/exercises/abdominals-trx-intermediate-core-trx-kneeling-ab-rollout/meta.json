@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-kneeling-ab-rollout",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-kneeling-ab-rollout",
+  "slug": "abdominals-trx-intermediate-core-trx-kneeling-ab-rollout",
+  "name": "TRX Kneeling Ab Rollout",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Lats"
+  ],
+  "equipment": "TRX",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-kneeling-body-saw-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-kneeling-body-saw-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-kneeling-body-saw-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-kneeling-body-saw-side.jpg"
+  }
+}

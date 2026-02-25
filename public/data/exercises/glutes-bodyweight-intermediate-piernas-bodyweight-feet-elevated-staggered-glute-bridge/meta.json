@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-feet-elevated-staggered-glute-bridge",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-feet-elevated-staggered-glute-bridge",
+  "slug": "glutes-bodyweight-intermediate-piernas-bodyweight-feet-elevated-staggered-glute-bridge",
+  "name": "Bodyweight Feet Elevated Staggered Glute Bridge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-feet-elevated-staggered-glute-bridge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-feet-elevated-staggered-glute-bridge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-feet-elevated-staggered-glute-bridge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-feet-elevated-staggered-glute-bridge-side.jpg"
+  }
+}

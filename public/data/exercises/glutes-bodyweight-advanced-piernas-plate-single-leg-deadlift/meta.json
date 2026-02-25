@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-single-leg-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-single-leg-deadlift",
+  "slug": "glutes-bodyweight-advanced-piernas-plate-single-leg-deadlift",
+  "name": "Plate Single Leg Deadlift",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-single-leg-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-single-leg-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-single-leg-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-single-leg-deadlift-side.jpg"
+  }
+}

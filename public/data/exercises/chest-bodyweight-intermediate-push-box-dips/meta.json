@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/box-dips",
+  "sourceUrl": "https://musclewiki.com/exercise/box-dips",
+  "slug": "chest-bodyweight-intermediate-push-box-dips",
+  "name": "Box Dips",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-dips-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-dips-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-dips-front_NNVDdsi.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-dips-side_LGv4umu.jpg"
+  }
+}

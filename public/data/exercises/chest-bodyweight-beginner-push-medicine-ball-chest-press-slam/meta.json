@@ -1,0 +1,36 @@
+{
+  "id": "https://musclewiki.com/exercise/chest-press-slam",
+  "sourceUrl": "https://musclewiki.com/exercise/chest-press-slam",
+  "slug": "chest-bodyweight-beginner-push-medicine-ball-chest-press-slam",
+  "name": "Medicine Ball Chest Press Slam",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps",
+    "Long Head Tricep",
+    "Lateral Head Triceps",
+    "Medial Head Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-chest-press-slam-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-chest-press-slam-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-chest-press-slam-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-chest-press-slam-side.jpg"
+  }
+}

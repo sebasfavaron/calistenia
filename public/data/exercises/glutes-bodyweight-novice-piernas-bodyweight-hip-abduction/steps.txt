@@ -1,0 +1,8 @@
+Name: Bodyweight Hip Abduction
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Novice
+Group: piernas
+Source: https://musclewiki.com/exercise/bodyweight-hip-abduction
+
+1. No instructions parsed from page

@@ -1,0 +1,8 @@
+Name: Cardio Row Erg Rower
+Muscle: Biceps
+Equipment: Cardio
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/cardio-row-erg-rower
+
+1. No instructions parsed from page

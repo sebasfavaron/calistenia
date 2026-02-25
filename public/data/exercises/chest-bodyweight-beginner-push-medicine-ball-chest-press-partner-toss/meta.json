@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/chest-press-partner-toss",
+  "sourceUrl": "https://musclewiki.com/exercise/chest-press-partner-toss",
+  "slug": "chest-bodyweight-beginner-push-medicine-ball-chest-press-partner-toss",
+  "name": "Medicine Ball Chest Press Partner Toss",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps",
+    "Long Head Tricep",
+    "Lateral Head Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-chest-press-partner-toss-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-chest-press-partner-toss-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-chest-press-partner-toss-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-chest-press-partner-toss-side.jpg"
+  }
+}

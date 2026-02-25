@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/shoulder-abduction-stretch",
+  "sourceUrl": "https://musclewiki.com/exercise/shoulder-abduction-stretch",
+  "slug": "unknown-bodyweight-novice-movilidad-shoulder-abduction-stretch",
+  "name": "Shoulder Abduction Stretch",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-abduction-stretch-standing-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-abduction-stretch-standing-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-abduction-stretch-standing-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-abduction-stretch-standing-side.jpg"
+  }
+}

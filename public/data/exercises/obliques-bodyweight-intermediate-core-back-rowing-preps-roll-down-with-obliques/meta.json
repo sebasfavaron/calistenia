@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-back-rowing-preps-roll-down-with-obliques",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-back-rowing-preps-roll-down-with-obliques",
+  "slug": "obliques-bodyweight-intermediate-core-back-rowing-preps-roll-down-with-obliques",
+  "name": "Back Rowing Preps Roll Down With Obliques",
+  "muscle": "Obliques",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-back-rowing-preps-roll-down-with-obliques-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-back-rowing-preps-roll-down-with-obliques-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-back-rowing-preps-roll-down-with-obliques-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-back-rowing-preps-roll-down-with-obliques-side.jpg"
+  }
+}

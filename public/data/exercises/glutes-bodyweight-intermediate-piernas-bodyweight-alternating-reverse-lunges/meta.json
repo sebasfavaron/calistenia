@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-alternating-reverse-lunges",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-alternating-reverse-lunges",
+  "slug": "glutes-bodyweight-intermediate-piernas-bodyweight-alternating-reverse-lunges",
+  "name": "Bodyweight Alternating Reverse Lunges",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-alternating-reverse-lunges-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-alternating-reverse-lunges-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-alternating-reverse-lunges-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-alternating-reverse-lunges-side.jpg"
+  }
+}

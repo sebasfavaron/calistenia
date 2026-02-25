@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/band-upright-row",
+  "sourceUrl": "https://musclewiki.com/exercise/band-upright-row",
+  "slug": "shoulders-band-advanced-push-band-upright-row",
+  "name": "Band Upright Row",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Anterior Deltoid",
+    "Traps"
+  ],
+  "equipment": "Band",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-upright-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-upright-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-upright-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-upright-row-side.jpg"
+  }
+}

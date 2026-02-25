@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-conventional-deadlift-double",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-conventional-deadlift-double",
+  "slug": "glutes-kettlebells-beginner-piernas-kettlebell-conventional-deadlift-double",
+  "name": "Kettlebell Conventional Deadlift (Double)",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Hamstrings"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-conventional-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-conventional-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-conventional-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-conventional-deadlift-side.jpg"
+  }
+}

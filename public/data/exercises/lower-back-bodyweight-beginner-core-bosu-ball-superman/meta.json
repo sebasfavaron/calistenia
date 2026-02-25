@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-superman",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-superman",
+  "slug": "lower-back-bodyweight-beginner-core-bosu-ball-superman",
+  "name": "Bosu Ball Superman",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-superman-front_wu1ihDh.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-superman-side_aPEoH2j.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-superman-front_FN3dAql.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-superman-side_ksvhGeF.png"
+  }
+}

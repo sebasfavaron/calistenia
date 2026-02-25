@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lunge-alternate",
+  "sourceUrl": "https://musclewiki.com/exercise/lunge-alternate",
+  "slug": "glutes-bodyweight-advanced-piernas-bodyweight-alternating-forward-lunge",
+  "name": "Bodyweight Alternating Forward Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lunge-alternate-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lunge-alternate-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lunge-alternate-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lunge-alternate-side.jpg"
+  }
+}

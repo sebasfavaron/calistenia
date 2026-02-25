@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/skater-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/skater-squat",
+  "slug": "glutes-bodyweight-intermediate-piernas-skater-squat",
+  "name": "Skater Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-skater-squat-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-skater-squat-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-skater-squat-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-skater-squat-side.jpg"
+  }
+}

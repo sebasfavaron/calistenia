@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/ulnar-deviations",
+  "sourceUrl": "https://musclewiki.com/exercise/ulnar-deviations",
+  "slug": "forearms-bodyweight-novice-pull-ulnar-deviations",
+  "name": "Ulnar Deviations",
+  "muscle": "Forearms",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-ulnar-deviations-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-ulnar-deviations-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-ulnar-deviations-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-ulnar-deviations-side.jpg"
+  }
+}

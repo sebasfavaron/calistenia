@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-low-to-high-pallof-press-wood-chopper",
+  "sourceUrl": "https://musclewiki.com/exercise/band-low-to-high-pallof-press-wood-chopper",
+  "slug": "obliques-band-beginner-core-band-low-to-high-pallof-press-wood-chopper",
+  "name": "Band Low To High Pallof Press Wood Chopper",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Band",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-low-to-high-pallof-press-wood-chopper-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-low-to-high-pallof-press-wood-chopper-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-low-to-high-pallof-press-wood-chopper-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-low-to-high-pallof-press-wood-chopper-side.jpg"
+  }
+}

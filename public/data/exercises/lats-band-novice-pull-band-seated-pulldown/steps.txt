@@ -1,0 +1,8 @@
+Name: Band Seated Pulldown
+Muscle: Lats
+Equipment: Band
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/band-seated-pulldown
+
+1. No instructions parsed from page

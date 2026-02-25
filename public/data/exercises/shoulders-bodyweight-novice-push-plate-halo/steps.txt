@@ -1,0 +1,8 @@
+Name: Plate Halo
+Muscle: Shoulders
+Equipment: Bodyweight
+Difficulty: Novice
+Group: push
+Source: https://musclewiki.com/exercise/plate-halo
+
+1. No instructions parsed from page

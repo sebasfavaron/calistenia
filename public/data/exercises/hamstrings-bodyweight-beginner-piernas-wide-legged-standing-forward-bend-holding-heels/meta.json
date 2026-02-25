@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+  "sourceUrl": "https://musclewiki.com/exercise/wide-legged-standing-forward-bend-holding-heels",
+  "slug": "hamstrings-bodyweight-beginner-piernas-wide-legged-standing-forward-bend-holding-heels",
+  "name": "Wide Legged Standing Forward Bend Holding Heels",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [
+    "Calves"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-wide-legged-standing-forward-bend-holding-heels-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-wide-legged-standing-forward-bend-holding-heels-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-wide-legged-standing-forward-bend-holding-heels-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-wide-legged-standing-forward-bend-holding-heels-side.jpg"
+  }
+}

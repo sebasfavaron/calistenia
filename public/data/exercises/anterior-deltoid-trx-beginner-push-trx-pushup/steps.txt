@@ -1,0 +1,8 @@
+Name: TRX Pushup
+Muscle: Anterior Deltoid
+Equipment: TRX
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/trx-pushup
+
+1. No instructions parsed from page

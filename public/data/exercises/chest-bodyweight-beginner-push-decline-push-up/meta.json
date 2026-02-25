@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/decline-push-up",
+  "sourceUrl": "https://musclewiki.com/exercise/decline-push-up",
+  "slug": "chest-bodyweight-beginner-push-decline-push-up",
+  "name": "Decline Push Up",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-decline-push-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-decline-push-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-decline-push-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-decline-push-up-side.jpg"
+  }
+}

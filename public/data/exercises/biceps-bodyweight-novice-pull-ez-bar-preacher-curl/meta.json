@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/ez-bar-preacher-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/ez-bar-preacher-curl",
+  "slug": "biceps-bodyweight-novice-pull-ez-bar-preacher-curl",
+  "name": "EZ Bar Preacher Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-ez-bar-preacher-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-ez-bar-preacher-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-ez-bar-preacher-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-ez-bar-preacher-curl-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Band Bayesian Reverse Curl
+Muscle: Biceps
+Equipment: Band
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/band-bayesian-reverse-curl
+
+1. No instructions parsed from page

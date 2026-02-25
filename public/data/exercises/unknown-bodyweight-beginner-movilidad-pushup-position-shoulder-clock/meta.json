@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pushup-position-shoulder-clock",
+  "sourceUrl": "https://musclewiki.com/exercise/pushup-position-shoulder-clock",
+  "slug": "unknown-bodyweight-beginner-movilidad-pushup-position-shoulder-clock",
+  "name": "Pushup Position Shoulder Clock",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-clock-pushup-position-loop-band-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-clock-pushup-position-loop-band-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-clock-pushup-position-loop-band-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-clock-pushup-position-loop-band-side.jpg"
+  }
+}

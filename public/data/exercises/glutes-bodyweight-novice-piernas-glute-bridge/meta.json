@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/glute-bridge",
+  "sourceUrl": "https://musclewiki.com/exercise/glute-bridge",
+  "slug": "glutes-bodyweight-novice-piernas-glute-bridge",
+  "name": "Glute Bridge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-glute-bridge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-glute-bridge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-glute-bridge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-glute-bridge-side.jpg"
+  }
+}

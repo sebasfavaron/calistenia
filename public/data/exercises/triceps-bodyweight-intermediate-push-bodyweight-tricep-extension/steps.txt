@@ -1,0 +1,8 @@
+Name: Bodyweight Tricep Extension
+Muscle: Triceps
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: push
+Source: https://musclewiki.com/exercise/bodyweight-tricep-extension
+
+1. No instructions parsed from page

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/traps-mid-back-stretch-variation-two",
+  "sourceUrl": "https://musclewiki.com/exercise/traps-mid-back-stretch-variation-two",
+  "slug": "traps-mid-back-bodyweight-beginner-pull-traps-mid-back-stretch-variation-two",
+  "name": "Traps mid back Stretch Variation Two",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-traps-mid-back-stretch-variation-2-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-traps-mid-back-stretch-variation-2-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-traps-mid-back-stretch-variation-2-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-traps-mid-back-stretch-variation-2-side.jpg"
+  }
+}

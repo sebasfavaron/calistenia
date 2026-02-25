@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-staggered-romanian-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-staggered-romanian-deadlift",
+  "slug": "glutes-bodyweight-advanced-piernas-landmine-staggered-romanian-deadlift",
+  "name": "Landmine Staggered Romanian Deadlift",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-staggered-romanian-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-staggered-romanian-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-staggered-romanian-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-staggered-romanian-deadlift-side.jpg"
+  }
+}

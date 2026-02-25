@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/yogi-arm-clock",
+  "sourceUrl": "https://musclewiki.com/exercise/yogi-arm-clock",
+  "slug": "chest-bodyweight-beginner-push-yogi-arm-clock",
+  "name": "Yogi Arm Clock",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-yogi-arm-clock-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-yogi-arm-clock-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-yogi-arm-clock-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-yogi-arm-clock-side.jpg"
+  }
+}

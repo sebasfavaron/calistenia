@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-footwork-high-half-toe",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-high-half-toe",
+  "slug": "glutes-bodyweight-novice-piernas-footwork-high-half-toe",
+  "name": "Footwork High Half Toe",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-footwork-high-half-toe-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-footwork-high-half-toe-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-footwork-high-half-toe-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-footwork-high-half-toe-side.jpg"
+  }
+}

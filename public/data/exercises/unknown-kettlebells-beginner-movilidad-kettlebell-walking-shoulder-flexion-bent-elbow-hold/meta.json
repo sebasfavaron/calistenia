@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-walking-shoulder-flexion-bent-elbow-hold",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-walking-shoulder-flexion-bent-elbow-hold",
+  "slug": "unknown-kettlebells-beginner-movilidad-kettlebell-walking-shoulder-flexion-bent-elbow-hold",
+  "name": "Kettlebell Walking Shoulder Flexion Bent Elbow Hold",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-flexion-with-bent-elbow-2-walking-isometric-kettlebell-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-flexion-with-bent-elbow-2-walking-isometric-kettlebell-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-flexion-with-bent-elbow-2-walking-isometric-kettlebell-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-flexion-with-bent-elbow-2-walking-isometric-kettlebell-side.jpg"
+  }
+}

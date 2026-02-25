@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-hundred",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-hundred",
+  "slug": "abdominals-bodyweight-novice-core-hundred",
+  "name": "Hundred",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-hundred-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-hundred-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-hundred-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-hundred-side.jpg"
+  }
+}

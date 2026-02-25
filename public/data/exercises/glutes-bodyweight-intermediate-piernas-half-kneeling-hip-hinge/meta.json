@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/half-kneeling-hip-hinge",
+  "sourceUrl": "https://musclewiki.com/exercise/half-kneeling-hip-hinge",
+  "slug": "glutes-bodyweight-intermediate-piernas-half-kneeling-hip-hinge",
+  "name": "Half Kneeling Hip Hinge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-half-kneeling-hip-hinge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-half-kneeling-hip-hinge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-half-kneeling-hip-hinge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-half-kneeling-hip-hinge-side.jpg"
+  }
+}

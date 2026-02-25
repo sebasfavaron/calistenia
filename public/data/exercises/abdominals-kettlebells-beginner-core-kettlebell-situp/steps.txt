@@ -1,0 +1,8 @@
+Name: Kettlebell Situp
+Muscle: Abdominals
+Equipment: Kettlebells
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/kettlebell-situp
+
+1. No instructions parsed from page

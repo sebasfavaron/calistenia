@@ -1,0 +1,8 @@
+Name: Plate Deadlift
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: piernas
+Source: https://musclewiki.com/exercise/plate-deadlift
+
+1. No instructions parsed from page

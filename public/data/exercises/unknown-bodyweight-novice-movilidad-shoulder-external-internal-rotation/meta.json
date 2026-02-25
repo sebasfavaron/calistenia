@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/shoulder-external-internal-rotation",
+  "sourceUrl": "https://musclewiki.com/exercise/shoulder-external-internal-rotation",
+  "slug": "unknown-bodyweight-novice-movilidad-shoulder-external-internal-rotation",
+  "name": "Shoulder External Internal Rotation",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-external-internal-rotation-standing-mobility-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-external-internal-rotation-standing-mobility-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-external-internal-rotation-standing-mobility-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-external-internal-rotation-standing-mobility-side.jpg"
+  }
+}

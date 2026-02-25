@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-front-rack-single-arm-lateral-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-front-rack-single-arm-lateral-lunge",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-front-rack-single-arm-lateral-lunge",
+  "name": "Kettlebell Front Rack Single Arm Lateral Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-front-rack-single-arm-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-front-rack-single-arm-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-front-rack-single-arm-lateral-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-front-rack-single-arm-lateral-lunge-side.jpg"
+  }
+}

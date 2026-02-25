@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-offset-pushup",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-offset-pushup",
+  "slug": "chest-bodyweight-intermediate-push-bosu-ball-offset-pushup",
+  "name": "Bosu Ball Offset Pushup",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-offset-pushup-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-offset-pushup-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-offset-pushup-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-offset-pushup-side.jpg"
+  }
+}

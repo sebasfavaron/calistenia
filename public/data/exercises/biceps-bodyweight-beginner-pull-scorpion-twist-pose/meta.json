@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/scorpion-twist-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/scorpion-twist-pose",
+  "slug": "biceps-bodyweight-beginner-pull-scorpion-twist-pose",
+  "name": "Scorpion Twist Pose",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Chest"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-scorpion-twist-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-scorpion-twist-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-scorpion-twist-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-scorpion-twist-pose-side.jpg"
+  }
+}

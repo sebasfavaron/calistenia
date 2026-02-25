@@ -1,0 +1,8 @@
+Name: Box Jump
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: piernas
+Source: https://musclewiki.com/exercise/box-jump
+
+1. No instructions parsed from page

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-up-and-over",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-up-and-over",
+  "slug": "abdominals-bodyweight-beginner-core-bosu-ball-up-and-over",
+  "name": "Bosu Ball Up And Over",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Lower Abdominals"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-up-and-over-front_GuLlfeB.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-up-and-over-side_niC7rUS.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-up-and-over-front_WzjQgsF.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-up-and-over-side_zIU0sdx.png"
+  }
+}

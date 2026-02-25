@@ -1,0 +1,8 @@
+Name: Band Crunch
+Muscle: Abdominals
+Equipment: Band
+Difficulty: Intermediate
+Group: core
+Source: https://musclewiki.com/exercise/band-crunch
+
+1. No instructions parsed from page

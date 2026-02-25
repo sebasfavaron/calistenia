@@ -1,0 +1,8 @@
+Name: Lumbar Rotation 5
+Muscle: Lower back
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/lumbar-rotation-5-active-kick
+
+1. No instructions parsed from page

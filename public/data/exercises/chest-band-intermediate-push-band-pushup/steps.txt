@@ -1,0 +1,8 @@
+Name: Band Pushup
+Muscle: Chest
+Equipment: Band
+Difficulty: Intermediate
+Group: push
+Source: https://musclewiki.com/exercise/band-pushup
+
+1. No instructions parsed from page

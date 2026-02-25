@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-pullthrough",
+  "sourceUrl": "https://musclewiki.com/exercise/band-pullthrough",
+  "slug": "glutes-band-beginner-piernas-band-pullthrough",
+  "name": "Band Pullthrough",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Band",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-pullthrough-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-pullthrough-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-pullthrough-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-pullthrough-side.jpg"
+  }
+}

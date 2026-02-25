@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/reclining-pigeon-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/reclining-pigeon-pose",
+  "slug": "glutes-bodyweight-beginner-piernas-reclining-pigeon-pose",
+  "name": "Reclining Pigeon Pose",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-reclining-pigeon-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-reclining-pigeon-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-reclining-pigeon-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-reclining-pigeon-pose-side.jpg"
+  }
+}

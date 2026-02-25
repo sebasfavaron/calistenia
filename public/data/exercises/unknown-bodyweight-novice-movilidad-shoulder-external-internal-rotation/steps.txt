@@ -1,0 +1,8 @@
+Name: Shoulder External Internal Rotation
+Muscle: Unknown
+Equipment: Bodyweight
+Difficulty: Novice
+Group: movilidad
+Source: https://musclewiki.com/exercise/shoulder-external-internal-rotation
+
+1. No instructions parsed from page

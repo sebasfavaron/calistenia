@@ -1,0 +1,8 @@
+Name: Decline Push Up
+Muscle: Chest
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/decline-push-up
+
+1. No instructions parsed from page

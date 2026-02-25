@@ -1,0 +1,8 @@
+Name: Stretcher
+Muscle: Lats
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: pull
+Source: https://musclewiki.com/exercise/stretcher
+
+1. No instructions parsed from page

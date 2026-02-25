@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-push-press",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-push-press",
+  "slug": "shoulders-kettlebells-beginner-push-kettlebell-push-press",
+  "name": "Kettlebell Push Press",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Lateral Deltoid",
+    "Triceps"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-push-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-push-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-push-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-push-press-side.jpg"
+  }
+}

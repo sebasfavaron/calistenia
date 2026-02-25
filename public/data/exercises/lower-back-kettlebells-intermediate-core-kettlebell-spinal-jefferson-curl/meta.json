@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-spinal-jefferson-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-spinal-jefferson-curl",
+  "slug": "lower-back-kettlebells-intermediate-core-kettlebell-spinal-jefferson-curl",
+  "name": "Kettlebell Spinal Jefferson Curl",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-spinal-jefferson-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-spinal-jefferson-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-spinal-jefferson-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-spinal-jefferson-curl-side.jpg"
+  }
+}

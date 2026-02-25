@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-knee-tricep-extension",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-knee-tricep-extension",
+  "slug": "triceps-bodyweight-beginner-push-bodyweight-knee-tricep-extension",
+  "name": "Bodyweight Knee Tricep Extension",
+  "muscle": "Triceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-knee-tricep-extension-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-knee-tricep-extension-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-knee-tricep-extension-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-knee-tricep-extension-side.jpg"
+  }
+}

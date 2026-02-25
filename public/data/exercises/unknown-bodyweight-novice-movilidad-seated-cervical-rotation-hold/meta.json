@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/seated-cervical-rotation-hold",
+  "sourceUrl": "https://musclewiki.com/exercise/seated-cervical-rotation-hold",
+  "slug": "unknown-bodyweight-novice-movilidad-seated-cervical-rotation-hold",
+  "name": "Seated Cervical Rotation Hold",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-cervical-rotation-seated-isometric-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-cervical-rotation-seated-isometric-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cervical-rotation-seated-isometric-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cervical-rotation-seated-isometric-side.jpg"
+  }
+}

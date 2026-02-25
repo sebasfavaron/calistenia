@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-front-rack-reverse-lunge-double",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-front-rack-reverse-lunge-double",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-front-rack-reverse-lunge-double",
+  "name": "Kettlebell Front Rack Reverse Lunge (Double)",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-front-rack-reverse-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-front-rack-reverse-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-front-rack-reverse-lunge-side.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-front-rack-reverse-lunge-side.jpg"
+  }
+}

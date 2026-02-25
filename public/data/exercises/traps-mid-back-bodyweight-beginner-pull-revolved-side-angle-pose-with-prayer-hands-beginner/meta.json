@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/revolved-side-angle-pose-with-prayer-hands-beginner",
+  "sourceUrl": "https://musclewiki.com/exercise/revolved-side-angle-pose-with-prayer-hands-beginner",
+  "slug": "traps-mid-back-bodyweight-beginner-pull-revolved-side-angle-pose-with-prayer-hands-beginner",
+  "name": "Revolved Side Angle Pose With Prayer Hands Beginner",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [
+    "Obliques"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-front.jpg",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-revolved-side-angle-pose-with-prayer-hands-beginner-front.jpg"
+  }
+}

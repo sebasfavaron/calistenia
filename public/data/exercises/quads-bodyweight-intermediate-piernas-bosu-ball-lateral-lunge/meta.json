@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-lateral-lunge",
+  "slug": "quads-bodyweight-intermediate-piernas-bosu-ball-lateral-lunge",
+  "name": "Bosu Ball Lateral Lunge",
+  "muscle": "Quads",
+  "musclesSecondary": [
+    "Gluteus Medius"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-lateral-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-lateral-lunge-side.jpg"
+  }
+}

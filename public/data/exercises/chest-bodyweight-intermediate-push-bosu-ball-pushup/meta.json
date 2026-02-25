@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-pushup",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-pushup",
+  "slug": "chest-bodyweight-intermediate-push-bosu-ball-pushup",
+  "name": "Bosu Ball Pushup",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-pushup-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-pushup-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-pushup-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-pushup-side.jpg"
+  }
+}

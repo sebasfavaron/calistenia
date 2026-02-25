@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/parralel-bar-dips",
+  "sourceUrl": "https://musclewiki.com/exercise/parralel-bar-dips",
+  "slug": "chest-bodyweight-intermediate-push-parallel-bar-dips",
+  "name": "Parallel Bar Dips",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-parralel-bar-dips-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-parralel-bar-dips-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-parralel-bar-dips-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-parralel-bar-dips-side.jpg"
+  }
+}

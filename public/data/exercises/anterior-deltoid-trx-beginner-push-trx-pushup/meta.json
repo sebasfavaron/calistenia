@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-pushup",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-pushup",
+  "slug": "anterior-deltoid-trx-beginner-push-trx-pushup",
+  "name": "TRX Pushup",
+  "muscle": "Anterior Deltoid",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "TRX",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-pushup-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-pushup-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-pushup-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-pushup-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lats-stretch-variation-three",
+  "sourceUrl": "https://musclewiki.com/exercise/lats-stretch-variation-three",
+  "slug": "lats-bodyweight-novice-pull-lats-stretch-variation-three",
+  "name": "Lats Stretch Variation Three",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-lats-stretch-variation-3-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-lats-stretch-variation-3-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-lats-stretch-variation-3-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-lats-stretch-variation-3-side.jpg"
+  }
+}

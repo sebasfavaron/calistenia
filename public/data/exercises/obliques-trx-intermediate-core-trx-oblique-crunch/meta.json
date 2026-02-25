@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-oblique-crunch",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-oblique-crunch",
+  "slug": "obliques-trx-intermediate-core-trx-oblique-crunch",
+  "name": "TRX Oblique Crunch",
+  "muscle": "Obliques",
+  "musclesSecondary": [],
+  "equipment": "TRX",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-oblique-crunch-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-oblique-crunch-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-oblique-crunch-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-oblique-crunch-side.jpg"
+  }
+}

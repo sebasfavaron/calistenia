@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-front-rack-lateral-lunge-double",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-front-rack-lateral-lunge-double",
+  "slug": "glutes-kettlebells-advanced-piernas-kettlebell-front-rack-lateral-lunge-double",
+  "name": "Kettlebell Front Rack Lateral Lunge (Double)",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-front-rack-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-front-rack-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-front-rack-lateral-lunge-side.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-front-rack-lateral-lunge-side.jpg"
+  }
+}

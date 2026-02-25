@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-front-rowing-preps-straight-forward-seated",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-front-rowing-preps-straight-forward-seated",
+  "slug": "chest-bodyweight-novice-push-front-rowing-preps-straight-forward-seated",
+  "name": "Front Rowing Preps Straight Forward Seated",
+  "muscle": "Chest",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-front-rowing-preps-straight-forward-seated-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-front-rowing-preps-straight-forward-seated-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-front-rowing-preps-straight-forward-seated-side.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-front-rowing-preps-straight-forward-seated-side.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-snatch",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-snatch",
+  "slug": "glutes-bodyweight-intermediate-piernas-landmine-snatch",
+  "name": "Landmine Snatch",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-snatch-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-snatch-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-snatch-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-snatch-side.jpg"
+  }
+}

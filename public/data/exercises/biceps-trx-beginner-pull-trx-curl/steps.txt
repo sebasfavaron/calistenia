@@ -1,0 +1,8 @@
+Name: TRX Curl
+Muscle: Biceps
+Equipment: TRX
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/trx-curl
+
+1. No instructions parsed from page

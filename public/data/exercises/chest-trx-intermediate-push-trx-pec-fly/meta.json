@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-pec-fly",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-pec-fly",
+  "slug": "chest-trx-intermediate-push-trx-pec-fly",
+  "name": "TRX Pec Fly",
+  "muscle": "Chest",
+  "musclesSecondary": [],
+  "equipment": "TRX",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-chest-fly-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-chest-fly-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-chest-fly-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-chest-fly-side.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-high-reverse-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/band-high-reverse-curl",
+  "slug": "biceps-band-novice-pull-band-high-reverse-curl",
+  "name": "Band High Reverse Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Forearms"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-high-reverse-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-high-reverse-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-high-reverse-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-high-reverse-curl-side.jpg"
+  }
+}

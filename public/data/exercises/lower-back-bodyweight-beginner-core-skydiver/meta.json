@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/skydiver",
+  "sourceUrl": "https://musclewiki.com/exercise/skydiver",
+  "slug": "lower-back-bodyweight-beginner-core-skydiver",
+  "name": "Skydiver",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-skydiver-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-skydiver-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-skydiver-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-skydiver-side.jpg"
+  }
+}

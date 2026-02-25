@@ -1,0 +1,8 @@
+Name: Band Leg Press
+Muscle: Glutes
+Equipment: Band
+Difficulty: Advanced
+Group: piernas
+Source: https://musclewiki.com/exercise/band-leg-press
+
+1. No instructions parsed from page

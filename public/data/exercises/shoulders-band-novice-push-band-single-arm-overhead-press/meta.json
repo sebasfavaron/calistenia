@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-single-arm-overhead-press",
+  "sourceUrl": "https://musclewiki.com/exercise/band-single-arm-overhead-press",
+  "slug": "shoulders-band-novice-push-band-single-arm-overhead-press",
+  "name": "Band Single Arm Overhead Press",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-single-arm-overhead-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-single-arm-overhead-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-single-arm-overhead-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-single-arm-overhead-press-side.jpg"
+  }
+}

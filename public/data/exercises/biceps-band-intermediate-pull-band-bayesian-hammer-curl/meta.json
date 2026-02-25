@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-bayesian-hammer-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/band-bayesian-hammer-curl",
+  "slug": "biceps-band-intermediate-pull-band-bayesian-hammer-curl",
+  "name": "Band Bayesian Hammer Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Long Head Bicep"
+  ],
+  "equipment": "Band",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-bayesian-hammer-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-bayesian-hammer-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-bayesian-hammer-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-bayesian-hammer-curl-side.jpg"
+  }
+}

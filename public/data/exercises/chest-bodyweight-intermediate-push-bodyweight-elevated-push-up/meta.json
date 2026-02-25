@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-elevated-push-up",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-elevated-push-up",
+  "slug": "chest-bodyweight-intermediate-push-bodyweight-elevated-push-up",
+  "name": "Bodyweight Elevated Push Up",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-elevated-push-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-elevated-push-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-elevated-push-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-elevated-push-up-side.jpg"
+  }
+}

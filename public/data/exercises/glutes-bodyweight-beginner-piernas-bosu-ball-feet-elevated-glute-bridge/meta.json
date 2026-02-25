@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-feet-elevated-glute-bridge",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-feet-elevated-glute-bridge",
+  "slug": "glutes-bodyweight-beginner-piernas-bosu-ball-feet-elevated-glute-bridge",
+  "name": "Bosu Ball Feet Elevated Glute Bridge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-feet-elevated-glute-bridge-front_Z8myenM.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-feet-elevated-glute-bridge-side_wGW9Llf.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-feet-elevated-glute-bridge-front_FjMXah1.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-feet-elevated-glute-bridge-side_FhBTmx1.png"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Thoracic Flexion And Extensions
+Muscle: Traps
+Equipment: Bodyweight
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/thoracic-flexion-and-extensions
+
+1. No instructions parsed from page

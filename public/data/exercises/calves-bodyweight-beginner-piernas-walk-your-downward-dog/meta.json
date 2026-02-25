@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/walk-your-downward-dog",
+  "sourceUrl": "https://musclewiki.com/exercise/walk-your-downward-dog",
+  "slug": "calves-bodyweight-beginner-piernas-walk-your-downward-dog",
+  "name": "Walk Your Downward Dog",
+  "muscle": "Calves",
+  "musclesSecondary": [
+    "Hamstrings"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-walk-into-downward-dog-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-walk-into-downward-dog-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-walk-into-downward-dog-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-walk-into-downward-dog-side.jpg"
+  }
+}

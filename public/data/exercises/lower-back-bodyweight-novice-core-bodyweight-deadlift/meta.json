@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-deadlift",
+  "slug": "lower-back-bodyweight-novice-core-bodyweight-deadlift",
+  "name": "Bodyweight Deadlift",
+  "muscle": "Lower back",
+  "musclesSecondary": [
+    "Glutes"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-deadlift-bodyweight-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-deadlift-bodyweight-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-deadlift-bodyweight-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-deadlift-bodyweight-side.jpg"
+  }
+}

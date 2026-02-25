@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-curl-to-overhead-press-to-tricep-extension",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-curl-to-overhead-press-to-tricep-extension",
+  "slug": "biceps-bodyweight-advanced-pull-plate-curl-to-overhead-press-to-tricep-extension",
+  "name": "Plate Curl To Overhead Press To Tricep Extension",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Shoulders",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-curl-to-overhead-press-to-tricep-extension-front_LMFCnKf.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-curl-to-overhead-press-to-tricep-extension-side_ax0yvwM.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-curl-to-overhead-press-to-tricep-extension-front_LMFCnKf.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-curl-to-overhead-press-to-tricep-extension-side_ax0yvwM.jpg"
+  }
+}

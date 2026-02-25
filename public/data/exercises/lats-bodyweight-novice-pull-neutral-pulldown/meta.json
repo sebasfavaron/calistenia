@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/neutral-pulldown",
+  "sourceUrl": "https://musclewiki.com/exercise/neutral-pulldown",
+  "slug": "lats-bodyweight-novice-pull-neutral-pulldown",
+  "name": "Neutral Pulldown",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-neutral-pulldown-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-neutral-pulldown-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Machine-neutral-pulldown-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Machine-neutral-pulldown-side.jpg"
+  }
+}

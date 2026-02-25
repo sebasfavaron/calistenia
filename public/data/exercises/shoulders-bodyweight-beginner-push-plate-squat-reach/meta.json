@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-squat-reach",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-squat-reach",
+  "slug": "shoulders-bodyweight-beginner-push-plate-squat-reach",
+  "name": "Plate Squat Reach",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Glutes",
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-reach-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-reach-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-reach-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-reach-side.jpg"
+  }
+}

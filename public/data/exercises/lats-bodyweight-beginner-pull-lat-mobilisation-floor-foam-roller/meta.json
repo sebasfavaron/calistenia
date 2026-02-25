@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lat-mobilisation-floor-foam-roller",
+  "sourceUrl": "https://musclewiki.com/exercise/lat-mobilisation-floor-foam-roller",
+  "slug": "lats-bodyweight-beginner-pull-lat-mobilisation-floor-foam-roller",
+  "name": "Lat Mobilisation Floor Foam Roller",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lat-mobilisation-floor-foam-roller-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lat-mobilisation-floor-foam-roller-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lat-mobilisation-floor-foam-roller-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lat-mobilisation-floor-foam-roller-side.jpg"
+  }
+}

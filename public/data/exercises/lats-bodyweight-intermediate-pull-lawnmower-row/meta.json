@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/lawnmower-row",
+  "sourceUrl": "https://musclewiki.com/exercise/lawnmower-row",
+  "slug": "lats-bodyweight-intermediate-pull-lawnmower-row",
+  "name": "Lawnmower Row",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-bench-lawnmower-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-bench-lawnmower-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-bench-lawnmower-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-bench-lawnmower-row-side.jpg"
+  }
+}

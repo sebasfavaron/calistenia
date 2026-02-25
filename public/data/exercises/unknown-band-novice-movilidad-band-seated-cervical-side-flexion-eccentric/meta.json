@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-seated-cervical-side-flexion-eccentric",
+  "sourceUrl": "https://musclewiki.com/exercise/band-seated-cervical-side-flexion-eccentric",
+  "slug": "unknown-band-novice-movilidad-band-seated-cervical-side-flexion-eccentric",
+  "name": "Band Seated Cervical Side Flexion Eccentric",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cervical-side-flexion-3-seated-eccentric-theraband-front.jpg",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-cervical-side-flexion-3-seated-eccentric-theraband-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cervical-side-flexion-3-seated-eccentric-theraband-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-cervical-side-flexion-3-seated-eccentric-theraband-front.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/hip-flexions-straight-leg-standing-resisted",
+  "sourceUrl": "https://musclewiki.com/exercise/hip-flexions-straight-leg-standing-resisted",
+  "slug": "rectus-femoris-bodyweight-beginner-movilidad-band-straight-leg-hip-flexions",
+  "name": "Band Straight Leg Hip Flexions",
+  "muscle": "Rectus Femoris",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-hip-flexions-straight-leg-standing-resisted-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-hip-flexions-straight-leg-standing-resisted-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-hip-flexions-straight-leg-standing-resisted-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-hip-flexions-straight-leg-standing-resisted-side.jpg"
+  }
+}

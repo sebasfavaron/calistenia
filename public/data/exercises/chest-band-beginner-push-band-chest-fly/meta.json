@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-chest-fly",
+  "sourceUrl": "https://musclewiki.com/exercise/band-chest-fly",
+  "slug": "chest-band-beginner-push-band-chest-fly",
+  "name": "Band Chest Fly",
+  "muscle": "Chest",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-chest-fly-front_EjlOhyB.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-chest-fly-side_aZavtpI.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-chest-fly-front_EjlOhyB.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-chest-fly-side_aZavtpI.jpg"
+  }
+}

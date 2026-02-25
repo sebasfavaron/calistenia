@@ -1,0 +1,8 @@
+Name: Plate Squat Reach
+Muscle: Shoulders
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/plate-squat-reach
+
+1. No instructions parsed from page

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/stretcher",
+  "sourceUrl": "https://musclewiki.com/exercise/stretcher",
+  "slug": "lats-bodyweight-intermediate-pull-stretcher",
+  "name": "Stretcher",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-stretcher-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-stretcher-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Machine-stretcher-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Machine-stretcher-side.jpg"
+  }
+}

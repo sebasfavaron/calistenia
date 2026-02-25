@@ -1,0 +1,8 @@
+Name: Cardio Ski Erg
+Muscle: Abdominals
+Equipment: Cardio
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/cardio-ski-erg
+
+1. No instructions parsed from page

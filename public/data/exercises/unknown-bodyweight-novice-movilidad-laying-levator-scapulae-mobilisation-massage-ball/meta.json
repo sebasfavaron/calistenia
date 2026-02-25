@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/laying-levator-scapulae-mobilisation-massage-ball",
+  "sourceUrl": "https://musclewiki.com/exercise/laying-levator-scapulae-mobilisation-massage-ball",
+  "slug": "unknown-bodyweight-novice-movilidad-laying-levator-scapulae-mobilisation-massage-ball",
+  "name": "Laying Levator Scapulae Mobilisation Massage Ball",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-levator-scapulae-mobilisation-supine-massage-ball-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-levator-scapulae-mobilisation-supine-massage-ball-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-levator-scapulae-mobilisation-supine-massage-ball-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-levator-scapulae-mobilisation-supine-massage-ball-side.jpg"
+  }
+}

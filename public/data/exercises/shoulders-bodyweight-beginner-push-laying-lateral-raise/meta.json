@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/laying-lateral-raise",
+  "sourceUrl": "https://musclewiki.com/exercise/laying-lateral-raise",
+  "slug": "shoulders-bodyweight-beginner-push-laying-lateral-raise",
+  "name": "Laying Lateral Raise",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-laying-lateral-raise-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-laying-lateral-raise-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-laying-lateral-raise-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-laying-lateral-raise-side.jpg"
+  }
+}

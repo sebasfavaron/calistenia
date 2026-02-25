@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-t-bar-rows",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-t-bar-rows",
+  "slug": "lats-bodyweight-beginner-pull-landmine-t-bar-rows",
+  "name": "Landmine T Bar Rows",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-t-bar-rows-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-t-bar-rows-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-t-bar-rows-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-t-bar-rows-side.jpg"
+  }
+}

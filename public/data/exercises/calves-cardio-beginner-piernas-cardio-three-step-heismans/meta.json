@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/cardio-three-step-heismans",
+  "sourceUrl": "https://musclewiki.com/exercise/cardio-three-step-heismans",
+  "slug": "calves-cardio-beginner-piernas-cardio-three-step-heismans",
+  "name": "Cardio Three Step Heismans",
+  "muscle": "Calves",
+  "musclesSecondary": [],
+  "equipment": "Cardio",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-cardio-three-step-heismans-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-cardio-three-step-heismans-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Cardio-cardio-three-step-heismans-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Cardio-cardio-three-step-heismans-side.jpg"
+  }
+}

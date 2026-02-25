@@ -1,0 +1,8 @@
+Name: Thoracic Extensions Foam Roller
+Muscle: Traps
+Equipment: Bodyweight
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/thoracic-extensions-foam-roller
+
+1. No instructions parsed from page

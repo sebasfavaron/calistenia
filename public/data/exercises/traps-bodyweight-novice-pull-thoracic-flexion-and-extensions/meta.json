@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/thoracic-flexion-and-extensions",
+  "sourceUrl": "https://musclewiki.com/exercise/thoracic-flexion-and-extensions",
+  "slug": "traps-bodyweight-novice-pull-thoracic-flexion-and-extensions",
+  "name": "Thoracic Flexion And Extensions",
+  "muscle": "Traps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-thoracic-flexion-and-extensions-mobility-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-thoracic-flexion-and-extensions-mobility-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-thoracic-flexion-and-extensions-mobility-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-thoracic-flexion-and-extensions-mobility-side.jpg"
+  }
+}

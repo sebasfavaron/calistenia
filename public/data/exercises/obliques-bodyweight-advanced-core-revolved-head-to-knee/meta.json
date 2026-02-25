@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/revolved-head-to-knee",
+  "sourceUrl": "https://musclewiki.com/exercise/revolved-head-to-knee",
+  "slug": "obliques-bodyweight-advanced-core-revolved-head-to-knee",
+  "name": "Revolved Head To Knee",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Hamstrings"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-revolved-head-to-knee-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-revolved-head-to-knee-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-revolved-head-to-knee-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-revolved-head-to-knee-side.jpg"
+  }
+}

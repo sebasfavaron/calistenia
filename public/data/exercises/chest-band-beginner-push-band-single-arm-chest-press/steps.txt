@@ -1,0 +1,8 @@
+Name: Band Single Arm Chest Press
+Muscle: Chest
+Equipment: Band
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/band-single-arm-chest-press
+
+1. No instructions parsed from page

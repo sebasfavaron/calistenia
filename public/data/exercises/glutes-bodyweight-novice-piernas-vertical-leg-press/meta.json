@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/vertical-leg-press",
+  "sourceUrl": "https://musclewiki.com/exercise/vertical-leg-press",
+  "slug": "glutes-bodyweight-novice-piernas-vertical-leg-press",
+  "name": "Vertical Leg Press",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-vertical-leg-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-vertical-leg-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Machine-vertical-leg-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Machine-vertical-leg-press-side.jpg"
+  }
+}

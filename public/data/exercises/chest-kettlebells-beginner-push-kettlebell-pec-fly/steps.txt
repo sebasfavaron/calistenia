@@ -1,0 +1,8 @@
+Name: Kettlebell Pec Fly
+Muscle: Chest
+Equipment: Kettlebells
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/kettlebell-pec-fly
+
+1. No instructions parsed from page

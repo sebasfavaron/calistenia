@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-reverse-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-reverse-lunge",
+  "slug": "glutes-bodyweight-novice-piernas-bodyweight-reverse-lunge",
+  "name": "Bodyweight Reverse Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Glutes",
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-reverse-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-reverse-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-reverse-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-reverse-lunge-side.jpg"
+  }
+}

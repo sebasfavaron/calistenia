@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-reverse-step-up",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-reverse-step-up",
+  "slug": "quads-bodyweight-advanced-piernas-bodyweight-reverse-step-up",
+  "name": "Bodyweight Reverse Step Up",
+  "muscle": "Quads",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-barbell-reverse-step-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-reverse-step-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-barbell-reverse-step-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-reverse-step-up-side.jpg"
+  }
+}

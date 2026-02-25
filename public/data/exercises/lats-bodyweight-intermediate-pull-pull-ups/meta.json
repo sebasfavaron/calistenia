@@ -1,0 +1,51 @@
+{
+  "id": "https://musclewiki.com/exercise/pull-ups",
+  "sourceUrl": "https://musclewiki.com/exercise/pull-ups",
+  "slug": "lats-bodyweight-intermediate-pull-pull-ups",
+  "name": "Pull Ups",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps",
+    "Traps (mid-back)"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [
+    "Try the Chin Up. It’s an easier variation because the biceps are much more involved. I suggest you start with that variation if you don't have much experience doing Pull Ups.",
+    "Shorten the range of motion, and try to get a longer range of motion overtime. if you can only do half a Pull Up (meaning you can get your elbows to roughly 90°) don't be ashamed to do those half reps. Set a rep range like with anything else. We will use 5 to 8 reps for this example. Once you are able to hit 8/2 Pull Ups, cut the reps down to five and try to go an extra 2 to 3 inches higher on each rep. It helps massively if you can do this in front of a mirror to keep a very close eye on your range of motion. Before long you'll be able to perform full reps.",
+    "How To Perform The Pull Up",
+    "Setup",
+    "Grab the Pull Up bar with an overhand grip. If you get wrist pain from gripping a Pull Up bar, try using a thumbless grip. It won't affect your grip strength too much, but will give your wrists a little more room to move. Also, make sure the bars are set very deeply in your hand. Your palms should be making contact with the bar.",
+    "Next, if you are using a bench or box to reach the Pull Up bars, step off of the step, and hold for a second, in a dead hang position. If you begin initiating the Pull Up before the dead hang, you might swing too much to perform a proper strict Pull Up. If you can reach the Pull Up bars without having to stand on anything, take your grip and then pull your feet slightly off the floor. Still hold for a second to prevent any swinging from happening.",
+    "Pull your shoulder blades down. This will engage your mid and lower traps and force your lats to do most of the work. Also, before beginning the first rep, make sure your elbows are extended.",
+    "Lower body",
+    "Angle your legs forward slightly, push your hips back, and point your toes. This will force you to flex your abdominals and keep you more stable throughout the rep. (This will massively help you keep the reps strict).",
+    "Performing",
+    "Once you are in the proper position, begin to pull. Imagine trying to pull your elbows not just down, but inward toward your spine. This cue will help you engage one of the lats’ more overlooked functions, vertical adduction.",
+    "Get your chin over the bar before beginning the eccentric portion of the rap. Your elbows should fully extend at the bottom of each rep.",
+    "Step by Step Progression",
+    "The Pull Up can be a difficult exercise to know when to progress. There's also the question of how to progress the Pull Up.",
+    "Decide on a rep range. For example, 6 to 10. Once you are able to perform 10 reps with strict form, then it is time to progress. Do not be shy or hesitant to start adding weight to your Pull Up early on. Even if it is only 5 pounds. Progress is progress! From there, progress the Pull Up, like it would any other exercise. Once you hit the top end of the rep range, add some more weight.",
+    "The best way to get better at doing Pull Ups is to do Pull Ups. But if you can't do them in the first place, then what should you do?"
+  ],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-pullup-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-pullup-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-pullup-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-pullup-side.jpg"
+  }
+}

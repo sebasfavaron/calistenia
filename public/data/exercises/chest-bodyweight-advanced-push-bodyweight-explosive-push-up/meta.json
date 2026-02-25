@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-explosive-push-up",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-explosive-push-up",
+  "slug": "chest-bodyweight-advanced-push-bodyweight-explosive-push-up",
+  "name": "Bodyweight Explosive Push Up",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-explosive-push-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-explosive-push-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-explosive-push-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-explosive-push-up-side.jpg"
+  }
+}

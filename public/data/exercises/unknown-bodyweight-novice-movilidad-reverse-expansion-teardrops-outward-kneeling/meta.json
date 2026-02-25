@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-reverse-expansion-teardrops-outward-kneeling",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-reverse-expansion-teardrops-outward-kneeling",
+  "slug": "unknown-bodyweight-novice-movilidad-reverse-expansion-teardrops-outward-kneeling",
+  "name": "Reverse Expansion Teardrops Outward Kneeling",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-reverse-expansion-teardrops-outward-kneeling-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-reverse-expansion-teardrops-outward-kneeling-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-reverse-expansion-teardrops-outward-kneeling-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-reverse-expansion-teardrops-outward-kneeling-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-superman-pull",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-superman-pull",
+  "slug": "lower-back-bodyweight-novice-core-bodyweight-superman-pull",
+  "name": "Bodyweight Superman Pull",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-superman-pull-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-superman-pull-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-superman-pull-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-superman-pull-side.jpg"
+  }
+}

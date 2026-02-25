@@ -1,0 +1,8 @@
+Name: Sphinx Pose
+Muscle: Lower back
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/sphinx-pose
+
+1. No instructions parsed from page

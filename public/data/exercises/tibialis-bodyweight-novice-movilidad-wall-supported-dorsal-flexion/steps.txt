@@ -1,0 +1,8 @@
+Name: Wall Supported Dorsal Flexion
+Muscle: Tibialis
+Equipment: Bodyweight
+Difficulty: Novice
+Group: movilidad
+Source: https://musclewiki.com/exercise/wall-supported-dorsal-flexion
+
+1. No instructions parsed from page

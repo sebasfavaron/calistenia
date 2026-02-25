@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-calf-raise",
+  "sourceUrl": "https://musclewiki.com/exercise/band-calf-raise",
+  "slug": "calves-band-novice-piernas-band-calf-raise",
+  "name": "Band Calf Raise",
+  "muscle": "Calves",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-calf-raise-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-calf-raise-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-calf-raise-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-calf-raise-side.jpg"
+  }
+}
