@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lower-back-stretch-variation-four",
+  "sourceUrl": "https://musclewiki.com/exercise/lower-back-stretch-variation-four",
+  "slug": "lower-back-bodyweight-novice-core-lower-back-stretch-variation-four",
+  "name": "Lower back Stretch Variation Four",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-lower-back-stretch-variation-4-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-lower-back-stretch-variation-4-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-lower-back-stretch-variation-4-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-lower-back-stretch-variation-4-side.jpg"
+  }
+}

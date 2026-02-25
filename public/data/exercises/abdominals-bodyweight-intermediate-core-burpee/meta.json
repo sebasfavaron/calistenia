@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/burpee",
+  "sourceUrl": "https://musclewiki.com/exercise/burpee",
+  "slug": "abdominals-bodyweight-intermediate-core-burpee",
+  "name": "Burpee",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-burpee-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-burpee-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-burpee-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-burpee-side.jpg"
+  }
+}

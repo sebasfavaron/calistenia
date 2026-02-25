@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-windmill",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-windmill",
+  "slug": "obliques-kettlebells-advanced-core-kettlebell-windmill",
+  "name": "Kettlebell Windmill",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-windmill-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-windmill-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-windmill-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-windmill-side.jpg"
+  }
+}

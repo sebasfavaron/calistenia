@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-single-leg-elevated-glute-bridge",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-single-leg-elevated-glute-bridge",
+  "slug": "glutes-bodyweight-intermediate-piernas-bosu-ball-single-leg-elevated-glute-bridge",
+  "name": "Bosu Ball Single Leg Elevated Glute Bridge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-single-leg-elevated-glute-bridge-front_4m5TpRn.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-single-leg-elevated-glute-bridge-side_G8VnLOr.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-single-leg-elevated-glute-bridge-front_pIQkDTG.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-single-leg-elevated-glute-bridge-side_x5EuSPK.png"
+  }
+}

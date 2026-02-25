@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/hamstrings-stretch-variation-three",
+  "sourceUrl": "https://musclewiki.com/exercise/hamstrings-stretch-variation-three",
+  "slug": "hamstrings-bodyweight-beginner-piernas-hamstrings-stretch-variation-three",
+  "name": "Hamstrings Stretch Variation Three",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-hamstrings-stretch-variation-3-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-hamstrings-stretch-variation-3-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-hamstrings-stretch-variation-3-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-hamstrings-stretch-variation-3-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-shoulder-y-raise",
+  "sourceUrl": "https://musclewiki.com/exercise/band-shoulder-y-raise",
+  "slug": "front-shoulders-band-novice-push-band-shoulder-y-raise",
+  "name": "Band Shoulder Y Raise",
+  "muscle": "Front Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-d2-raise-standing-theraband-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-d2-raise-standing-theraband-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-d2-raise-standing-theraband-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-d2-raise-standing-theraband-side.jpg"
+  }
+}

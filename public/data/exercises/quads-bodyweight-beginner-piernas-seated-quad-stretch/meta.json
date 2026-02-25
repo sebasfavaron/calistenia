@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/quad-stretch-seated",
+  "sourceUrl": "https://musclewiki.com/exercise/quad-stretch-seated",
+  "slug": "quads-bodyweight-beginner-piernas-seated-quad-stretch",
+  "name": "Seated Quad Stretch",
+  "muscle": "Quads",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-quad-stretch-seated-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-quad-stretch-seated-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-quad-stretch-seated-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-quad-stretch-seated-side.jpg"
+  }
+}

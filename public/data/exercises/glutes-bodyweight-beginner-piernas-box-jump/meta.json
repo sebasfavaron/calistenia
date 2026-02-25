@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/box-jump",
+  "sourceUrl": "https://musclewiki.com/exercise/box-jump",
+  "slug": "glutes-bodyweight-beginner-piernas-box-jump",
+  "name": "Box Jump",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-box-jump-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-box-jump-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-box-jump-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-box-jump-side.jpg"
+  }
+}

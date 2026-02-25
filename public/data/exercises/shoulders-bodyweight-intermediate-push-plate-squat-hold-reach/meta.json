@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-squat-hold-reach",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-squat-hold-reach",
+  "slug": "shoulders-bodyweight-intermediate-push-plate-squat-hold-reach",
+  "name": "Plate Squat Hold Reach",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Glutes",
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-hold-reach-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-hold-reach-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-hold-reach-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-hold-reach-side.jpg"
+  }
+}

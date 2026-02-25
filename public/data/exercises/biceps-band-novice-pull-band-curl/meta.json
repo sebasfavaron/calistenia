@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/band-curl",
+  "slug": "biceps-band-novice-pull-band-curl",
+  "name": "Band Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-curl-front_1YwVVEx.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-curl-side_qegXZDv.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-curl-front_1YwVVEx.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-curl-side_qegXZDv.jpg"
+  }
+}

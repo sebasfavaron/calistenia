@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/clock-taps",
+  "sourceUrl": "https://musclewiki.com/exercise/clock-taps",
+  "slug": "glutes-bodyweight-intermediate-piernas-clock-taps",
+  "name": "Clock Taps",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-clock-taps-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-clock-taps-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-clock-taps-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-clock-taps-side.jpg"
+  }
+}

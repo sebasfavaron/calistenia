@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-farmers-march",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-farmers-march",
+  "slug": "forearms-kettlebells-intermediate-pull-kettlebell-farmers-march",
+  "name": "Kettlebell Farmers March",
+  "muscle": "Forearms",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-farmers-march-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-farmers-march-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-farmers-march-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-farmers-march-side.jpg"
+  }
+}

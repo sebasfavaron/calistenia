@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/pyramid-pose-blocks",
+  "sourceUrl": "https://musclewiki.com/exercise/pyramid-pose-blocks",
+  "slug": "hamstrings-bodyweight-beginner-piernas-pyramid-pose-blocks",
+  "name": "Pyramid Pose Blocks",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [
+    "Calves"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-pose-blocks-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-pose-blocks-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-pose-blocks-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-pose-blocks-side.jpg"
+  }
+}

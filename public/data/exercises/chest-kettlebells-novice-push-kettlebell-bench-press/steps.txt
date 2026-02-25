@@ -1,0 +1,8 @@
+Name: Kettlebell Bench Press
+Muscle: Chest
+Equipment: Kettlebells
+Difficulty: Novice
+Group: push
+Source: https://musclewiki.com/exercise/kettlebell-bench-press
+
+1. No instructions parsed from page

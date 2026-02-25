@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/warrior-three",
+  "sourceUrl": "https://musclewiki.com/exercise/warrior-three",
+  "slug": "hamstrings-bodyweight-intermediate-piernas-warrior-three",
+  "name": "Warrior Three",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [
+    "Glutes"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Yoga-warrior-three-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Yoga-warrior-three-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Yoga-warrior-three-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Yoga-warrior-three-side.jpg"
+  }
+}

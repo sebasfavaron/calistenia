@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-split-jerk",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-split-jerk",
+  "slug": "shoulders-bodyweight-advanced-push-landmine-split-jerk",
+  "name": "Landmine Split Jerk",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-split-jerk-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-split-jerk-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-split-jerk-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-split-jerk-side.jpg"
+  }
+}

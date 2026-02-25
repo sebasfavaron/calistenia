@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-rear-delt-fly",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-rear-delt-fly",
+  "slug": "shoulders-trx-intermediate-push-trx-rear-delt-fly",
+  "name": "TRX Rear Delt Fly",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Traps (mid-back)"
+  ],
+  "equipment": "TRX",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-rear-delt_fly-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-rear-delt_fly-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-rear-delt_fly-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-rear-delt_fly-side.jpg"
+  }
+}

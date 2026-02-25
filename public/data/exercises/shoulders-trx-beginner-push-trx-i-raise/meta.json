@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-i-raise",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-i-raise",
+  "slug": "shoulders-trx-beginner-push-trx-i-raise",
+  "name": "TRX I Raise",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "TRX",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-I-raise-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-I-raise-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-I-raise-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-I-raise-side.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-clean-and-press",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-clean-and-press",
+  "slug": "glutes-bodyweight-intermediate-piernas-plate-clean-and-press",
+  "name": "Plate Clean And Press",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Shoulders",
+    "Lateral Deltoid",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-clean-and-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-clean-and-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-clean-and-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-clean-and-press-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Hip Lift
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Novice
+Group: piernas
+Source: https://musclewiki.com/exercise/pilates-hip-lift
+
+1. No instructions parsed from page

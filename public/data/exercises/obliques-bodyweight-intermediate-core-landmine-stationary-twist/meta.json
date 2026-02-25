@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/landmine-stationary-twist",
+  "sourceUrl": "https://musclewiki.com/exercise/landmine-stationary-twist",
+  "slug": "obliques-bodyweight-intermediate-core-landmine-stationary-twist",
+  "name": "Landmine Stationary Twist",
+  "muscle": "Obliques",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-stationary-twist-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Barbell-landmine-stationary-twist-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-stationary-twist-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Barbell-landmine-stationary-twist-side.jpg"
+  }
+}

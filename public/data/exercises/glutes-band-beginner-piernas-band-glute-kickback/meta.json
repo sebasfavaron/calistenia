@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-glute-kickback",
+  "sourceUrl": "https://musclewiki.com/exercise/band-glute-kickback",
+  "slug": "glutes-band-beginner-piernas-band-glute-kickback",
+  "name": "Band Glute Kickback",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-glute-kickback-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-glute-kickback-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-glute-kickback-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-glute-kickback-side.jpg"
+  }
+}

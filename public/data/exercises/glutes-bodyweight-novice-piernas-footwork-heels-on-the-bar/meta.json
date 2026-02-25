@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-footwork-heels-on-the-bar",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-footwork-heels-on-the-bar",
+  "slug": "glutes-bodyweight-novice-piernas-footwork-heels-on-the-bar",
+  "name": "Footwork Heels On The Bar",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-footwork-heels-on-the-bar-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-footwork-heels-on-the-bar-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-footwork-heels-on-the-bar-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-footwork-heels-on-the-bar-side.jpg"
+  }
+}

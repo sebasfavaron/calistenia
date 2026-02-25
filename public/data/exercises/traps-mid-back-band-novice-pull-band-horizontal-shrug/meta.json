@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-horizontal-shrug",
+  "sourceUrl": "https://musclewiki.com/exercise/band-horizontal-shrug",
+  "slug": "traps-mid-back-band-novice-pull-band-horizontal-shrug",
+  "name": "Band Horizontal Shrug",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-horizontal-shrug-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-horizontal-shrug-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-horizontal-shrug-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-horizontal-shrug-side.jpg"
+  }
+}

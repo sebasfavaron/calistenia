@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-midback-series-circles-inward",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-midback-series-circles-inward",
+  "slug": "lats-bodyweight-novice-pull-midback-series-circles-inward",
+  "name": "Midback Series Circles Inward",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-midback-series-circles-inward-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-midback-series-circles-inward-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-midback-series-circles-inward-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-midback-series-circles-inward-side.jpg"
+  }
+}

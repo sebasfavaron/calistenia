@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-burpee",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-burpee",
+  "slug": "glutes-bodyweight-intermediate-piernas-bosu-ball-burpee",
+  "name": "Bosu Ball Burpee",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Chest"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-burpee-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-bosu-ball-burpee-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-burpee-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-bosu-ball-burpee-side.jpg"
+  }
+}

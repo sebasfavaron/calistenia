@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/elbow-extensor-mobilisation-kneeling-lacrosse-ball",
+  "sourceUrl": "https://musclewiki.com/exercise/elbow-extensor-mobilisation-kneeling-lacrosse-ball",
+  "slug": "triceps-bodyweight-beginner-push-elbow-extensor-mobilisation-kneeling-lacrosse-ball",
+  "name": "Elbow Extensor Mobilisation Kneeling Lacrosse Ball",
+  "muscle": "Triceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-elbow-extensor-mobilisation-kneeling-lacrosse-ball-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-elbow-extensor-mobilisation-kneeling-lacrosse-ball-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-elbow-extensor-mobilisation-kneeling-lacrosse-ball-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-elbow-extensor-mobilisation-kneeling-lacrosse-ball-side.jpg"
+  }
+}

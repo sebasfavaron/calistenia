@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool",
+  "sourceUrl": "https://musclewiki.com/exercise/lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool",
+  "slug": "lower-back-bodyweight-beginner-core-lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool",
+  "name": "Lumbar Extensor Mobilisation Supine Bent Knees Peanut Tool",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-extensor-mobilisation-supine-bent-knees-peanut-tool-side.jpg"
+  }
+}

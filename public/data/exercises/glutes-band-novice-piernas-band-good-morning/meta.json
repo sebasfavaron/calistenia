@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-good-morning",
+  "sourceUrl": "https://musclewiki.com/exercise/band-good-morning",
+  "slug": "glutes-band-novice-piernas-band-good-morning",
+  "name": "Band Good Morning",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-good-morning-front_8qJRfbm.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-good-morning-side_pGmFQtq.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-good-morning-front_8qJRfbm.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-good-morning-side_pGmFQtq.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/dorsal-flexion-hold",
+  "sourceUrl": "https://musclewiki.com/exercise/dorsal-flexion-hold",
+  "slug": "tibialis-bodyweight-novice-movilidad-dorsal-flexion-hold",
+  "name": "Dorsal Flexion Hold",
+  "muscle": "Tibialis",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dorsal-flexion-2-isometric-standing-bilateral-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dorsal-flexion-2-isometric-standing-bilateral-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dorsal-flexion-2-isometric-standing-bilateral-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dorsal-flexion-2-isometric-standing-bilateral-side.jpg"
+  }
+}

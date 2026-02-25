@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/shoulder-external-rotation-deceleration",
+  "sourceUrl": "https://musclewiki.com/exercise/shoulder-external-rotation-deceleration",
+  "slug": "unknown-bodyweight-beginner-movilidad-shoulder-external-rotation-deceleration",
+  "name": "Shoulder External Rotation Deceleration",
+  "muscle": "Unknown",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-external-rotation-eccentrics-decceleration-prone-bench-weighted-ball-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-shoulder-external-rotation-eccentrics-decceleration-prone-bench-weighted-ball-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-external-rotation-eccentrics-decceleration-prone-bench-weighted-ball-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-shoulder-external-rotation-eccentrics-decceleration-prone-bench-weighted-ball-side.jpg"
+  }
+}

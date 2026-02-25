@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-single-leg-hip-thrust",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-single-leg-hip-thrust",
+  "slug": "glutes-bodyweight-beginner-piernas-bosu-ball-single-leg-hip-thrust",
+  "name": "Bosu Ball Single Leg Hip Thrust",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-single-leg-hip-thrust-front_aBwyvlD.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-single-leg-hip-thrust-side_2ro2ZyY.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-hip-thrust-front_fyBlCJ5.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-hip-thrust-side_evQKCie.png"
+  }
+}

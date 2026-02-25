@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/seated-ulnar-nerve-slider",
+  "sourceUrl": "https://musclewiki.com/exercise/seated-ulnar-nerve-slider",
+  "slug": "biceps-bodyweight-novice-pull-seated-ulnar-nerve-slider",
+  "name": "Seated Ulnar Nerve Slider",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-ulnar-nerve-slider-mobility-seated-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-ulnar-nerve-slider-mobility-seated-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-ulnar-nerve-slider-mobility-seated-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-ulnar-nerve-slider-mobility-seated-side.jpg"
+  }
+}

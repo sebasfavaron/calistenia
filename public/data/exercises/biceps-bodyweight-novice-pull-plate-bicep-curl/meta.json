@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-bicep-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-bicep-curl",
+  "slug": "biceps-bodyweight-novice-pull-plate-bicep-curl",
+  "name": "Plate Bicep Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-bicep-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-bicep-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-bicep-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-bicep-curl-side.jpg"
+  }
+}

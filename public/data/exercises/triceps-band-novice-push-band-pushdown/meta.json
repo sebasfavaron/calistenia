@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/band-pushdown",
+  "sourceUrl": "https://musclewiki.com/exercise/band-pushdown",
+  "slug": "triceps-band-novice-push-band-pushdown",
+  "name": "Band Pushdown",
+  "muscle": "Triceps",
+  "musclesSecondary": [],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-pushdown-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-pushdown-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-pushdown-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-pushdown-side.jpg"
+  }
+}

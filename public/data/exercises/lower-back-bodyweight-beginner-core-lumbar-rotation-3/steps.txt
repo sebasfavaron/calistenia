@@ -1,0 +1,8 @@
+Name: Lumbar Rotation 3
+Muscle: Lower back
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: core
+Source: https://musclewiki.com/exercise/lumbar-rotation-3-supine-passive-ankle-over-opposite-knee
+
+1. No instructions parsed from page

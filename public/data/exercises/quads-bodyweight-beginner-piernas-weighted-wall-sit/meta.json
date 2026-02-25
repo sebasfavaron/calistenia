@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/weighted-wall-sit",
+  "sourceUrl": "https://musclewiki.com/exercise/weighted-wall-sit",
+  "slug": "quads-bodyweight-beginner-piernas-weighted-wall-sit",
+  "name": "Weighted Wall Sit",
+  "muscle": "Quads",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-wall-sit-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-wall-sit-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-wall-sit-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-wall-sit-side.jpg"
+  }
+}

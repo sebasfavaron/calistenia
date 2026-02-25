@@ -1,0 +1,8 @@
+Name: Landmine Single Arm Push Press
+Muscle: Shoulders
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: push
+Source: https://musclewiki.com/exercise/landmine-single-arm-push-press
+
+1. No instructions parsed from page

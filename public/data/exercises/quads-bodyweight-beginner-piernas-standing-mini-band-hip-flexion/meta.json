@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/hip-flexions-standing-resisted",
+  "sourceUrl": "https://musclewiki.com/exercise/hip-flexions-standing-resisted",
+  "slug": "quads-bodyweight-beginner-piernas-standing-mini-band-hip-flexion",
+  "name": "Standing Mini-Band Hip Flexion",
+  "muscle": "Quads",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-hip-flexions-standing-resisted-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-hip-flexions-standing-resisted-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-hip-flexions-standing-resisted-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-hip-flexions-standing-resisted-side.jpg"
+  }
+}

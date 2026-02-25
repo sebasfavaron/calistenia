@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-kneeling-single-arm-pulldown",
+  "sourceUrl": "https://musclewiki.com/exercise/band-kneeling-single-arm-pulldown",
+  "slug": "lats-band-novice-pull-band-kneeling-single-arm-pulldown",
+  "name": "Band Kneeling Single Arm Pulldown",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-kneeling-single-arm-pulldown-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-kneeling-single-arm-pulldown-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-kneeling-single-arm-pulldown-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-kneeling-single-arm-pulldown-side.jpg"
+  }
+}

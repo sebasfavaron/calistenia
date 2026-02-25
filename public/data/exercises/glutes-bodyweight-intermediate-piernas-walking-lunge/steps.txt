@@ -1,0 +1,8 @@
+Name: Walking Lunge
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: piernas
+Source: https://musclewiki.com/exercise/lunge-walking
+
+1. No instructions parsed from page

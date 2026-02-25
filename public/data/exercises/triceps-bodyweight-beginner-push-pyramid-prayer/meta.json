@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/pyramid-prayer",
+  "sourceUrl": "https://musclewiki.com/exercise/pyramid-prayer",
+  "slug": "triceps-bodyweight-beginner-push-pyramid-prayer",
+  "name": "Pyramid Prayer",
+  "muscle": "Triceps",
+  "musclesSecondary": [
+    "Lats"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-prayer-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-prayer-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-prayer-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-prayer-side.jpg"
+  }
+}

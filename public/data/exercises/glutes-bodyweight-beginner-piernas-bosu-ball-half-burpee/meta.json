@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-half-burpee",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-half-burpee",
+  "slug": "glutes-bodyweight-beginner-piernas-bosu-ball-half-burpee",
+  "name": "Bosu Ball Half Burpee",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-half-burpee-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-half-burpee-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-half-burpee-front_SpjeWVR.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-half-burpee-side_01AJsuc.png"
+  }
+}

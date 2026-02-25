@@ -1,0 +1,38 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-plank-arm-lift",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-plank-arm-lift",
+  "slug": "abdominals-bodyweight-beginner-core-bodyweight-plank-arm-lift",
+  "name": "Bodyweight Plank Arm Lift",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Shoulders",
+    "Lateral Deltoid",
+    "Anterior Deltoid",
+    "Posterior Deltoid",
+    "Front Shoulders",
+    "Rear Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-plank-arm-lift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-plank-arm-lift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-plank-arm-lift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-plank-arm-lift-side.jpg"
+  }
+}

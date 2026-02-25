@@ -1,0 +1,8 @@
+Name: Kettlebell Row
+Muscle: Lats
+Equipment: Kettlebells
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/kettlebell-row
+
+1. No instructions parsed from page

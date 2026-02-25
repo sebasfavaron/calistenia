@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/sphinx-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/sphinx-pose",
+  "slug": "lower-back-bodyweight-beginner-core-sphinx-pose",
+  "name": "Sphinx Pose",
+  "muscle": "Lower back",
+  "musclesSecondary": [
+    "Chest"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-sphinx-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-sphinx-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-sphinx-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-sphinx-pose-side.jpg"
+  }
+}

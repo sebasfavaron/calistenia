@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/inverted-row",
+  "sourceUrl": "https://musclewiki.com/exercise/inverted-row",
+  "slug": "traps-mid-back-bodyweight-beginner-pull-inverted-row",
+  "name": "Inverted Row",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-reverse-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-reverse-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-reverse-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-reverse-row-side.jpg"
+  }
+}

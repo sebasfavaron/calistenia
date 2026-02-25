@@ -1,0 +1,8 @@
+Name: Cardio Skater
+Muscle: Glutes
+Equipment: Cardio
+Difficulty: Beginner
+Group: piernas
+Source: https://musclewiki.com/exercise/cardio-skater
+
+1. No instructions parsed from page

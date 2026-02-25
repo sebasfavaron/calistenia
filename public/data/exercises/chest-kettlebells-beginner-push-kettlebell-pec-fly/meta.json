@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-pec-fly",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-pec-fly",
+  "slug": "chest-kettlebells-beginner-push-kettlebell-pec-fly",
+  "name": "Kettlebell Pec Fly",
+  "muscle": "Chest",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-pec-fly-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-pec-fly-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-pec-fly-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-pec-fly-side.jpg"
+  }
+}

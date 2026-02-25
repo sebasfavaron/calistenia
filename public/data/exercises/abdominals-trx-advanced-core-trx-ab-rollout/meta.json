@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-ab-rollout",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-ab-rollout",
+  "slug": "abdominals-trx-advanced-core-trx-ab-rollout",
+  "name": "TRX Ab Rollout",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Lats"
+  ],
+  "equipment": "TRX",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-ab-rollout-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-ab-rollout-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-ab-rollout-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-ab-rollout-side.jpg"
+  }
+}

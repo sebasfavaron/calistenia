@@ -1,0 +1,8 @@
+Name: Scapular Depression
+Muscle: Lower Traps
+Equipment: Bodyweight
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/scapular-depression
+
+1. No instructions parsed from page

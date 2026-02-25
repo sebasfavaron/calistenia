@@ -1,0 +1,8 @@
+Name: TRX Lateral Lunge
+Muscle: Glutes
+Equipment: TRX
+Difficulty: Novice
+Group: piernas
+Source: https://musclewiki.com/exercise/trx-lateral-lunge
+
+1. No instructions parsed from page

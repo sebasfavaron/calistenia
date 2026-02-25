@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-front-raise",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-front-raise",
+  "slug": "anterior-deltoid-bodyweight-beginner-push-bosu-ball-front-raise",
+  "name": "Bosu Ball Front Raise",
+  "muscle": "Anterior Deltoid",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-front-raise-front_aVGJ38p.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-front-raise-side_ipGeGh8.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-front-raise-front_QktL8LA.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-front-raise-side_jXYfCx0.png"
+  }
+}

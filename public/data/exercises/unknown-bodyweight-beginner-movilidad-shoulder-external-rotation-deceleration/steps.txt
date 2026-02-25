@@ -1,0 +1,8 @@
+Name: Shoulder External Rotation Deceleration
+Muscle: Unknown
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: movilidad
+Source: https://musclewiki.com/exercise/shoulder-external-rotation-deceleration
+
+1. No instructions parsed from page

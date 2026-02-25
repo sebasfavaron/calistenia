@@ -1,0 +1,8 @@
+Name: Kettlebell Shrug
+Muscle: Traps
+Equipment: Kettlebells
+Difficulty: Novice
+Group: pull
+Source: https://musclewiki.com/exercise/kettlebell-shrug
+
+1. No instructions parsed from page

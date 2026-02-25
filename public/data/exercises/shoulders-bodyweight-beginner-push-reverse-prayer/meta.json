@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/reverse-prayer",
+  "sourceUrl": "https://musclewiki.com/exercise/reverse-prayer",
+  "slug": "shoulders-bodyweight-beginner-push-reverse-prayer",
+  "name": "Reverse Prayer",
+  "muscle": "Shoulders",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-reverse-prayer-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-reverse-prayer-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-reverse-prayer-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-reverse-prayer-side.jpg"
+  }
+}

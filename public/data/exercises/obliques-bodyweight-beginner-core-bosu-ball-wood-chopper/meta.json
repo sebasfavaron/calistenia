@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-wood-chopper",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-wood-chopper",
+  "slug": "obliques-bodyweight-beginner-core-bosu-ball-wood-chopper",
+  "name": "Bosu Ball Wood Chopper",
+  "muscle": "Obliques",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-wood-chopper-front_zS8IIYb.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-wood-chopper-side_x8xY81r.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-wood-chopper-front_8b6Ebf2.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-wood-chopper-side_6Gi8Ye9.png"
+  }
+}

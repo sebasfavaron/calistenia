@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/standing-doming",
+  "sourceUrl": "https://musclewiki.com/exercise/standing-doming",
+  "slug": "feet-bodyweight-novice-movilidad-standing-doming",
+  "name": "Standing Doming",
+  "muscle": "Feet",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-doming-2-standing-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-doming-2-standing-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-doming-2-standing-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-doming-2-standing-side.jpg"
+  }
+}

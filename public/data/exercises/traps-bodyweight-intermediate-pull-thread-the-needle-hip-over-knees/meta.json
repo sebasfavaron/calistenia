@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees",
+  "sourceUrl": "https://musclewiki.com/exercise/thread-the-needle-hip-over-knees",
+  "slug": "traps-bodyweight-intermediate-pull-thread-the-needle-hip-over-knees",
+  "name": "Thread The Needle Hip Over Knees",
+  "muscle": "Traps",
+  "musclesSecondary": [
+    "Obliques"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-thread-the-needle-hip-over-knees-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-thread-the-needle-hip-over-knees-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-thread-the-needle-hip-over-knees-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-thread-the-needle-hip-over-knees-side.jpg"
+  }
+}

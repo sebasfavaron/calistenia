@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/dead-bugs-cross-lateral",
+  "sourceUrl": "https://musclewiki.com/exercise/dead-bugs-cross-lateral",
+  "slug": "abdominals-bodyweight-beginner-core-dead-bugs-cross-lateral",
+  "name": "Dead Bugs Cross Lateral",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dead-bugs-cross-lateral-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dead-bugs-cross-lateral-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dead-bugs-cross-lateral-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dead-bugs-cross-lateral-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Box Supported Single Leg Deadlift
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Advanced
+Group: piernas
+Source: https://musclewiki.com/exercise/single-leg-deadlift-1-box-support
+
+1. No instructions parsed from page

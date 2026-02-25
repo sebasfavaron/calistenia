@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-lateral-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-lateral-lunge",
+  "slug": "glutes-bodyweight-novice-piernas-plate-lateral-lunge",
+  "name": "Plate Lateral Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Quads"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-lateral-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-lateral-lunge-side.jpg"
+  }
+}

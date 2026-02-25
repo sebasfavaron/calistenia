@@ -1,0 +1,38 @@
+{
+  "id": "https://musclewiki.com/exercise/plank-iytw",
+  "sourceUrl": "https://musclewiki.com/exercise/plank-iytw",
+  "slug": "abdominals-bodyweight-intermediate-core-plank-iytw",
+  "name": "Plank IYTW",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Shoulders",
+    "Lateral Deltoid",
+    "Anterior Deltoid",
+    "Posterior Deltoid",
+    "Front Shoulders",
+    "Rear Shoulders"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-plank-iytw-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-plank-iytw-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-plank-iytw-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-plank-iytw-side.jpg"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/swing-to-upright-row",
+  "sourceUrl": "https://musclewiki.com/exercise/swing-to-upright-row",
+  "slug": "shoulders-bodyweight-intermediate-push-swing-to-upright-row",
+  "name": "Swing To Upright Row",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Glutes",
+    "Hamstrings"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-swing-to-upright-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-swing-to-upright-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-swing-to-upright-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-swing-to-upright-row-side.jpg"
+  }
+}

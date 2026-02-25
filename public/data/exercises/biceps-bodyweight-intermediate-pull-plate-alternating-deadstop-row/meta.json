@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-alternating-deadstop-row",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-alternating-deadstop-row",
+  "slug": "biceps-bodyweight-intermediate-pull-plate-alternating-deadstop-row",
+  "name": "Plate Alternating Deadstop Row",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-alternating-deadstop-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-alternating-deadstop-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-alternating-deadstop-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-alternating-deadstop-row-side.jpg"
+  }
+}

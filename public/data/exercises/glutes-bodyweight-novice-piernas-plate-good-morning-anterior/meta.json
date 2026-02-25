@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-good-morning-anterior",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-good-morning-anterior",
+  "slug": "glutes-bodyweight-novice-piernas-plate-good-morning-anterior",
+  "name": "Plate Good Morning Anterior",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-good-morning-anterior-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-good-morning-anterior-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-good-morning-anterior-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-good-morning-anterior-side.jpg"
+  }
+}

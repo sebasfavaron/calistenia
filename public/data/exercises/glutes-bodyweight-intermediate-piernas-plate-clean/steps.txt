@@ -1,0 +1,8 @@
+Name: Plate Clean
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: piernas
+Source: https://musclewiki.com/exercise/plate-clean
+
+1. No instructions parsed from page

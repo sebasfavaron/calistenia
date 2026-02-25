@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-single-arm-reverse-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-single-arm-reverse-curl",
+  "slug": "biceps-kettlebells-beginner-pull-kettlebell-single-arm-reverse-curl",
+  "name": "Kettlebell Single Arm Reverse Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-single-arm-reverse-curl-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-kettlebell-single-arm-reverse-curl-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-single-arm-reverse-curl-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-kettlebell-single-arm-reverse-curl-side.jpg"
+  }
+}

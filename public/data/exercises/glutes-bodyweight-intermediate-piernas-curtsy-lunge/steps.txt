@@ -1,0 +1,8 @@
+Name: Curtsy Lunge
+Muscle: Glutes
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: piernas
+Source: https://musclewiki.com/exercise/curtsy-lunge
+
+1. No instructions parsed from page

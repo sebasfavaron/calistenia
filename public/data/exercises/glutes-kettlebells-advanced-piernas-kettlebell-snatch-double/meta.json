@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-snatch-double",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-snatch-double",
+  "slug": "glutes-kettlebells-advanced-piernas-kettlebell-snatch-double",
+  "name": "Kettlebell Snatch (Double)",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Shoulders",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-double-snatch-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-double-snatch-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-double-snatch-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-double-snatch-side.jpg"
+  }
+}

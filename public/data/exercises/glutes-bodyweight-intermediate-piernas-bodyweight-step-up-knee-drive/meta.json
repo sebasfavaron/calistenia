@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/step-up-knee-drive",
+  "sourceUrl": "https://musclewiki.com/exercise/step-up-knee-drive",
+  "slug": "glutes-bodyweight-intermediate-piernas-bodyweight-step-up-knee-drive",
+  "name": "Bodyweight Step Up Knee Drive",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-step-up-knee-drive-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-step-up-knee-drive-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-step-up-knee-drive-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-step-up-knee-drive-side.jpg"
+  }
+}

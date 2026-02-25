@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-figure-four-hip-thrust",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-figure-four-hip-thrust",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-figure-four-hip-thrust",
+  "name": "Kettlebell Figure Four Hip Thrust",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-figure-four-hip-thrust-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-figure-four-hip-thrust-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-figure-four-hip-thrust-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-figure-four-hip-thrust-side.jpg"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/core-stability-4-crosslateral-limb-raise-push-up-position",
+  "sourceUrl": "https://musclewiki.com/exercise/core-stability-4-crosslateral-limb-raise-push-up-position",
+  "slug": "abdominals-bodyweight-advanced-core-core-stability-4-crosslateral-limb-raise-push-up-position",
+  "name": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-core-stability-4-crosslateral-limb-raise-push-up-position-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-core-stability-4-crosslateral-limb-raise-push-up-position-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-core-stability-4-crosslateral-limb-raise-push-up-position-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-core-stability-4-crosslateral-limb-raise-push-up-position-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Band Face Pull
+Muscle: Shoulders
+Equipment: Band
+Difficulty: Novice
+Group: push
+Source: https://musclewiki.com/exercise/band-face-pull
+
+1. No instructions parsed from page

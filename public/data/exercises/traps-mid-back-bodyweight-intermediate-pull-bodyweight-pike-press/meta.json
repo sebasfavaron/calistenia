@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-pike-press",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-pike-press",
+  "slug": "traps-mid-back-bodyweight-intermediate-pull-bodyweight-pike-press",
+  "name": "Bodyweight Pike Press",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [
+    "Anterior Deltoid",
+    "Traps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-pike-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-pike-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-pike-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-pike-press-side.jpg"
+  }
+}

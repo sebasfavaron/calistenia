@@ -1,0 +1,17 @@
+{
+  "name": "calistenia",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync": "node scripts/musclewiki-sync.mjs",
+    "crawl": "node scripts/musclewiki-crawl.mjs",
+    "validate:data": "node scripts/validate-manifest.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}

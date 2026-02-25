@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-situp",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-situp",
+  "slug": "abdominals-bodyweight-beginner-core-bosu-ball-situp",
+  "name": "Bosu Ball Situp",
+  "muscle": "Abdominals",
+  "musclesSecondary": [
+    "Upper Abdominals"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-situp-front_7xFEzRA.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-situp-side_ukGGlAR.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-situp-front_2NGpf9G.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-situp-side_L7gyOC3.png"
+  }
+}

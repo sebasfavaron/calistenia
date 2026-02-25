@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/wall-supported-dorsal-flexion",
+  "sourceUrl": "https://musclewiki.com/exercise/wall-supported-dorsal-flexion",
+  "slug": "tibialis-bodyweight-novice-movilidad-wall-supported-dorsal-flexion",
+  "name": "Wall Supported Dorsal Flexion",
+  "muscle": "Tibialis",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "movilidad",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dorsal-flexion-1-isometric-standing-bilateral-wall-support-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-dorsal-flexion-1-isometric-standing-bilateral-wall-support-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dorsal-flexion-1-isometric-standing-bilateral-wall-support-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-dorsal-flexion-1-isometric-standing-bilateral-wall-support-side.jpg"
+  }
+}

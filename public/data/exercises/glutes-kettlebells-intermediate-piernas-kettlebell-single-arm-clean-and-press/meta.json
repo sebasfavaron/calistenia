@@ -1,0 +1,35 @@
+{
+  "id": "https://musclewiki.com/exercise/kettlebell-single-arm-clean-and-press",
+  "sourceUrl": "https://musclewiki.com/exercise/kettlebell-single-arm-clean-and-press",
+  "slug": "glutes-kettlebells-intermediate-piernas-kettlebell-single-arm-clean-and-press",
+  "name": "Kettlebell Single Arm Clean And Press",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Shoulders",
+    "Anterior Deltoid",
+    "Front Shoulders"
+  ],
+  "equipment": "Kettlebells",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-clean-and-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Kettlebells-single-arm-clean-and-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-clean-and-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Kettlebells-single-arm-clean-and-press-side.jpg"
+  }
+}

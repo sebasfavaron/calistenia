@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/bodyweight-hands-up-push-ups",
+  "sourceUrl": "https://musclewiki.com/exercise/bodyweight-hands-up-push-ups",
+  "slug": "chest-bodyweight-beginner-push-bodyweight-hands-up-push-ups",
+  "name": "Bodyweight Hands Up Push Ups",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Anterior Deltoid",
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-hands-up-push-ups-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-bodyweight-hands-up-push-ups-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-hands-up-push-ups-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-bodyweight-hands-up-push-ups-side.jpg"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/weighted-pull-ups",
+  "sourceUrl": "https://musclewiki.com/exercise/weighted-pull-ups",
+  "slug": "lats-bodyweight-advanced-pull-weighted-pull-ups",
+  "name": "Weighted Pull Ups",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps",
+    "Traps (mid-back)"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-pull-ups-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-weighted-pull-ups-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-pull-ups-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Plate-weighted-pull-ups-side.jpg"
+  }
+}

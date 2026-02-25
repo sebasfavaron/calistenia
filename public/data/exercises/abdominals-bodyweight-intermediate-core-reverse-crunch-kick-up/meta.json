@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/reverse-crunch-kick-up",
+  "sourceUrl": "https://musclewiki.com/exercise/reverse-crunch-kick-up",
+  "slug": "abdominals-bodyweight-intermediate-core-reverse-crunch-kick-up",
+  "name": "Reverse Crunch Kick Up",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-reverse-crunch-kick-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-reverse-crunch-kick-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-reverse-crunch-kick-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-reverse-crunch-kick-up-side.jpg"
+  }
+}

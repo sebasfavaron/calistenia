@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-weighted-inverted-row",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-weighted-inverted-row",
+  "slug": "traps-mid-back-bodyweight-intermediate-pull-plate-weighted-inverted-row",
+  "name": "Plate Weighted Inverted Row",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-plate-weighted-inverted-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Plate-plate-weighted-inverted-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Plate-plate-weighted-inverted-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Plate-plate-weighted-inverted-row-side.jpg"
+  }
+}

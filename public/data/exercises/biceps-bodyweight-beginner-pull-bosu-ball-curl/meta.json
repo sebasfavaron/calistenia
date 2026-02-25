@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-curl",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-curl",
+  "slug": "biceps-bodyweight-beginner-pull-bosu-ball-curl",
+  "name": "Bosu Ball Curl",
+  "muscle": "Biceps",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-curl-front_nMxSwDj.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-curl-side_QaGIw29.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-curl-front_FmsNAsO.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-curl-side_XYJteLs.png"
+  }
+}

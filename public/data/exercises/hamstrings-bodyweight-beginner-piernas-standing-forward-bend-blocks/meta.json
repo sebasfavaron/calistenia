@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/standing-forward-bend-blocks",
+  "sourceUrl": "https://musclewiki.com/exercise/standing-forward-bend-blocks",
+  "slug": "hamstrings-bodyweight-beginner-piernas-standing-forward-bend-blocks",
+  "name": "Standing Forward Bend Blocks",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [
+    "Calves"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-standing-forward-bend-blocks-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-standing-forward-bend-blocks-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-standing-forward-bend-blocks-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-standing-forward-bend-blocks-side.jpg"
+  }
+}

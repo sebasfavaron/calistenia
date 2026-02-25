@@ -1,0 +1,8 @@
+Name: Kettlebell Upright Row Single
+Muscle: Lateral Deltoid
+Equipment: Kettlebells
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/kettlebell-upright-row-single
+
+1. No instructions parsed from page

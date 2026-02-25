@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lumbar-rotation-1-supine-passive",
+  "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-1-supine-passive",
+  "slug": "lower-back-bodyweight-beginner-core-lumbar-rotation-1",
+  "name": "Lumbar Rotation 1",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-rotation-1-supine-passive-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-rotation-1-supine-passive-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-rotation-1-supine-passive-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-rotation-1-supine-passive-side.jpg"
+  }
+}

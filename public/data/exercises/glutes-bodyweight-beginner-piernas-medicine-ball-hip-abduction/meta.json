@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/hip-abduction",
+  "sourceUrl": "https://musclewiki.com/exercise/hip-abduction",
+  "slug": "glutes-bodyweight-beginner-piernas-medicine-ball-hip-abduction",
+  "name": "Medicine Ball Hip Abduction",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-hip-abduction-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-hip-abduction-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-hip-abduction-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-hip-abduction-side.jpg"
+  }
+}

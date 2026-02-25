@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/supine-twist-lying",
+  "sourceUrl": "https://musclewiki.com/exercise/supine-twist-lying",
+  "slug": "obliques-bodyweight-beginner-core-supine-twist-lying",
+  "name": "Supine Twist Lying",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-supine-twist-lying-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-supine-twist-lying-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-supine-twist-lying-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-supine-twist-lying-side.jpg"
+  }
+}

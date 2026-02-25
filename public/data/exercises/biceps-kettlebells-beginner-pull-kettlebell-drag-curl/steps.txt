@@ -1,0 +1,8 @@
+Name: Kettlebell Drag Curl
+Muscle: Biceps
+Equipment: Kettlebells
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/kettlebell-drag-curl
+
+1. No instructions parsed from page

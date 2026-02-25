@@ -1,0 +1,8 @@
+Name: TRX Rear Delt Fly
+Muscle: Shoulders
+Equipment: TRX
+Difficulty: Intermediate
+Group: push
+Source: https://musclewiki.com/exercise/trx-rear-delt-fly
+
+1. No instructions parsed from page

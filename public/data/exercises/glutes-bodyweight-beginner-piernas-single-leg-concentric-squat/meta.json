@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/squat-concentric-single-leg",
+  "sourceUrl": "https://musclewiki.com/exercise/squat-concentric-single-leg",
+  "slug": "glutes-bodyweight-beginner-piernas-single-leg-concentric-squat",
+  "name": "Single Leg Concentric Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-squat-concentric-single-leg-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-squat-concentric-single-leg-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-squat-concentric-single-leg-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-squat-concentric-single-leg-side.jpg"
+  }
+}

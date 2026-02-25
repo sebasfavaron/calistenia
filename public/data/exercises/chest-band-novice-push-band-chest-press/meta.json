@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-chest-press",
+  "sourceUrl": "https://musclewiki.com/exercise/band-chest-press",
+  "slug": "chest-band-novice-push-band-chest-press",
+  "name": "Band Chest Press",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-chest-press-front_XYmSX4f.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-band-chest-press-side_vYKZsWt.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-band-chest-press-front_XYmSX4f.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-band-chest-press-side_vYKZsWt.jpg"
+  }
+}

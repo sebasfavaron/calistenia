@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/seated-arm-stretch",
+  "sourceUrl": "https://musclewiki.com/exercise/seated-arm-stretch",
+  "slug": "biceps-bodyweight-beginner-pull-seated-arm-stretch",
+  "name": "Seated Arm Stretch",
+  "muscle": "Biceps",
+  "musclesSecondary": [
+    "Forearms"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-seated-arm-stretch-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-seated-arm-stretch-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-arm-stretch-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-arm-stretch-side.jpg"
+  }
+}

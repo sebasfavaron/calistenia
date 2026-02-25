@@ -1,0 +1,8 @@
+Name: Bosu Ball Curl
+Muscle: Biceps
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: pull
+Source: https://musclewiki.com/exercise/bosu-ball-curl
+
+1. No instructions parsed from page

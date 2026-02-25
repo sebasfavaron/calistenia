@@ -1,0 +1,8 @@
+Name: Tree Pose
+Muscle: Chest
+Equipment: Bodyweight
+Difficulty: Novice
+Group: push
+Source: https://musclewiki.com/exercise/tree-pose
+
+1. No instructions parsed from page

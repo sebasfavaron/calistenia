@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lumbar-rotation-3-supine-passive-ankle-over-opposite-knee",
+  "sourceUrl": "https://musclewiki.com/exercise/lumbar-rotation-3-supine-passive-ankle-over-opposite-knee",
+  "slug": "lower-back-bodyweight-beginner-core-lumbar-rotation-3",
+  "name": "Lumbar Rotation 3",
+  "muscle": "Lower back",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-rotation-3-supine-passive-ankle-over-opposite-knee-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-lumbar-rotation-3-supine-passive-ankle-over-opposite-knee-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-rotation-3-supine-passive-ankle-over-opposite-knee-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-lumbar-rotation-3-supine-passive-ankle-over-opposite-knee-side.jpg"
+  }
+}

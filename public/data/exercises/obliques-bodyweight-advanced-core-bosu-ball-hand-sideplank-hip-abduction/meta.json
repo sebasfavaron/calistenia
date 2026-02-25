@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank-hip-abduction",
+  "sourceUrl": "https://musclewiki.com/exercise/bosu-ball-hand-sideplank-hip-abduction",
+  "slug": "obliques-bodyweight-advanced-core-bosu-ball-hand-sideplank-hip-abduction",
+  "name": "Bosu Ball Hand Sideplank Hip Abduction",
+  "muscle": "Obliques",
+  "musclesSecondary": [
+    "Gluteus Medius"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-hand-sideplank-hip-abduction-front_KDDTQhN.png",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bosu-Ball-hand-sideplank-hip-abduction-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-hand-sideplank-hip-abduction-front_KDDTQhN.png",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bosu-Ball-hand-sideplank-hip-abduction-front_KDDTQhN.png"
+  }
+}

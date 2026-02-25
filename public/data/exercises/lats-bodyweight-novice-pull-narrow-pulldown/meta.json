@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/narrow-pulldown",
+  "sourceUrl": "https://musclewiki.com/exercise/narrow-pulldown",
+  "slug": "lats-bodyweight-novice-pull-narrow-pulldown",
+  "name": "Narrow Pulldown",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps",
+    "Traps (mid-back)"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-narrow-pulldown-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-narrow-pulldown-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Machine-narrow-pulldown-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Machine-narrow-pulldown-side.jpg"
+  }
+}

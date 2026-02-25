@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/band-pull-apart",
+  "sourceUrl": "https://musclewiki.com/exercise/band-pull-apart",
+  "slug": "shoulders-band-novice-push-band-pull-apart",
+  "name": "Band Pull Apart",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Traps (mid-back)"
+  ],
+  "equipment": "Band",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-pull-apart-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Band-band-pull-apart-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Band-band-pull-apart-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Band-band-pull-apart-side.jpg"
+  }
+}

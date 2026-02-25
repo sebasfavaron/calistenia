@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/side-step-on-and-off-box",
+  "sourceUrl": "https://musclewiki.com/exercise/side-step-on-and-off-box",
+  "slug": "glutes-bodyweight-beginner-piernas-side-step-on-and-off-box",
+  "name": "Side Step On And Off Box",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/og-male-Recovery-side-step-on-and-off-box-front.jpg",
+      "kind": "image",
+      "gender": "male",
+      "angle": "side"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-side-step-on-and-off-box-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-side-step-on-and-off-box-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-side-step-on-and-off-box-side.jpg"
+  }
+}

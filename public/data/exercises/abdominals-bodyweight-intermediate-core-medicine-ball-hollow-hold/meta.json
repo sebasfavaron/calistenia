@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/medicine-ball-hollow-hold",
+  "sourceUrl": "https://musclewiki.com/exercise/medicine-ball-hollow-hold",
+  "slug": "abdominals-bodyweight-intermediate-core-medicine-ball-hollow-hold",
+  "name": "Medicine Ball Hollow Hold",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-hollow-hold-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-hollow-hold-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-hollow-hold-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-hollow-hold-side.jpg"
+  }
+}

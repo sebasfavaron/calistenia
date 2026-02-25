@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/pushup-to-renegade-row",
+  "sourceUrl": "https://musclewiki.com/exercise/pushup-to-renegade-row",
+  "slug": "chest-bodyweight-intermediate-push-pushup-to-renegade-row",
+  "name": "Pushup to Renegade Row",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Lats"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-pushup-renegade-row-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-dumbbell-pushup-renegade-row-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-pushup-renegade-row-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-dumbbell-pushup-renegade-row-side.jpg"
+  }
+}

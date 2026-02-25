@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/pyramid-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/pyramid-pose",
+  "slug": "hamstrings-bodyweight-beginner-piernas-pyramid-pose",
+  "name": "Pyramid Pose",
+  "muscle": "Hamstrings",
+  "musclesSecondary": [
+    "Calves"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-pyramid-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-pyramid-pose-side.jpg"
+  }
+}

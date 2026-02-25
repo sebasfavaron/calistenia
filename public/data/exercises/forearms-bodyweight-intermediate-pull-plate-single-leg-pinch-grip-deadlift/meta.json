@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-single-leg-pinch-grip-deadlift",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-single-leg-pinch-grip-deadlift",
+  "slug": "forearms-bodyweight-intermediate-pull-plate-single-leg-pinch-grip-deadlift",
+  "name": "Plate Single Leg Pinch Grip Deadlift",
+  "muscle": "Forearms",
+  "musclesSecondary": [
+    "Glutes"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-single-leg-pinch-grip-deadlift-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-single-leg-pinch-grip-deadlift-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-single-leg-pinch-grip-deadlift-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-single-leg-pinch-grip-deadlift-side.jpg"
+  }
+}

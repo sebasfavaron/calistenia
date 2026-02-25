@@ -1,0 +1,49 @@
+{
+  "id": "https://musclewiki.com/exercise/chin-ups",
+  "sourceUrl": "https://musclewiki.com/exercise/chin-ups",
+  "slug": "lats-bodyweight-intermediate-pull-chin-ups",
+  "name": "Chin Ups",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "pull",
+  "steps": [
+    "Try the Neutral Grip Chin Up. It’s an easier variation because the lats are in their strongest position.",
+    "Shorten the range of motion, and try to get a longer range of motion overtime. if you can only do half a Chin Up, (meaning you can get your elbows to roughly 90°) don't be ashamed to do those half reps. Set a rep range like with anything else. We will use 5 to 8 reps for this example. Once you are able to hit 8 of the half reps, try to go an extra 2 to 3 inches higher on each rep. You won't be able to do 8 when you advance the range of motion. So Build your way back up to 8.",
+    "How To Perform The Chin Up",
+    "Setup",
+    "Grab the Chin Up bar with an underhand grip. Make sure the bars are set very deeply in your hand. Your palms should be making contact with the bar.",
+    "Next, if you are using a bench or box to reach the Chin Up bars, step off of the step, and hold for a second, in a dead hang position. If you begin initiating the reps before the dead hang, you might swing too much to perform the exercise strictly. If you can reach the bars without having to stand on anything, take your grip and then pull your feet slightly off the floor. Still hold for a second to prevent any swinging from happening.",
+    "Pull your shoulder blades down. This will engage your mid and lower traps and force your lats to do most of the work. Also, before beginning the first rep, make sure your elbows are extended.",
+    "Lower body",
+    "Angle your legs forward slightly, push your hips back, and point your toes. This will force you to flex your abdominals and keep you more stable throughout the rep. (This will massively help you keep the reps strict).",
+    "Performing",
+    "Once you are in the proper position, begin to pull. Imagine trying to pull your elbows straight down to your sides.",
+    "Get your chin over the bar before beginning the eccentric portion of the rap. Your elbows should fully extend at the bottom of each rep.",
+    "Progressing The Chin Up",
+    "Decide on a rep range. For example, 6 to 10. Once you are able to perform 10 reps with strict form, then it is time to progress. Do not be shy or hesitant to start adding weight early on. Even if it is only 5 pounds. Progress is progress! From there, progress like you would any other exercise. Once you hit the top end of the rep range, add some more weight.",
+    "The best way to get better at doing Chin Ups is to do Chin Ups. But if you can't do them in the first place, then what should you do?"
+  ],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-chinup-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-bodyweight-chinup-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-chinup-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-bodyweight-chinup-side.jpg"
+  }
+}

@@ -1,0 +1,8 @@
+Name: Cardio Row Erg Rower Legs Only
+Muscle: Glutes
+Equipment: Cardio
+Difficulty: Beginner
+Group: piernas
+Source: https://musclewiki.com/exercise/cardio-row-erg-rower-legs-only
+
+1. No instructions parsed from page

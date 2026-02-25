@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/plate-squat",
+  "sourceUrl": "https://musclewiki.com/exercise/plate-squat",
+  "slug": "glutes-bodyweight-novice-piernas-plate-squat",
+  "name": "Plate Squat",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-plate-squat-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-plate-squat-side.jpg"
+  }
+}

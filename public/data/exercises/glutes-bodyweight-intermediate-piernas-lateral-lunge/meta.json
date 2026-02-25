@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/lateral-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/lateral-lunge",
+  "slug": "glutes-bodyweight-intermediate-piernas-lateral-lunge",
+  "name": "Lateral Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Intermediate",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-lateral-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-lateral-lunge-side.jpg"
+  }
+}

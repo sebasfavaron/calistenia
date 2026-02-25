@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/puppy-pose",
+  "sourceUrl": "https://musclewiki.com/exercise/puppy-pose",
+  "slug": "shoulders-bodyweight-beginner-push-puppy-pose",
+  "name": "Puppy Pose",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Lats"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-puppy-pose-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-puppy-pose-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-puppy-pose-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-puppy-pose-side.jpg"
+  }
+}

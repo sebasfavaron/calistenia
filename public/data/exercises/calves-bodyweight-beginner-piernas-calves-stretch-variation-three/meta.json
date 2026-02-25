@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/calves-stretch-variation-three",
+  "sourceUrl": "https://musclewiki.com/exercise/calves-stretch-variation-three",
+  "slug": "calves-bodyweight-beginner-piernas-calves-stretch-variation-three",
+  "name": "Calves Stretch Variation Three",
+  "muscle": "Calves",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-calves-stretch-variation-3-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-calves-stretch-variation-3-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-calves-stretch-variation-3-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-calves-stretch-variation-3-side.jpg"
+  }
+}

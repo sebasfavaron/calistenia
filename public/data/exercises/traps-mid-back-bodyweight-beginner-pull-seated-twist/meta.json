@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/seated-twist",
+  "sourceUrl": "https://musclewiki.com/exercise/seated-twist",
+  "slug": "traps-mid-back-bodyweight-beginner-pull-seated-twist",
+  "name": "Seated Twist",
+  "muscle": "Traps (mid-back)",
+  "musclesSecondary": [
+    "Obliques"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-seated-twist-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-yoga-seated-twist-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-twist-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-yoga-seated-twist-side.jpg"
+  }
+}

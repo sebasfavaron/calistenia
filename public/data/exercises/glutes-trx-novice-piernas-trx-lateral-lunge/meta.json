@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/trx-lateral-lunge",
+  "sourceUrl": "https://musclewiki.com/exercise/trx-lateral-lunge",
+  "slug": "glutes-trx-novice-piernas-trx-lateral-lunge",
+  "name": "TRX Lateral Lunge",
+  "muscle": "Glutes",
+  "musclesSecondary": [],
+  "equipment": "TRX",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-lateral-lunge-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-trx-lateral-lunge-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-trx-lateral-lunge-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-trx-lateral-lunge-side.jpg"
+  }
+}

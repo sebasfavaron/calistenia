@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/single-leg-deadlift-1-box-support",
+  "sourceUrl": "https://musclewiki.com/exercise/single-leg-deadlift-1-box-support",
+  "slug": "glutes-bodyweight-advanced-piernas-box-supported-single-leg-deadlift",
+  "name": "Box Supported Single Leg Deadlift",
+  "muscle": "Glutes",
+  "musclesSecondary": [
+    "Lower back"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-single-leg-deadlift-1-box-support-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Recovery-single-leg-deadlift-1-box-support-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Recovery-single-leg-deadlift-1-box-support-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Recovery-single-leg-deadlift-1-box-support-side.jpg"
+  }
+}

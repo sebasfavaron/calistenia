@@ -1,0 +1,8 @@
+Name: Wild Thing Pose
+Muscle: Obliques
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: core
+Source: https://musclewiki.com/exercise/wild-thing-pose
+
+1. No instructions parsed from page

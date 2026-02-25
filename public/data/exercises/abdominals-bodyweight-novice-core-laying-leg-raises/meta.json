@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/laying-leg-raises",
+  "sourceUrl": "https://musclewiki.com/exercise/laying-leg-raises",
+  "slug": "abdominals-bodyweight-novice-core-laying-leg-raises",
+  "name": "Laying Leg Raises",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-laying-leg-raises-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-laying-leg-raises-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-laying-leg-raises-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-laying-leg-raises-side.jpg"
+  }
+}

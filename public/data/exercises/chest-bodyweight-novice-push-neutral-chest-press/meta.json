@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/neutral-chest-press",
+  "sourceUrl": "https://musclewiki.com/exercise/neutral-chest-press",
+  "slug": "chest-bodyweight-novice-push-neutral-chest-press",
+  "name": "Neutral Chest Press",
+  "muscle": "Chest",
+  "musclesSecondary": [
+    "Triceps"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-neutral-chest-press-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Machine-neutral-chest-press-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Machine-neutral-chest-press-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Machine-neutral-chest-press-side.jpg"
+  }
+}

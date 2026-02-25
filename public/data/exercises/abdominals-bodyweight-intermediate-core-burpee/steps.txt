@@ -1,0 +1,8 @@
+Name: Burpee
+Muscle: Abdominals
+Equipment: Bodyweight
+Difficulty: Intermediate
+Group: core
+Source: https://musclewiki.com/exercise/burpee
+
+1. No instructions parsed from page

@@ -1,0 +1,8 @@
+Name: Bodyweight Knee Tricep Extension
+Muscle: Triceps
+Equipment: Bodyweight
+Difficulty: Beginner
+Group: push
+Source: https://musclewiki.com/exercise/bodyweight-knee-tricep-extension
+
+1. No instructions parsed from page

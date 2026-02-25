@@ -1,0 +1,33 @@
+{
+  "id": "https://musclewiki.com/exercise/halo",
+  "sourceUrl": "https://musclewiki.com/exercise/halo",
+  "slug": "shoulders-bodyweight-beginner-push-medicine-ball-halo",
+  "name": "Medicine Ball Halo",
+  "muscle": "Shoulders",
+  "musclesSecondary": [
+    "Abdominals"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "push",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-halo-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Medicine-Ball-halo-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-halo-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Medicine-Ball-halo-side.jpg"
+  }
+}

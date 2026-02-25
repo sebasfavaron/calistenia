@@ -1,0 +1,34 @@
+{
+  "id": "https://musclewiki.com/exercise/ring-pull-up",
+  "sourceUrl": "https://musclewiki.com/exercise/ring-pull-up",
+  "slug": "lats-bodyweight-advanced-pull-ring-pull-up",
+  "name": "Ring Pull Up",
+  "muscle": "Lats",
+  "musclesSecondary": [
+    "Biceps",
+    "Traps (mid-back)"
+  ],
+  "equipment": "Bodyweight",
+  "difficulty": "Advanced",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-ring-pull-up-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Bodyweight-ring-pull-up-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-ring-pull-up-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Bodyweight-ring-pull-up-side.jpg"
+  }
+}

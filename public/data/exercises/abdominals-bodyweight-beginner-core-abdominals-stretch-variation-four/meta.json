@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/abdominals-stretch-variation-four",
+  "sourceUrl": "https://musclewiki.com/exercise/abdominals-stretch-variation-four",
+  "slug": "abdominals-bodyweight-beginner-core-abdominals-stretch-variation-four",
+  "name": "Abdominals Stretch Variation Four",
+  "muscle": "Abdominals",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "core",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-abdominals-stretch-variation-4-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-abdominals-stretch-variation-4-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-abdominals-stretch-variation-4-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-abdominals-stretch-variation-4-side.jpg"
+  }
+}

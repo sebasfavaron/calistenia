@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/treadmill-backwards-walk",
+  "sourceUrl": "https://musclewiki.com/exercise/treadmill-backwards-walk",
+  "slug": "quads-bodyweight-beginner-piernas-treadmill-backwards-walk",
+  "name": "Treadmill Backwards Walk",
+  "muscle": "Quads",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Beginner",
+  "force": "",
+  "group": "piernas",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-treadmill-backwards-walk-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Cardio-treadmill-backwards-walk-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Cardio-treadmill-backwards-walk-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Cardio-treadmill-backwards-walk-side.jpg"
+  }
+}

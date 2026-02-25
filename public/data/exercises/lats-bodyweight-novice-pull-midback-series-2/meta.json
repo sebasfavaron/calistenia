@@ -1,0 +1,31 @@
+{
+  "id": "https://musclewiki.com/exercise/pilates-midback-series-2",
+  "sourceUrl": "https://musclewiki.com/exercise/pilates-midback-series-2",
+  "slug": "lats-bodyweight-novice-pull-midback-series-2",
+  "name": "Midback Series 2",
+  "muscle": "Lats",
+  "musclesSecondary": [],
+  "equipment": "Bodyweight",
+  "difficulty": "Novice",
+  "force": "",
+  "group": "pull",
+  "steps": [],
+  "mediaRefs": {
+    "front": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-midback-series-2-front.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "front"
+    },
+    "side": {
+      "url": "https://media.musclewiki.com/media/uploads/videos/branded/male-Pilates-midback-series-2-side.mp4",
+      "kind": "video",
+      "gender": "male",
+      "angle": "side"
+    }
+  },
+  "posterRefs": {
+    "front": "https://media.musclewiki.com/media/uploads/og-male-Pilates-midback-series-2-front.jpg",
+    "side": "https://media.musclewiki.com/media/uploads/og-male-Pilates-midback-series-2-side.jpg"
+  }
+}
