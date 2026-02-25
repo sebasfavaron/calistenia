@@ -46,6 +46,8 @@ let visible = [];
 let currentIndex = -1;
 const filters = { ...defaultFilters };
 let gridVideoObserver = null;
+let loadMoreObserver = null;
+let autoPagingLocked = false;
 
 const lightbox = createLightbox((dir) => navigateLightbox(dir));
 document.body.appendChild(lightbox.root);
@@ -58,8 +60,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 loadMoreBtn.addEventListener('click', () => {
-  page += 1;
-  rerenderGrid();
+  loadNextPage();
 });
 
 filtersToggleBtn.addEventListener('click', () => {
@@ -135,13 +136,14 @@ function buildFilters(values) {
     for (const value of map[config.key] ?? ['todos']) {
       const btn = document.createElement('button');
       btn.type = 'button';
-      btn.className = 'pill' + ((filters[config.key] ?? 'todos') === value ? ' active' : '');
+      btn.className = 'pill' + (isFilterValueSelected(config.key, value) ? ' active' : '');
       btn.dataset.key = config.key;
       btn.dataset.value = value;
       btn.textContent = formatFilterOption(config.key, value);
       btn.addEventListener('click', () => {
-        if (filters[config.key] === value) return;
-        filters[config.key] = value;
+        const next = toggleFilterValue(filters[config.key], value);
+        if (sameFilterSelection(filters[config.key], next)) return;
+        filters[config.key] = next;
         page = 1;
         buildFilters(values);
         applyFilters();
@@ -155,6 +157,33 @@ function buildFilters(values) {
     box.prepend(title);
     filtersEl.appendChild(box);
   }
+}
+
+function isFilterValueSelected(key, value) {
+  const selected = Array.isArray(filters[key]) ? filters[key] : [filters[key] ?? 'todos'];
+  return selected.includes(value);
+}
+
+function toggleFilterValue(current, value) {
+  const selected = new Set(Array.isArray(current) ? current : [current ?? 'todos']);
+
+  if (value === 'todos') return ['todos'];
+
+  selected.delete('todos');
+  if (selected.has(value)) {
+    selected.delete(value);
+  } else {
+    selected.add(value);
+  }
+
+  return selected.size ? [...selected] : ['todos'];
+}
+
+function sameFilterSelection(a, b) {
+  const aList = Array.isArray(a) ? a : [a ?? 'todos'];
+  const bList = Array.isArray(b) ? b : [b ?? 'todos'];
+  if (aList.length !== bList.length) return false;
+  return aList.every((v, i) => v === bList[i]);
 }
 
 function setFiltersPanelOpen(isOpen) {
@@ -184,7 +213,11 @@ function rerenderGrid() {
   });
   setupGridVideoObserver(videos);
 
-  loadMoreBtn.style.display = visible.length < filtered.length ? 'inline-flex' : 'none';
+  const hasMore = visible.length < filtered.length;
+  loadMoreBtn.style.display = hasMore ? 'inline-flex' : 'none';
+  loadMoreBtn.disabled = !hasMore;
+  loadMoreBtn.textContent = hasMore ? 'Cargando mas…' : 'Cargar mas';
+  setupInfiniteScroll(hasMore);
 }
 
 function setupGridVideoObserver(videos) {
@@ -203,6 +236,33 @@ function setupGridVideoObserver(videos) {
   videos.forEach((video) => gridVideoObserver.observe(video));
 }
 
+function setupInfiniteScroll(hasMore) {
+  if (!('IntersectionObserver' in window)) return;
+  if (!loadMoreObserver) {
+    loadMoreObserver = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        if (autoPagingLocked) continue;
+        if (visible.length >= filtered.length) continue;
+        autoPagingLocked = true;
+        loadNextPage();
+        requestAnimationFrame(() => {
+          autoPagingLocked = false;
+        });
+      }
+    }, { rootMargin: '300px 0px' });
+  }
+
+  loadMoreObserver.unobserve(loadMoreBtn);
+  if (hasMore) loadMoreObserver.observe(loadMoreBtn);
+}
+
+function loadNextPage() {
+  if (visible.length >= filtered.length) return;
+  page += 1;
+  rerenderGrid();
+}
+
 async function openExercise(ex) {
   currentIndex = visible.findIndex((item) => item.slug === ex.slug);
   lightbox.open(ex);
@@ -211,7 +271,15 @@ async function openExercise(ex) {
 function navigateLightbox(dir) {
   if (!visible.length) return;
   if (currentIndex < 0) currentIndex = 0;
-  currentIndex = (currentIndex + dir + visible.length) % visible.length;
+
+  if (dir > 0 && currentIndex >= visible.length - 1 && visible.length < filtered.length) {
+    loadNextPage();
+    currentIndex += 1;
+  } else {
+    currentIndex = (currentIndex + dir + visible.length) % visible.length;
+  }
+
+  if (currentIndex >= visible.length) currentIndex = visible.length - 1;
   lightbox.open(visible[currentIndex]);
 }
 

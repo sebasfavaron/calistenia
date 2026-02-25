@@ -1,8 +1,8 @@
 export const defaultFilters = {
-  group: 'todos',
-  muscle: 'todos',
-  equipment: 'todos',
-  difficulty: 'todos',
+  group: ['todos'],
+  muscle: ['todos'],
+  equipment: ['todos'],
+  difficulty: ['todos'],
 };
 
 export function matchesFilters(ex, filters) {
@@ -15,5 +15,6 @@ export function matchesFilters(ex, filters) {
 }
 
 function matchOne(value, selected) {
-  return selected === 'todos' || value === selected;
+  const selectedValues = Array.isArray(selected) ? selected : [selected ?? 'todos'];
+  return selectedValues.includes('todos') || selectedValues.includes(value);
 }
