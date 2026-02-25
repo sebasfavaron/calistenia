@@ -23,6 +23,9 @@ export function createLightbox(onNavigate) {
   const stageGrid = root.querySelector('.lb-stage-grid');
   const title = root.querySelector('.lb-title');
   const tags = root.querySelector('.lb-tags');
+  let wheelLockUntil = 0;
+  let touchStartY = null;
+  let touchStartX = null;
 
   root.querySelector('.lb-close').addEventListener('click', close);
   root.querySelector('.lb-prev').addEventListener('click', () => onNavigate(-1));
@@ -30,6 +33,32 @@ export function createLightbox(onNavigate) {
   root.addEventListener('click', (e) => {
     if (e.target === root) close();
   });
+  stageGrid.addEventListener('wheel', (e) => {
+    if (!isOpen()) return;
+    if (Math.abs(e.deltaY) < 25 || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+    const now = Date.now();
+    if (now < wheelLockUntil) return;
+    wheelLockUntil = now + 450;
+    e.preventDefault();
+    onNavigate(e.deltaY > 0 ? 1 : -1);
+  }, { passive: false });
+  stageGrid.addEventListener('touchstart', (e) => {
+    const touch = e.changedTouches?.[0];
+    if (!touch) return;
+    touchStartY = touch.clientY;
+    touchStartX = touch.clientX;
+  }, { passive: true });
+  stageGrid.addEventListener('touchend', (e) => {
+    if (!isOpen() || touchStartY == null || touchStartX == null) return;
+    const touch = e.changedTouches?.[0];
+    if (!touch) return;
+    const dy = touch.clientY - touchStartY;
+    const dx = touch.clientX - touchStartX;
+    touchStartY = null;
+    touchStartX = null;
+    if (Math.abs(dy) < 50 || Math.abs(dy) < Math.abs(dx)) return;
+    onNavigate(dy < 0 ? 1 : -1);
+  }, { passive: true });
 
   let current = null;
   function open(ex) {
@@ -67,6 +96,8 @@ export function createLightbox(onNavigate) {
   function close() {
     root.classList.remove('open');
     document.body.classList.remove('no-scroll');
+    touchStartY = null;
+    touchStartX = null;
     root.querySelectorAll('video').forEach((video) => video.pause());
   }
 
@@ -81,12 +112,14 @@ function renderMedia(exercise, media) {
   if (isVideoMedia(media)) {
     const video = document.createElement('video');
     video.className = 'lb-video';
-    video.controls = true;
+    video.controls = false;
     video.autoplay = true;
     video.muted = true;
     video.loop = true;
     video.playsInline = true;
     video.preload = 'metadata';
+    video.disablePictureInPicture = true;
+    video.controlsList = 'nodownload noplaybackrate noremoteplayback nofullscreen';
     if (media.poster) video.poster = media.poster;
     if (media.webm) {
       const s = document.createElement('source');

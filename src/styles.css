@@ -255,6 +255,7 @@ body.no-scroll { overflow: hidden; }
   object-fit: contain;
   background: #f8fafc;
   display: block;
+  pointer-events: none;
 }
 .lb-meta {
   display: grid;
