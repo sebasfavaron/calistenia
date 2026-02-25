@@ -68,10 +68,42 @@ async function init() {
   const res = await fetch('./data/exercises.manifest.json', { cache: 'no-store' });
   if (!res.ok) throw new Error(`manifest ${res.status}`);
   manifest = await res.json();
-  catalog = Array.isArray(manifest.exercises) ? manifest.exercises : [];
+  catalog = Array.isArray(manifest.exercises) ? manifest.exercises.map(normalizeExercisePaths) : [];
 
   buildFilters(normalizeFilterValues(manifest));
   applyFilters();
+}
+
+function normalizeExercisePaths(ex) {
+  if (!ex || typeof ex !== 'object') return ex;
+  const out = { ...ex };
+  if (out.stepsPath) out.stepsPath = resolveAppUrl(out.stepsPath);
+
+  if (out.media && typeof out.media === 'object') {
+    out.media = Object.fromEntries(
+      Object.entries(out.media).map(([angle, media]) => [angle, normalizeMediaPaths(media)])
+    );
+  }
+
+  return out;
+}
+
+function normalizeMediaPaths(media) {
+  if (!media || typeof media !== 'object') return media;
+  const out = { ...media };
+  for (const key of ['src', 'mp4', 'webm', 'poster', 'image']) {
+    if (out[key]) out[key] = resolveAppUrl(out[key]);
+  }
+  return out;
+}
+
+function resolveAppUrl(value) {
+  if (typeof value !== 'string' || !value) return value;
+  if (/^(?:[a-z]+:)?\/\//i.test(value) || value.startsWith('data:') || value.startsWith('blob:')) {
+    return value;
+  }
+  const relative = value.startsWith('/') ? value.slice(1) : value;
+  return new URL(relative, document.baseURI).href;
 }
 
 function buildFilters(values) {
