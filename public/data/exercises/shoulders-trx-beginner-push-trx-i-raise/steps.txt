@@ -1,8 +1,0 @@
-Name: TRX I Raise
-Muscle: Shoulders
-Equipment: TRX
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/trx-i-raise
-
-1. No instructions parsed from page

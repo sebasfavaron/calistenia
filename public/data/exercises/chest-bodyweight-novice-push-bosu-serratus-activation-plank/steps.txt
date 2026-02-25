@@ -1,8 +1,0 @@
-Name: Bosu Serratus Activation Plank
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/bosu-serratus-activation-plank
-
-1. No instructions parsed from page

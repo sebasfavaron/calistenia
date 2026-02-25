@@ -1,8 +1,0 @@
-Name: Triceps Stretch Variation Two
-Muscle: Triceps
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/triceps-stretch-variation-two
-
-1. No instructions parsed from page

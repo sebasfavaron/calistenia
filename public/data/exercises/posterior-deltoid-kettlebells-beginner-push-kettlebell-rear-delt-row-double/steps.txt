@@ -1,8 +1,0 @@
-Name: Kettlebell Rear Delt Row (Double)
-Muscle: Posterior Deltoid
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/kettlebell-rear-delt-row-double
-
-1. No instructions parsed from page

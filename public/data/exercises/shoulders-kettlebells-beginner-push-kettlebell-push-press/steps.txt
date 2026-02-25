@@ -1,8 +1,0 @@
-Name: Kettlebell Push Press
-Muscle: Shoulders
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/kettlebell-push-press
-
-1. No instructions parsed from page

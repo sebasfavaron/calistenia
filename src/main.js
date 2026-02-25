@@ -12,7 +12,7 @@ app.innerHTML = `
     <header class="hero">
       <div class="hero-copy">
         <h1>Banco de Ejercicios</h1>
-        <p>Catalogo local, filtros combinables y modal con angulos + pasos.</p>
+        <p>Catalogo local, filtros combinables y modal con angulos.</p>
       </div>
       <div class="hero-stats">
         <strong id="result-count">0</strong>
@@ -20,6 +20,9 @@ app.innerHTML = `
       </div>
     </header>
 
+    <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters">
+      Filtros
+    </button>
     <section class="filters" id="filters"></section>
 
     <section class="grid-wrap">
@@ -31,6 +34,7 @@ app.innerHTML = `
 
 const gridEl = document.getElementById('grid');
 const filtersEl = document.getElementById('filters');
+const filtersToggleBtn = document.getElementById('filters-toggle');
 const countEl = document.getElementById('result-count');
 const loadMoreBtn = document.getElementById('load-more');
 
@@ -41,7 +45,6 @@ let page = 1;
 let visible = [];
 let currentIndex = -1;
 const filters = { ...defaultFilters };
-const stepsCache = new Map();
 let gridVideoObserver = null;
 
 const lightbox = createLightbox((dir) => navigateLightbox(dir));
@@ -57,6 +60,11 @@ document.addEventListener('keydown', (e) => {
 loadMoreBtn.addEventListener('click', () => {
   page += 1;
   rerenderGrid();
+});
+
+filtersToggleBtn.addEventListener('click', () => {
+  const nextOpen = !filtersEl.classList.contains('is-open');
+  setFiltersPanelOpen(nextOpen);
 });
 
 init().catch((error) => {
@@ -77,7 +85,7 @@ async function init() {
 function normalizeExercisePaths(ex) {
   if (!ex || typeof ex !== 'object') return ex;
   const out = { ...ex };
-  if (out.stepsPath) out.stepsPath = resolveAppUrl(out.stepsPath);
+  delete out.stepsPath;
 
   if (out.media && typeof out.media === 'object') {
     out.media = Object.fromEntries(
@@ -137,12 +145,22 @@ function buildFilters(values) {
         page = 1;
         buildFilters(values);
         applyFilters();
+        if (window.matchMedia('(max-width: 760px)').matches) {
+          setFiltersPanelOpen(false);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
       });
       box.appendChild(btn);
     }
     box.prepend(title);
     filtersEl.appendChild(box);
   }
+}
+
+function setFiltersPanelOpen(isOpen) {
+  filtersEl.classList.toggle('is-open', isOpen);
+  filtersToggleBtn.setAttribute('aria-expanded', String(isOpen));
+  filtersToggleBtn.textContent = isOpen ? 'Cerrar filtros' : 'Filtros';
 }
 
 function formatFilterOption(key, value) {
@@ -187,39 +205,14 @@ function setupGridVideoObserver(videos) {
 
 async function openExercise(ex) {
   currentIndex = visible.findIndex((item) => item.slug === ex.slug);
-  const stepsText = await getStepsText(ex);
-  lightbox.open(ex, stepsText);
+  lightbox.open(ex);
 }
 
-async function navigateLightbox(dir) {
+function navigateLightbox(dir) {
   if (!visible.length) return;
   if (currentIndex < 0) currentIndex = 0;
   currentIndex = (currentIndex + dir + visible.length) % visible.length;
-  const ex = visible[currentIndex];
-  const stepsText = await getStepsText(ex);
-  lightbox.open(ex, stepsText);
-}
-
-async function getStepsText(ex) {
-  const key = ex.stepsPath || ex.slug;
-  if (stepsCache.has(key)) return stepsCache.get(key);
-
-  if (!ex.stepsPath) {
-    const fallback = 'Sin pasos';
-    stepsCache.set(key, fallback);
-    return fallback;
-  }
-
-  try {
-    const res = await fetch(ex.stepsPath, { cache: 'force-cache' });
-    const text = res.ok ? await res.text() : 'Sin pasos';
-    stepsCache.set(key, text);
-    return text;
-  } catch {
-    const fallback = 'Sin pasos';
-    stepsCache.set(key, fallback);
-    return fallback;
-  }
+  lightbox.open(visible[currentIndex]);
 }
 
 function escapeHtml(value) {

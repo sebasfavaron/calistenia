@@ -1,8 +1,0 @@
-Name: Bosu Ball Hip Thrust
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/bosu-ball-hip-thrust
-
-1. No instructions parsed from page

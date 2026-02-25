@@ -1,8 +1,0 @@
-Name: Hip Flexor Stretch Kneeling Lunge 1
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/hip-flexor-stretch-kneeling-lunge-1
-
-1. No instructions parsed from page

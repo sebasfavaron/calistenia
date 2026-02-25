@@ -1,8 +1,0 @@
-Name: Bodyweight Deficit Reverse Lunge
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/bodyweight-deficit-reverse-lunge
-
-1. No instructions parsed from page

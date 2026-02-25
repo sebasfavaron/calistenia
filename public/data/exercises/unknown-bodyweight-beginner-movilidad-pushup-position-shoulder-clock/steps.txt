@@ -1,8 +1,0 @@
-Name: Pushup Position Shoulder Clock
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: movilidad
-Source: https://musclewiki.com/exercise/pushup-position-shoulder-clock
-
-1. No instructions parsed from page

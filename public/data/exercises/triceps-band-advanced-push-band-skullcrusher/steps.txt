@@ -1,8 +1,0 @@
-Name: Band Skullcrusher
-Muscle: Triceps
-Equipment: Band
-Difficulty: Advanced
-Group: push
-Source: https://musclewiki.com/exercise/band-skullcrusher
-
-1. No instructions parsed from page

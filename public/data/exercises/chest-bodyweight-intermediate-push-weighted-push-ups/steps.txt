@@ -1,8 +1,0 @@
-Name: Weighted Push Ups
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/weighted-push-ups
-
-1. No instructions parsed from page

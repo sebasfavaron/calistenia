@@ -1,8 +1,0 @@
-Name: Horizontal Hack Squat
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/horizontal-hack-squat
-
-1. No instructions parsed from page

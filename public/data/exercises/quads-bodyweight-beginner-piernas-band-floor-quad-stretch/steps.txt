@@ -1,8 +1,0 @@
-Name: Band Floor Quad Stretch
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/quad-stretch-floor-prone
-
-1. No instructions parsed from page

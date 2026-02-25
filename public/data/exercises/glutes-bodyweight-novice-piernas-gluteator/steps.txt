@@ -1,8 +1,0 @@
-Name: Gluteator
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/gluteator
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Standing Doming
-Muscle: Feet
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/standing-doming
-
-1. No instructions parsed from page

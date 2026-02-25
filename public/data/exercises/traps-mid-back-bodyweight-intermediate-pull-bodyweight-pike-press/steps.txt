@@ -1,8 +1,0 @@
-Name: Bodyweight Pike Press
-Muscle: Traps (mid-back)
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: pull
-Source: https://musclewiki.com/exercise/bodyweight-pike-press
-
-1. No instructions parsed from page

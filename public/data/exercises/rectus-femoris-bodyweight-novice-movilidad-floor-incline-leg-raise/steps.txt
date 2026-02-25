@@ -1,8 +1,0 @@
-Name: Floor Incline Leg Raise
-Muscle: Rectus Femoris
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/leg-raise-straight-incline-seated
-
-1. No instructions parsed from page

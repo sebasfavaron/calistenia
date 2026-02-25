@@ -1,8 +1,0 @@
-Name: QL Mobilisation Floor Foam Roller
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/ql-mobilisation-floor-foam-roller
-
-1. No instructions parsed from page

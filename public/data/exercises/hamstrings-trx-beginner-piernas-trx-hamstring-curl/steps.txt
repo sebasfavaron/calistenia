@@ -1,8 +1,0 @@
-Name: TRX Hamstring Curl
-Muscle: Hamstrings
-Equipment: TRX
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/trx-hamstring-curl
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Front Rowing Preps Second Position Seated
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/pilates-front-rowing-preps-second-position-seated
-
-1. No instructions parsed from page

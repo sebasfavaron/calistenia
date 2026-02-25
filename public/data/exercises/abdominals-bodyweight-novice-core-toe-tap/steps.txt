@@ -1,8 +1,0 @@
-Name: Toe Tap
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/toe-tap
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bosu Ball Forearm Plank
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/bosu-ball-forearm-plank
-
-1. No instructions parsed from page

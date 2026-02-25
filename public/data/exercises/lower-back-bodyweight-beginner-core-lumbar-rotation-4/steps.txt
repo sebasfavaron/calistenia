@@ -1,8 +1,0 @@
-Name: Lumbar Rotation 4
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/lumbar-rotation-4-supine-active-crossed-legs
-
-1. No instructions parsed from page

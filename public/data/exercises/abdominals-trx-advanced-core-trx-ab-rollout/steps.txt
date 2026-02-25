@@ -1,8 +1,0 @@
-Name: TRX Ab Rollout
-Muscle: Abdominals
-Equipment: TRX
-Difficulty: Advanced
-Group: core
-Source: https://musclewiki.com/exercise/trx-ab-rollout
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Plate Front Raise
-Muscle: Shoulders
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/plate-front-raise
-
-1. No instructions parsed from page

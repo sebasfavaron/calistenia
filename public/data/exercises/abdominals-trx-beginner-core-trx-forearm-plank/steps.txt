@@ -1,8 +1,0 @@
-Name: TRX Forearm Plank
-Muscle: Abdominals
-Equipment: TRX
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/trx-forearm-plank
-
-1. No instructions parsed from page

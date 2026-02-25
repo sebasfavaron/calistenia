@@ -1,8 +1,0 @@
-Name: Kettlebell Guillotine Bench Press
-Muscle: Chest
-Equipment: Kettlebells
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/kettlebell-guillotine-bench-press
-
-1. No instructions parsed from page

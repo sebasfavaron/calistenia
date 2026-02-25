@@ -1,8 +1,0 @@
-Name: Restful Cow Face Pose Legs
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/restful-cow-face-pose-legs
-
-1. No instructions parsed from page

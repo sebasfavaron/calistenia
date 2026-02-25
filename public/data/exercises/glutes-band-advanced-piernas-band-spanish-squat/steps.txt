@@ -1,8 +1,0 @@
-Name: Band Spanish Squat
-Muscle: Glutes
-Equipment: Band
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/band-spanish-squat
-
-1. No instructions parsed from page

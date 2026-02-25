@@ -1,8 +1,0 @@
-Name: Band Romanian Deadlift
-Muscle: Glutes
-Equipment: Band
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/band-romanian-deadlift
-
-1. No instructions parsed from page

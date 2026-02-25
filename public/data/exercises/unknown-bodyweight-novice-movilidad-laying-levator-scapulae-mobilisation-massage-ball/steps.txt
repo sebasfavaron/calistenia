@@ -1,8 +1,0 @@
-Name: Laying Levator Scapulae Mobilisation Massage Ball
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/laying-levator-scapulae-mobilisation-massage-ball
-
-1. No instructions parsed from page

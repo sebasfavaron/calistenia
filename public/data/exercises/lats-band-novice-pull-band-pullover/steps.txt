@@ -1,8 +1,0 @@
-Name: Band Pullover
-Muscle: Lats
-Equipment: Band
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/band-pullover
-
-1. No instructions parsed from page

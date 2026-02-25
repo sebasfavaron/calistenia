@@ -1,8 +1,0 @@
-Name: Kettlebell Seated Calf Raise Double
-Muscle: Calves
-Equipment: Kettlebells
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebell-seated-calf-raise-double
-
-1. No instructions parsed from page

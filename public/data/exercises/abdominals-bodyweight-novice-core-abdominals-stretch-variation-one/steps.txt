@@ -1,8 +1,0 @@
-Name: Abdominals Stretch Variation One
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/abdominals-stretch-variation-one
-
-1. No instructions parsed from page

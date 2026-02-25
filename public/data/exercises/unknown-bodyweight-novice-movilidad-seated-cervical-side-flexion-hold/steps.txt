@@ -1,8 +1,0 @@
-Name: Seated Cervical Side Flexion Hold
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/seated-cervical-side-flexion-hold
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Standing Shoulder Abduction
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/standing-shoulder-abduction
-
-1. No instructions parsed from page

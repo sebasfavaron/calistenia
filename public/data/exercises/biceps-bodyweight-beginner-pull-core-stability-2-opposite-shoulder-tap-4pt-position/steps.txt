@@ -1,8 +1,0 @@
-Name: Core Stability 2 Opposite Shoulder Tap 4Pt Position
-Muscle: Biceps
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/core-stability-2-opposite-shoulder-tap-4pt-position
-
-1. No instructions parsed from page

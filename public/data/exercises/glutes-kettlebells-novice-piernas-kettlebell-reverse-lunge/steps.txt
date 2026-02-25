@@ -1,8 +1,0 @@
-Name: Kettlebell Reverse Lunge
-Muscle: Glutes
-Equipment: Kettlebells
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/kettlebell-reverse-lunge
-
-1. No instructions parsed from page

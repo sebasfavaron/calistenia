@@ -1,8 +1,0 @@
-Name: Bosu Ball Hand Sideplank Hip Abduction
-Muscle: Obliques
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: core
-Source: https://musclewiki.com/exercise/bosu-ball-hand-sideplank-hip-abduction
-
-1. No instructions parsed from page

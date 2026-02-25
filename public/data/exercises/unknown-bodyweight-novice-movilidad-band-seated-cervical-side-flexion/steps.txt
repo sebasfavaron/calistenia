@@ -1,8 +1,0 @@
-Name: Band Seated Cervical Side Flexion
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/cervical-side-flexion-4-seated-theraband
-
-1. No instructions parsed from page

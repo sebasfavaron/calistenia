@@ -1,8 +1,0 @@
-Name: Bench Dips
-Muscle: Triceps
-Equipment: Bodyweight
-Difficulty: Novice
-Group: push
-Source: https://musclewiki.com/exercise/bench-dips
-
-1. No instructions parsed from page

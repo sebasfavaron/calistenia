@@ -1,8 +1,0 @@
-Name: Landmine Staggered Romanian Deadlift
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/landmine-staggered-romanian-deadlift
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bosu Ball Offset Pushup
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/bosu-ball-offset-pushup
-
-1. No instructions parsed from page

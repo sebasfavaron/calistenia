@@ -1,8 +1,0 @@
-Name: Elevated Pike Shoulder Shrug
-Muscle: Traps
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: pull
-Source: https://musclewiki.com/exercise/elevated-pike-shoulder-shrug
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Medicine Ball Clean And Press Slam
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/clean-and-press-slam
-
-1. No instructions parsed from page

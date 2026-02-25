@@ -1,8 +1,0 @@
-Name: Cardio Shuttle Sprint
-Muscle: Calves
-Equipment: Cardio
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/cardio-shuttle-sprint
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Medicine Ball Chest Press Slam
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/chest-press-slam
-
-1. No instructions parsed from page

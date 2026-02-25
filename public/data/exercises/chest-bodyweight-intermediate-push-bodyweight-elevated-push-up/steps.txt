@@ -1,8 +1,0 @@
-Name: Bodyweight Elevated Push Up
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/bodyweight-elevated-push-up
-
-1. No instructions parsed from page

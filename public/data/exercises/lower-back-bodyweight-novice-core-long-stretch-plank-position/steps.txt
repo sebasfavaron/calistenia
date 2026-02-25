@@ -1,8 +1,0 @@
-Name: Long Stretch Plank Position
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Novice
-Group: core
-Source: https://musclewiki.com/exercise/pilates-long-stretch-plank-position
-
-1. No instructions parsed from page

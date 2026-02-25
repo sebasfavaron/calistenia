@@ -1,8 +1,0 @@
-Name: Kettlebell Single Arm Reverse Curl
-Muscle: Biceps
-Equipment: Kettlebells
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/kettlebell-single-arm-reverse-curl
-
-1. No instructions parsed from page

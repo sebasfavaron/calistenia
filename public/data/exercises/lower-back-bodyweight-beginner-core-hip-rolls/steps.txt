@@ -1,8 +1,0 @@
-Name: Hip Rolls
-Muscle: Lower back
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/pilates-hip-rolls
-
-1. No instructions parsed from page

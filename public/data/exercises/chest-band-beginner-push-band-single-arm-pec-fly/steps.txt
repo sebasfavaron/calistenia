@@ -1,8 +1,0 @@
-Name: Band Single Arm Pec Fly
-Muscle: Chest
-Equipment: Band
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/band-single-arm-pec-fly
-
-1. No instructions parsed from page

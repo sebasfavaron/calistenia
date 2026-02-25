@@ -1,8 +1,0 @@
-Name: Bodyweight Feet Elevated Figure Four Glute Bridge
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/bodyweight-feet-elevated-figure-four-glute-bridge
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Supine Twist Lying
-Muscle: Obliques
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/supine-twist-lying
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Calves Stretch Variation One
-Muscle: Calves
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/calves-stretch-variation-one
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Standing Mini-Band Hip Flexion
-Muscle: Quads
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/hip-flexions-standing-resisted
-
-1. No instructions parsed from page

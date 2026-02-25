@@ -1,8 +1,0 @@
-Name: Adductor Raise Side Lying Long Lever
-Muscle: Inner Thigh
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: movilidad
-Source: https://musclewiki.com/exercise/adductor-raise-side-lying-long-lever
-
-1. No instructions parsed from page

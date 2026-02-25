@@ -1,8 +1,0 @@
-Name: Bosu Ball Walkover Pushup
-Muscle: Chest
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: push
-Source: https://musclewiki.com/exercise/bosu-ball-walkover-pushup
-
-1. No instructions parsed from page

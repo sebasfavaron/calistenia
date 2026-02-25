@@ -1,8 +1,0 @@
-Name: Two Arms Cow Face Pose
-Muscle: Lats
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: pull
-Source: https://musclewiki.com/exercise/two-arms-cow-face-pose
-
-1. No instructions parsed from page

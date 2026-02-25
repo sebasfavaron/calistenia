@@ -1,8 +1,0 @@
-Name: Plate Bicep Curl
-Muscle: Biceps
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/plate-bicep-curl
-
-1. No instructions parsed from page

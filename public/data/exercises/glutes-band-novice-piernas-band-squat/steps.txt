@@ -1,8 +1,0 @@
-Name: Band Squat
-Muscle: Glutes
-Equipment: Band
-Difficulty: Novice
-Group: piernas
-Source: https://musclewiki.com/exercise/band-squat
-
-1. No instructions parsed from page

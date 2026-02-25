@@ -1,8 +1,0 @@
-Name: Jump Rope
-Muscle: Calves
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: piernas
-Source: https://musclewiki.com/exercise/jump-rope
-
-1. No instructions parsed from page

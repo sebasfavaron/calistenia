@@ -1,8 +1,0 @@
-Name: Rower Knee Tuck
-Muscle: Abdominals
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: core
-Source: https://musclewiki.com/exercise/rower-knee-tuck
-
-1. No instructions parsed from page

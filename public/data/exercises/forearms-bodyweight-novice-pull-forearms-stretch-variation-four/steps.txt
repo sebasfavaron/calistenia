@@ -1,8 +1,0 @@
-Name: Forearms Stretch Variation Four
-Muscle: Forearms
-Equipment: Bodyweight
-Difficulty: Novice
-Group: pull
-Source: https://musclewiki.com/exercise/forearms-stretch-variation-four
-
-1. No instructions parsed from page

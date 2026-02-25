@@ -1,8 +1,0 @@
-Name: Elliptical
-Muscle: Unknown
-Equipment: Bodyweight
-Difficulty: Novice
-Group: movilidad
-Source: https://musclewiki.com/exercise/elliptical
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Bodyweight Alternating Forward Lunge
-Muscle: Glutes
-Equipment: Bodyweight
-Difficulty: Advanced
-Group: piernas
-Source: https://musclewiki.com/exercise/lunge-alternate
-
-1. No instructions parsed from page

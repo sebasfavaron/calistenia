@@ -1,8 +1,0 @@
-Name: Glute Ham Raise
-Muscle: Hamstrings
-Equipment: Bodyweight
-Difficulty: Intermediate
-Group: piernas
-Source: https://musclewiki.com/exercise/glute-ham-raise
-
-1. No instructions parsed from page

@@ -1,8 +1,0 @@
-Name: Elbow Extensor Mobilisation Kneeling Lacrosse Ball
-Muscle: Triceps
-Equipment: Bodyweight
-Difficulty: Beginner
-Group: push
-Source: https://musclewiki.com/exercise/elbow-extensor-mobilisation-kneeling-lacrosse-ball
-
-1. No instructions parsed from page

@@ -59,10 +59,6 @@ await runWorkers(concurrency, queue, async (url) => {
     if (!resume || !fssync.existsSync(path.join(dir, 'meta.json'))) {
       await fs.writeFile(path.join(dir, 'meta.json'), JSON.stringify(ex, null, 2));
     }
-    if (!resume || !fssync.existsSync(path.join(dir, 'steps.txt'))) {
-      await fs.writeFile(path.join(dir, 'steps.txt'), buildStepsText(ex), 'utf8');
-    }
-
     if (!dryRun && !skipMedia) {
       await syncMediaFromParsed(ex, dir, { resume, transcode });
     }
@@ -362,21 +358,6 @@ async function syncMediaFromParsed(ex, dir, { resume, transcode }) {
   }
 }
 
-function buildStepsText(ex) {
-  const lines = [
-    `Name: ${ex.name}`,
-    `Muscle: ${ex.muscle}`,
-    `Equipment: ${ex.equipment}`,
-    `Difficulty: ${ex.difficulty}`,
-    `Group: ${ex.group}`,
-    `Source: ${ex.sourceUrl}`,
-    '',
-  ];
-  const steps = Array.isArray(ex.steps) && ex.steps.length ? ex.steps : ['No instructions parsed from page'];
-  steps.forEach((s, i) => lines.push(`${i + 1}. ${s}`));
-  return lines.join('\n');
-}
-
 async function buildManifestEntryFromDir(ex, dir) {
   const rel = toPublicPath(dir);
   const media = {};
@@ -410,7 +391,6 @@ async function buildManifestEntryFromDir(ex, dir) {
     group: VALID_GROUPS.includes(ex.group) ? ex.group : 'movilidad',
     angles: Object.keys(media),
     media,
-    stepsPath: `${rel}/steps.txt`,
     tags: [ex.group, ex.muscle, ex.equipment, ex.difficulty].filter(Boolean).map((s) => String(s).toLowerCase()),
   };
 }
