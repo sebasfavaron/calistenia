@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan Semanal de Entrenamiento - Calistenia</title>
+    <title>Banco de Ejercicios - Calistenia</title>
     <style>
         :root {
             --primary-dark: #0F172A;
@@ -23,17 +23,18 @@
 
         * {
             box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 20px;
             background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%);
             min-height: 100vh;
             font-size: 16px;
             color: var(--text-dark);
+            padding: 20px;
         }
 
         .container {
@@ -45,6 +46,7 @@
             overflow: hidden;
         }
 
+        /* Header */
         .header {
             background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
             color: white;
@@ -66,15 +68,8 @@
         }
 
         @keyframes pulse {
-
-            0%,
-            100% {
-                transform: scale(1) translate(0, 0);
-            }
-
-            50% {
-                transform: scale(1.1) translate(-10%, -10%);
-            }
+            0%, 100% { transform: scale(1) translate(0, 0); }
+            50% { transform: scale(1.1) translate(-10%, -10%); }
         }
 
         .header h1 {
@@ -95,635 +90,485 @@
             z-index: 1;
         }
 
-        .content {
-            padding: 40px 30px;
-            background: var(--bg-light);
-        }
-
-        .section {
-            margin-bottom: 40px;
-            background: var(--bg-card);
-            padding: 30px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-
-        .section:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
-        }
-
-        .section h2 {
-            color: var(--primary-dark);
-            border-bottom: none;
-            padding-bottom: 0;
-            margin-bottom: 25px;
-            font-size: 1.75em;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .section h2::before {
-            content: '';
-            width: 4px;
-            height: 32px;
-            background: linear-gradient(180deg, var(--secondary) 0%, var(--accent) 100%);
-            border-radius: 2px;
-        }
-
-        .plan-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0 0 0;
-            background: var(--bg-card);
-            border-radius: 12px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-            display: block;
-            overflow-x: auto;
-            white-space: nowrap;
-        }
-
-        .plan-table thead {
-            display: block;
-        }
-
-        .plan-table tbody {
-            display: block;
-        }
-
-        .plan-table tr {
-            display: table;
-            width: 100%;
-            table-layout: fixed;
-        }
-
-        .plan-table th {
-            background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
-            color: white;
-            padding: 16px 12px;
-            text-align: left;
-            font-weight: 600;
-            font-size: 0.95em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .plan-table td {
-            padding: 16px 12px;
+        /* Filter pills */
+        .filters {
+            padding: 16px 20px;
+            background: white;
             border-bottom: 1px solid var(--border);
-            font-size: 0.95em;
-            white-space: normal;
-            word-wrap: break-word;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .pill {
+            padding: 7px 18px;
+            border-radius: 100px;
+            border: 2px solid var(--border);
+            background: white;
             color: var(--text-light);
-        }
-
-        .plan-table td strong {
-            color: var(--primary-dark);
+            font-size: 0.85em;
             font-weight: 600;
+            cursor: pointer;
+            transition: all 0.18s ease;
+            white-space: nowrap;
+            letter-spacing: 0.2px;
         }
 
-        .plan-table tbody tr {
-            background: var(--bg-card);
-            transition: all 0.2s ease;
+        .pill:hover {
+            border-color: var(--secondary);
+            color: var(--secondary);
         }
 
-        .plan-table tbody tr:nth-child(even) {
+        .pill.active {
+            background: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3px;
+            background: var(--border);
+            padding: 3px;
+        }
+
+        .grid-item {
+            aspect-ratio: 1;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
             background: var(--bg-light);
         }
 
-        .plan-table tbody tr:hover {
-            background: #E0F2FE;
-            transform: scale(1.01);
-            box-shadow: 0 2px 8px rgba(14, 165, 233, 0.1);
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
         }
 
-        .plan-table tbody tr:last-child td {
-            border-bottom: none;
+        .grid-item:hover img {
+            transform: scale(1.06);
         }
 
-        .exercise-list {
-            background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
-            padding: 24px;
-            border-radius: 12px;
-            margin: 20px 0;
-            border-left: 4px solid var(--secondary);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-            transition: all 0.3s ease;
-        }
-
-        .exercise-list:hover {
-            border-left-width: 6px;
-            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
-        }
-
-        .exercise-list h3 {
-            color: var(--primary-dark);
-            margin-top: 0;
-            margin-bottom: 18px;
-            font-size: 1.3em;
-            font-weight: 700;
+        .grid-item-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, transparent 55%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
             display: flex;
-            align-items: center;
-            gap: 8px;
+            align-items: flex-end;
+            padding: 12px;
         }
 
-        .exercise-list h3::before {
-            content: '💪';
-            font-size: 1.2em;
+        .grid-item:hover .grid-item-overlay {
+            opacity: 1;
         }
 
-        .exercise-list ul {
-            margin: 0;
-            padding-left: 24px;
+        .grid-item-name {
+            color: white;
+            font-weight: 700;
+            font-size: 0.85em;
+            line-height: 1.2;
         }
 
-        .exercise-list li {
-            margin-bottom: 12px;
+        /* Skeleton shimmer */
+        .skeleton-bg {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e4e4e4 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.4s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* End message */
+        .end-message {
+            text-align: center;
+            padding: 28px 24px;
             color: var(--text-light);
-            font-size: 1em;
-            line-height: 1.7;
+            font-size: 0.875em;
+            background: var(--bg-light);
+            border-top: 1px solid var(--border);
+        }
+
+        /* No results */
+        .no-results {
+            padding: 64px 24px;
+            text-align: center;
+            color: var(--text-light);
+            grid-column: 1 / -1;
+            background: white;
+        }
+
+        .no-results span {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.93);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox.open {
+            display: flex;
+        }
+
+        .lightbox-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: min(680px, 90vw);
+            width: 100%;
+        }
+
+        .lightbox-img-wrap {
+            width: 100%;
             position: relative;
         }
 
-        .exercise-list li strong {
-            color: var(--primary-dark);
-            font-weight: 600;
-        }
-
-        .exercise-list p {
-            margin: 16px 0 0 0;
-            padding: 12px;
-            background: rgba(14, 165, 233, 0.1);
-            border-radius: 8px;
-            color: var(--primary-dark);
-            font-weight: 500;
-        }
-
-        .exercise-container {
-            text-align: center;
-            margin: 30px 0;
-            background: var(--bg-card);
-            padding: 24px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-        }
-
-        .exercise-container h3 {
-            color: white;
-            margin-bottom: 20px;
-            font-size: 1.4em;
-            font-weight: 700;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-            background: var(--bg-light);
-        }
-
-        img[poster] {
+        .lightbox-img {
+            width: 100%;
+            max-height: 72vh;
             object-fit: contain;
-        }
-
-        .exercise-container p {
-            margin-top: 16px;
-            color: var(--text-light);
-            font-size: 0.95em;
-        }
-
-        .highlight {
-            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
-            border: none;
-            border-left: 4px solid var(--warning);
-            padding: 24px;
             border-radius: 12px;
-            margin: 30px 0;
-            font-size: 1em;
-            line-height: 1.8;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+            display: block;
         }
 
-        .highlight strong {
-            color: #92400E;
-            font-weight: 700;
-            font-size: 1.05em;
-        }
-
-        .tips {
-            background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%);
+        .lightbox-close {
+            position: absolute;
+            top: -46px;
+            right: 0;
+            background: none;
             border: none;
-            border-left: 4px solid var(--success);
-            padding: 24px;
-            border-radius: 12px;
-            margin: 30px 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+            color: white;
+            font-size: 2.2em;
+            cursor: pointer;
+            opacity: 0.7;
+            line-height: 1;
+            padding: 4px 8px;
+            transition: opacity 0.2s;
         }
 
-        .tips h4 {
-            color: #065F46;
-            margin-top: 0;
-            margin-bottom: 16px;
-            font-size: 1.3em;
+        .lightbox-close:hover { opacity: 1; }
+
+        .lightbox-meta {
+            margin-top: 18px;
+            text-align: center;
+        }
+
+        .lightbox-name {
+            color: white;
             font-weight: 700;
+            font-size: 1.25em;
+        }
+
+        .lightbox-muscle {
+            color: var(--secondary);
+            font-size: 0.8em;
+            font-weight: 700;
+            margin-top: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .lightbox-counter {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.78em;
+            margin-top: 8px;
+        }
+
+        /* Nav arrows */
+        .lightbox-nav {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: white;
+            font-size: 2em;
+            width: 52px;
+            height: 52px;
             display: flex;
             align-items: center;
-            gap: 8px;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 50%;
+            backdrop-filter: blur(4px);
+            transition: background 0.2s;
+            z-index: 1001;
         }
 
-        .tips ul {
-            margin: 0;
-            padding-left: 24px;
+        .lightbox-nav:hover { background: rgba(255, 255, 255, 0.22); }
+        .lightbox-prev { left: 20px; }
+        .lightbox-next { right: 20px; }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            body { padding: 0; }
+            .container { border-radius: 0; }
+            .header h1 { font-size: 1.7em; }
+            .header { padding: 32px 20px; }
+            .grid { gap: 2px; padding: 2px; }
+            .lightbox-nav { display: none; }
+            .lightbox-content { max-width: 95vw; }
         }
 
-        .tips li {
-            color: #047857;
-            margin-bottom: 12px;
-            font-size: 1em;
-            line-height: 1.7;
-            font-weight: 500;
-        }
-
-        .tips li::marker {
-            color: var(--success);
-        }
-
-        /* Mobile-specific styles */
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-                font-size: 16px;
-                line-height: 1.7;
-            }
-
-            .container {
-                border-radius: 16px;
-            }
-
-            .header {
-                padding: 30px 20px;
-            }
-
-            .header h1 {
-                font-size: 2em;
-                line-height: 1.3;
-            }
-
-            .header p {
-                font-size: 1em;
-                line-height: 1.5;
-            }
-
-            .content {
-                padding: 20px 15px;
-            }
-
-            .section {
-                padding: 20px;
-                margin-bottom: 20px;
-            }
-
-            .section h2 {
-                font-size: 1.5em;
-                line-height: 1.3;
-            }
-
-            .plan-table {
-                font-size: 0.95em;
-            }
-
-            .plan-table th,
-            .plan-table td {
-                padding: 12px 10px;
-                line-height: 1.6;
-            }
-
-            .exercise-list {
-                padding: 20px;
-            }
-
-            .exercise-list h3 {
-                font-size: 1.2em;
-                line-height: 1.4;
-            }
-
-            .exercise-list li {
-                font-size: 0.95em;
-                line-height: 1.7;
-                margin-bottom: 10px;
-            }
-
-            .exercise-container {
-                padding: 20px;
-            }
-
-            .exercise-container h3 {
-                color: var(--primary-light);
-                font-size: 1.3em;
-                line-height: 1.4;
-            }
-
-            .highlight {
-                padding: 20px;
-                font-size: 0.95em;
-                line-height: 1.7;
-            }
-
-            .tips {
-                padding: 20px;
-            }
-
-            .tips h4 {
-                font-size: 1.2em;
-                line-height: 1.4;
-            }
-
-            .tips li {
-                font-size: 0.95em;
-                line-height: 1.7;
-                margin-bottom: 10px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            body {
-                font-size: 15px;
-                padding: 8px;
-            }
-
-            .header {
-                padding: 24px 16px;
-            }
-
-            .header h1 {
-                font-size: 1.75em;
-                line-height: 1.3;
-            }
-
-            .content {
-                padding: 16px 12px;
-            }
-
-            .section {
-                padding: 16px;
-            }
-
-            .section h2 {
-                font-size: 1.4em;
-                line-height: 1.3;
-            }
-
-            .plan-table th,
-            .plan-table td {
-                padding: 10px 8px;
-                font-size: 0.9em;
-                line-height: 1.6;
-            }
-
-            .exercise-list {
-                padding: 16px;
-            }
-
-            .exercise-list li {
-                font-size: 0.95em;
-                line-height: 1.7;
-            }
-        }
-
-        /* Landscape mobile optimization */
-        @media (max-width: 768px) and (orientation: landscape) {
-            .plan-table {
-                font-size: 0.9em;
-            }
-
-            .plan-table th,
-            .plan-table td {
-                padding: 10px 8px;
-                line-height: 1.5;
-            }
+        @media (max-width: 400px) {
+            .grid { grid-template-columns: repeat(3, 1fr); }
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
+        <div class="container">
         <div class="header">
-            <h1>🗓️ PLAN SEMANAL</h1>
-            <p>Rendimiento general + RR adaptada</p>
-            <a href="ejercicios.html" style="position:absolute;bottom:20px;right:24px;color:white;text-decoration:none;font-weight:600;font-size:0.875em;opacity:0.85;z-index:1;background:rgba(255,255,255,0.15);padding:7px 16px;border-radius:100px;transition:opacity 0.2s;backdrop-filter:blur(4px);">Ver ejercicios &#8594;</a>
+            <h1>Banco de Ejercicios</h1>
+            <p>Ideas para variar tu rutina de calistenia</p>
         </div>
 
-        <div class="content">
-            <div class="section">
-                <h2>📅 Cronograma Semanal</h2>
-                <table class="plan-table">
-                    <thead>
-                        <tr>
-                            <th>Día</th>
-                            <th>Actividad</th>
-                            <th>Objetivo</th>
-                            <th>Detalle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Lunes</strong></td>
-                            <td>Correr (20–30 min suave o técnica)</td>
-                            <td>Cardio / base aeróbica</td>
-                            <td>Ritmo cómodo, pasto o pista; técnica y movilidad</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Martes</strong></td>
-                            <td>Calistenia (fuerza) + opcional bici suave 10–15 min</td>
-                            <td>Potencia / técnica</td>
-                            <td>Empuje + tracción + pierna + core</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Miércoles</strong></td>
-                            <td>Fútbol + calistenia liviana</td>
-                            <td>Cardio + mantenimiento fuerza</td>
-                            <td>Sesión corta de cali pre o post partido</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Jueves</strong></td>
-                            <td>Descanso activo / bici 30–45 min</td>
-                            <td>Recuperación</td>
-                            <td>Baja intensidad, cadencia alta</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Viernes</strong></td>
-                            <td>Calistenia (resistencia / circuito)</td>
-                            <td>Capacidad de trabajo</td>
-                            <td>Alta intensidad, cuerpo completo</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Sábado o Domingo</strong></td>
-                            <td>Opcional: caminata, core o movilidad</td>
-                            <td>Recuperación / estabilidad</td>
-                            <td>Ligero y sin impacto</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="section">
-                <h2>💪 Calistenia – Detalle de sesiones</h2>
-
-                <div class="exercise-list">
-                    <h3>Martes – Fuerza</h3>
-                    <ul>
-                        <li><strong>Par 1:</strong> Pull-ups 3×5–8 | Dips 3×8–12</li>
-                        <li><strong>Par 2:</strong> Sentadilla controlada 3×8–10 | Hip thrust 3×10–15</li>
-                        <li><strong>Par 3:</strong> Pike push-up 3×6–10 | Australian rows 3×8–12</li>
-                        <li><strong>Core triplete:</strong> Hollow hold / Side plank / Superman hold</li>
-                    </ul>
-                </div>
-
-                <div class="exercise-list">
-                    <h3>Miércoles – Liviano (pre o post fútbol)</h3>
-                    <ul>
-                        <li>Pull-ups excéntricos o australian rows 2×8</li>
-                        <li>Push-ups 2×12</li>
-                        <li>Sentadilla isométrica 2×30 s</li>
-                        <li>Plancha frontal y lateral 2×30 s</li>
-                        <li>Estiramiento 10 min</li>
-                    </ul>
-                </div>
-
-                <div class="exercise-list">
-                    <h3>Viernes – Circuito (3–4 rondas)</h3>
-                    <ul>
-                        <li>Pull-ups</li>
-                        <li>Push-ups</li>
-                        <li>Dips</li>
-                        <li>Sentadilla</li>
-                        <li>Pike push-ups</li>
-                        <li>Hollow hold</li>
-                        <li>Side plank (30 s/lado)</li>
-                        <li>Mountain climbers</li>
-                    </ul>
-                    <p><strong>👉 45 s trabajo / 15 s pausa — 90 s entre rondas.</strong></p>
-                </div>
-            </div>
-
-            <div class="exercise-container">
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Pull-ups</h3>
-                    <img src="pull-up.gif" alt="Pull-ups exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Push-ups</h3>
-                    <img src="push-up.gif" alt="Push-ups exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Dips</h3>
-                    <img src="dips.gif" alt="Dips exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Sentadilla</h3>
-                    <img src="squat.gif" alt="Squat exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Bulgarian Split Squat</h3>
-                    <img src="bulgarian-split-squat.gif" alt="Bulgarian Split Squat exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Wall sit</h3>
-                    <img src="wall-sit.gif" alt="Wall sit exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Wall angels</h3>
-                    <img src="wall-angels.gif" alt="Wall angels exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Step-up</h3>
-                    <img src="step-up.gif" alt="Step-up exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Calf raise</h3>
-                    <img src="calf-raise.gif" alt="Calf raise exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Mountain climbers</h3>
-                    <img src="mountain-climbers.gif" alt="Mountain climbers exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Pike pushup</h3>
-                    <img src="pike-pushup.gif" alt="Pike pushup exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Hollow hold</h3>
-                    <img src="hollow-hold.gif" alt="Hollow hold exercise">
-                </div>
-                <div style="position: relative;">
-                    <h3
-                        style="position: absolute; padding: 10px; padding-left: 30px; padding-right: 30px; background-color: var(--secondary); color: white; margin: 0; z-index: 1; border-radius: 8px 0 8px 0;">
-                        Superman hold</h3>
-                    <img src="superman-hold.gif" alt="Superman hold exercise">
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>🦵 Complementos rodilla (1–2× semana)</h2>
-                <div class="exercise-list">
-                    <ul>
-                        <li>Wall sit — 3×45 s</li>
-                        <li>Step-up bajo — 3×10 por pierna</li>
-                        <li>Calf raise — 3×20</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="highlight">
-                <strong>✅ Con este orden:</strong><br>
-                Lunes impacto moderado (solo correr).<br>
-                Martes fuerza fresca.<br>
-                Fútbol miércoles con carga baja de piernas el día anterior.<br>
-                Recuperación real jueves.<br>
-                Vuelven piernas fuertes viernes.
-            </div>
-
-            <div class="tips">
-                <h4>💡 Consejos importantes:</h4>
-                <ul>
-                    <li>Calienta siempre antes de cada sesión (5-10 minutos)</li>
-                    <li>Mantén una buena hidratación durante todo el día</li>
-                    <li>Escucha a tu cuerpo y ajusta la intensidad según te sientas</li>
-                    <li>El descanso es tan importante como el entrenamiento</li>
-                    <li>Progresiona gradualmente en los ejercicios</li>
-                </ul>
-            </div>
-        </div>
+        <div class="filters" id="filters"></div>
+        <div class="grid" id="grid"></div>
+        <div class="end-message" id="end-message" style="display:none">— Fin de la lista —</div>
     </div>
-</body>
 
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+        <button class="lightbox-nav lightbox-prev" id="lb-prev" aria-label="Anterior">&#8249;</button>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lb-close" aria-label="Cerrar">&times;</button>
+            <div class="lightbox-img-wrap">
+                <img class="lightbox-img" id="lb-img" src="" alt="">
+            </div>
+            <div class="lightbox-meta">
+                <div class="lightbox-name" id="lb-name"></div>
+                <div class="lightbox-muscle" id="lb-muscle"></div>
+                <div class="lightbox-counter" id="lb-counter"></div>
+            </div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lb-next" aria-label="Siguiente">&#8250;</button>
+    </div>
+
+    <script>
+        const EXERCISES = [
+            { name: 'Pull-ups',              file: 'pull-up.gif',               groups: ['pull']      },
+            { name: 'Push-ups',              file: 'push-up.gif',               groups: ['push']      },
+            { name: 'Dips',                  file: 'dips.gif',                  groups: ['push']      },
+            { name: 'Sentadilla',            file: 'squat.gif',                 groups: ['piernas']   },
+            { name: 'Bulgarian Split Squat', file: 'bulgarian-split-squat.gif', groups: ['piernas']   },
+            { name: 'Wall Sit',              file: 'wall-sit.gif',              groups: ['piernas']   },
+            { name: 'Wall Angels',           file: 'wall-angels.gif',           groups: ['movilidad'] },
+            { name: 'Step-up',               file: 'step-up.gif',               groups: ['piernas']   },
+            { name: 'Calf Raise',            file: 'calf-raise.gif',            groups: ['piernas']   },
+            { name: 'Mountain Climbers',     file: 'mountain-climbers.gif',     groups: ['core']      },
+            { name: 'Pike Push-up',          file: 'pike-pushup.gif',           groups: ['push']      },
+            { name: 'Hollow Hold',           file: 'hollow-hold.gif',           groups: ['core']      },
+            { name: 'Superman Hold',         file: 'superman-hold.gif',         groups: ['core']      },
+        ];
+
+        const FILTERS = [
+            { id: 'todos',     label: 'Todos'      },
+            { id: 'pull',      label: 'Pull'       },
+            { id: 'push',      label: 'Push'       },
+            { id: 'piernas',   label: 'Piernas'    },
+            { id: 'core',      label: 'Core'       },
+            { id: 'movilidad', label: 'Movilidad'  },
+        ];
+
+        const PAGE_SIZE = 6;
+
+        let activeFilter  = 'todos';
+        let currentPage   = 0;
+        let filtered      = [];
+        let lightboxIndex = 0;
+        let isLoading     = false;
+        let touchStartX   = 0;
+
+        const grid       = document.getElementById('grid');
+        const filtersEl  = document.getElementById('filters');
+        const endMessage = document.getElementById('end-message');
+        const lightbox   = document.getElementById('lightbox');
+        const lbImg      = document.getElementById('lb-img');
+        const lbName     = document.getElementById('lb-name');
+        const lbMuscle   = document.getElementById('lb-muscle');
+        const lbCounter  = document.getElementById('lb-counter');
+
+        // ── Filter pills ──────────────────────────────────────────────────────
+        FILTERS.forEach(f => {
+            const btn = document.createElement('button');
+            btn.className = 'pill' + (f.id === 'todos' ? ' active' : '');
+            btn.textContent = f.label;
+            btn.dataset.filter = f.id;
+            btn.addEventListener('click', () => setFilter(f.id));
+            filtersEl.appendChild(btn);
+        });
+
+        function setFilter(id) {
+            if (activeFilter === id) return;
+            activeFilter = id;
+            document.querySelectorAll('.pill').forEach(p =>
+                p.classList.toggle('active', p.dataset.filter === id)
+            );
+            currentPage = 0;
+            grid.innerHTML = '';
+            endMessage.style.display = 'none';
+            filtered = id === 'todos'
+                ? EXERCISES
+                : EXERCISES.filter(e => e.groups.includes(id));
+            loadNextPage();
+        }
+
+        // ── Page loading ──────────────────────────────────────────────────────
+        function loadNextPage() {
+            if (isLoading) return;
+            const start = currentPage * PAGE_SIZE;
+            const slice = filtered.slice(start, start + PAGE_SIZE);
+
+            if (slice.length === 0) {
+                if (filtered.length === 0) showNoResults();
+                else endMessage.style.display = 'block';
+                return;
+            }
+
+            isLoading = true;
+            slice.forEach(ex => grid.appendChild(createGridItem(ex)));
+            currentPage++;
+            isLoading = false;
+
+            if (currentPage * PAGE_SIZE >= filtered.length) {
+                endMessage.style.display = 'block';
+            }
+        }
+
+        // ── Grid item ─────────────────────────────────────────────────────────
+        function createGridItem(ex) {
+            const div = document.createElement('div');
+            div.className = 'grid-item skeleton-bg';
+
+            const img = document.createElement('img');
+            img.alt = ex.name;
+            img.dataset.src = ex.file;
+            img.addEventListener('load', () => div.classList.remove('skeleton-bg'));
+
+            const overlay = document.createElement('div');
+            overlay.className = 'grid-item-overlay';
+            const nameEl = document.createElement('span');
+            nameEl.className = 'grid-item-name';
+            nameEl.textContent = ex.name;
+            overlay.appendChild(nameEl);
+
+            div.appendChild(img);
+            div.appendChild(overlay);
+            div.addEventListener('click', () => openLightbox(ex));
+
+            lazyObserver.observe(img);
+            return div;
+        }
+
+        function showNoResults() {
+            const div = document.createElement('div');
+            div.className = 'no-results';
+            div.innerHTML = '<span>&#128683;</span>No hay ejercicios en este grupo todav&iacute;a.';
+            grid.appendChild(div);
+        }
+
+        // ── Lazy load with IntersectionObserver ───────────────────────────────
+        const lazyObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        lazyObserver.unobserve(img);
+                    }
+                }
+            });
+        }, { rootMargin: '300px' });
+
+        // ── Infinite scroll sentinel ──────────────────────────────────────────
+        const sentinel = document.createElement('div');
+        sentinel.style.cssText = 'height:1px;grid-column:1/-1';
+        grid.appendChild(sentinel);
+
+        const scrollObserver = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) loadNextPage();
+        }, { rootMargin: '400px' });
+        scrollObserver.observe(sentinel);
+
+        // ── Lightbox ──────────────────────────────────────────────────────────
+        function openLightbox(ex) {
+            lightboxIndex = filtered.findIndex(e => e.file === ex.file);
+            renderLightbox();
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function renderLightbox() {
+            const ex = filtered[lightboxIndex];
+            lbImg.src = ex.file;
+            lbImg.alt = ex.name;
+            lbName.textContent = ex.name;
+            lbMuscle.textContent = ex.groups.join(' · ');
+            lbCounter.textContent = `${lightboxIndex + 1} / ${filtered.length}`;
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('open');
+            document.body.style.overflow = '';
+            lbImg.src = '';
+        }
+
+        function lbNav(dir) {
+            lightboxIndex = (lightboxIndex + dir + filtered.length) % filtered.length;
+            renderLightbox();
+        }
+
+        document.getElementById('lb-close').addEventListener('click', closeLightbox);
+        document.getElementById('lb-prev').addEventListener('click', () => lbNav(-1));
+        document.getElementById('lb-next').addEventListener('click', () => lbNav(1));
+
+        lightbox.addEventListener('click', e => {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        document.addEventListener('keydown', e => {
+            if (!lightbox.classList.contains('open')) return;
+            if (e.key === 'Escape')      closeLightbox();
+            if (e.key === 'ArrowLeft')   lbNav(-1);
+            if (e.key === 'ArrowRight')  lbNav(1);
+        });
+
+        // Swipe
+        lightbox.addEventListener('touchstart', e => {
+            touchStartX = e.touches[0].clientX;
+        }, { passive: true });
+
+        lightbox.addEventListener('touchend', e => {
+            const dx = e.changedTouches[0].clientX - touchStartX;
+            if (Math.abs(dx) > 50) lbNav(dx < 0 ? 1 : -1);
+        });
+
+        // ── Init ──────────────────────────────────────────────────────────────
+        filtered = EXERCISES;
+        loadNextPage();
+    </script>
+</body>
 </html>
