@@ -1,4 +1,5 @@
 import { createMediaNode, getAngleMedia, pickPrimaryAngle } from './media.js';
+import { localizeTaxonomyValue } from './taxonomy.js';
 
 export function renderGrid({ grid, items, onOpen, cardCache }) {
   const cache = cardCache ?? new Map();
@@ -41,9 +42,15 @@ export function renderGrid({ grid, items, onOpen, cardCache }) {
     }
 
     refs.card.__exercise = ex;
+    const metaLine = [
+      localizeTaxonomyValue('group', ex.group),
+      localizeTaxonomyValue('muscle', ex.muscle),
+      localizeTaxonomyValue('equipment', ex.equipment),
+      localizeTaxonomyValue('difficulty', ex.difficulty),
+    ].filter(Boolean).join(' · ');
     refs.overlay.innerHTML = `
       <strong>${escapeHtml(ex.name)}</strong>
-      <small>${escapeHtml([ex.group, ex.muscle, ex.equipment, ex.difficulty].filter(Boolean).join(' · '))}</small>
+      <small>${escapeHtml(metaLine)}</small>
     `;
     fragment.appendChild(refs.card);
 

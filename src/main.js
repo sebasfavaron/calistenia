@@ -2,7 +2,7 @@ import './styles.css';
 import { defaultFilters, matchesFilters } from './lib/filters.js';
 import { renderGrid } from './lib/renderGrid.js';
 import { createLightbox } from './lib/renderLightbox.js';
-import { FILTER_CONFIG, GROUP_LABELS, normalizeFilterValues } from './lib/taxonomy.js';
+import { FILTER_CONFIG, localizeTaxonomyValue, normalizeFilterValues } from './lib/taxonomy.js';
 
 const PAGE_SIZE = 18;
 
@@ -227,9 +227,7 @@ function getActiveFilterCount() {
 }
 
 function formatFilterOption(key, value) {
-  if (value === 'todos') return 'Todos';
-  if (key === 'group') return GROUP_LABELS[value] ?? value;
-  return value;
+  return localizeTaxonomyValue(key, value);
 }
 
 function applyFilters() {
