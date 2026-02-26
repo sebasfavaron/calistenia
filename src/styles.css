@@ -392,3 +392,8 @@ body.no-scroll { overflow: hidden; }
   .lb-tags span { padding: 5px 8px; font-size: 0.75rem; }
   .pill { font-size: 0.8rem; padding: 6px 10px; }
 }
+
+@media (hover: none), (pointer: coarse) {
+  .card:hover .card-media { transform: none; }
+  .card:hover .card-overlay { opacity: 0; }
+}

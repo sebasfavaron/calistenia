@@ -48,6 +48,7 @@ const filters = { ...defaultFilters };
 let gridVideoObserver = null;
 let loadMoreObserver = null;
 let autoPagingLocked = false;
+let suppressUrlSync = false;
 
 const lightbox = createLightbox((dir) => navigateLightbox(dir));
 document.body.appendChild(lightbox.root);
@@ -57,6 +58,15 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') lightbox.close();
   if (e.key === 'ArrowLeft') navigateLightbox(-1);
   if (e.key === 'ArrowRight') navigateLightbox(1);
+});
+
+window.addEventListener('popstate', () => {
+  if (!manifest) return;
+  const filterValues = normalizeFilterValues(manifest);
+  applyFiltersFromUrl(filterValues);
+  page = 1;
+  buildFilters(filterValues);
+  applyFilters();
 });
 
 loadMoreBtn.addEventListener('click', () => {
@@ -79,7 +89,9 @@ async function init() {
   manifest = await res.json();
   catalog = Array.isArray(manifest.exercises) ? manifest.exercises.map(normalizeExercisePaths) : [];
 
-  buildFilters(normalizeFilterValues(manifest));
+  const filterValues = normalizeFilterValues(manifest);
+  applyFiltersFromUrl(filterValues);
+  buildFilters(filterValues);
   applyFilters();
 }
 
@@ -201,6 +213,7 @@ function formatFilterOption(key, value) {
 function applyFilters() {
   filtered = catalog.filter((ex) => matchesFilters(ex, filters));
   countEl.textContent = String(filtered.length);
+  syncFiltersToUrl();
   rerenderGrid();
 }
 
@@ -261,6 +274,61 @@ function loadNextPage() {
   if (visible.length >= filtered.length) return;
   page += 1;
   rerenderGrid();
+}
+
+function applyFiltersFromUrl(values) {
+  suppressUrlSync = true;
+  for (const config of FILTER_CONFIG) {
+    filters[config.key] = parseFilterParam(config.key, values);
+  }
+  suppressUrlSync = false;
+}
+
+function parseFilterParam(key, values) {
+  const allowedMap = {
+    group: values.groups,
+    muscle: values.muscles,
+    equipment: values.equipment,
+    difficulty: values.difficulties,
+  };
+  const allowed = new Set((allowedMap[key] ?? []).map(String));
+  const raw = new URL(window.location.href).searchParams.get(key);
+  if (!raw) return ['todos'];
+
+  const list = raw
+    .split(',')
+    .map((v) => v.trim())
+    .filter(Boolean)
+    .filter((v) => allowed.has(v));
+
+  if (!list.length || list.includes('todos')) return ['todos'];
+  return [...new Set(list)];
+}
+
+function syncFiltersToUrl() {
+  if (suppressUrlSync) return;
+  const url = new URL(window.location.href);
+  let changed = false;
+
+  for (const config of FILTER_CONFIG) {
+    const selected = Array.isArray(filters[config.key]) ? filters[config.key] : [filters[config.key] ?? 'todos'];
+    const normalized = selected.includes('todos') ? ['todos'] : selected;
+    if (normalized.length === 1 && normalized[0] === 'todos') {
+      if (url.searchParams.has(config.key)) {
+        url.searchParams.delete(config.key);
+        changed = true;
+      }
+      continue;
+    }
+
+    const nextValue = normalized.join(',');
+    if (url.searchParams.get(config.key) !== nextValue) {
+      url.searchParams.set(config.key, nextValue);
+      changed = true;
+    }
+  }
+
+  if (changed) window.history.replaceState(null, '', url);
 }
 
 async function openExercise(ex) {
