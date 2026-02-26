@@ -423,8 +423,7 @@ body.no-scroll { overflow: hidden; }
     max-height: none;
     border: 0;
     border-radius: 0;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
     background: var(--bg-deep);
   }
   .lb-close {
@@ -438,9 +437,11 @@ body.no-scroll { overflow: hidden; }
   }
   .lb-main {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto minmax(0, 1fr);
     gap: 0;
     padding: 0;
+    height: 100%;
+    overflow: hidden;
   }
   .lb-stage-grid {
     grid-template-columns: 1fr;
@@ -448,11 +449,17 @@ body.no-scroll { overflow: hidden; }
     gap: 0;
     align-content: start;
     background: var(--bg-deep);
+    min-height: 0;
+    overflow: hidden;
+    touch-action: none;
+    overscroll-behavior: contain;
   }
   .lb-panel {
+    display: grid;
     border: 0;
     border-radius: 0;
     background: var(--bg-deep);
+    min-height: 0;
   }
   .lb-panel + .lb-panel {
     border-top: 1px solid var(--line);
@@ -461,6 +468,7 @@ body.no-scroll { overflow: hidden; }
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+    object-fit: contain;
     background: var(--bg-deep);
   }
   .lb-meta {
@@ -473,6 +481,7 @@ body.no-scroll { overflow: hidden; }
     background: var(--bg-surface);
     min-height: 0;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     order: unset;
     padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
     margin-bottom: 0;
