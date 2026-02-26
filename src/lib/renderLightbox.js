@@ -23,10 +23,12 @@ export function createLightbox(onNavigate) {
   `;
 
   const stageGrid = root.querySelector('.lb-stage-grid');
+  const shell = root.querySelector('.lightbox-shell');
   const title = root.querySelector('.lb-title');
   const helper = root.querySelector('.lb-helper');
   const tags = root.querySelector('.lb-tags');
-  let wheelLockUntil = 0;
+  let navLockUntil = 0;
+  let wheelBurstUntil = 0;
   let touchStartY = null;
   let touchStartX = null;
 
@@ -36,28 +38,38 @@ export function createLightbox(onNavigate) {
   root.addEventListener('click', (e) => {
     if (e.target === root) close();
   });
-  stageGrid.addEventListener('wheel', (e) => {
+  shell.addEventListener('wheel', (e) => {
     if (!isOpen()) return;
-    const shell = root.querySelector('.lightbox-shell');
-    if (shell && shell.scrollHeight > shell.clientHeight) return;
+    if (e.target instanceof Element && e.target.closest('button')) return;
     if (Math.abs(e.deltaY) < 25 || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
     const now = Date.now();
-    if (now < wheelLockUntil) return;
-    wheelLockUntil = now + 450;
+    if (now < wheelBurstUntil) {
+      e.preventDefault();
+      return;
+    }
+    if (now < navLockUntil) {
+      e.preventDefault();
+      return;
+    }
+    wheelBurstUntil = now + 900;
+    navLockUntil = now + 600;
     e.preventDefault();
     onNavigate(e.deltaY > 0 ? 1 : -1);
   }, { passive: false });
-  const isMobile = () => window.matchMedia('(max-width: 760px)').matches;
-  stageGrid.addEventListener('touchstart', (e) => {
-    if (isMobile()) return;
+  shell.addEventListener('touchstart', (e) => {
+    if (e.target instanceof Element && e.target.closest('button')) return;
     const touch = e.changedTouches?.[0];
     if (!touch) return;
     touchStartY = touch.clientY;
     touchStartX = touch.clientX;
   }, { passive: true });
-  stageGrid.addEventListener('touchend', (e) => {
-    if (isMobile()) return;
+  shell.addEventListener('touchend', (e) => {
     if (!isOpen() || touchStartY == null || touchStartX == null) return;
+    if (e.target instanceof Element && e.target.closest('button')) {
+      touchStartY = null;
+      touchStartX = null;
+      return;
+    }
     const touch = e.changedTouches?.[0];
     if (!touch) return;
     const dy = touch.clientY - touchStartY;
@@ -65,7 +77,14 @@ export function createLightbox(onNavigate) {
     touchStartY = null;
     touchStartX = null;
     if (Math.abs(dy) < 50 || Math.abs(dy) < Math.abs(dx)) return;
+    const now = Date.now();
+    if (now < navLockUntil) return;
+    navLockUntil = now + 600;
     onNavigate(dy < 0 ? 1 : -1);
+  }, { passive: true });
+  shell.addEventListener('touchcancel', () => {
+    touchStartY = null;
+    touchStartX = null;
   }, { passive: true });
 
   let current = null;
