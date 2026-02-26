@@ -35,6 +35,8 @@ export function createLightbox(onNavigate) {
   });
   stageGrid.addEventListener('wheel', (e) => {
     if (!isOpen()) return;
+    const shell = root.querySelector('.lightbox-shell');
+    if (shell && shell.scrollHeight > shell.clientHeight) return;
     if (Math.abs(e.deltaY) < 25 || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
     const now = Date.now();
     if (now < wheelLockUntil) return;
@@ -42,13 +44,16 @@ export function createLightbox(onNavigate) {
     e.preventDefault();
     onNavigate(e.deltaY > 0 ? 1 : -1);
   }, { passive: false });
+  const isMobile = () => window.matchMedia('(max-width: 760px)').matches;
   stageGrid.addEventListener('touchstart', (e) => {
+    if (isMobile()) return;
     const touch = e.changedTouches?.[0];
     if (!touch) return;
     touchStartY = touch.clientY;
     touchStartX = touch.clientX;
   }, { passive: true });
   stageGrid.addEventListener('touchend', (e) => {
+    if (isMobile()) return;
     if (!isOpen() || touchStartY == null || touchStartX == null) return;
     const touch = e.changedTouches?.[0];
     if (!touch) return;
@@ -82,11 +87,6 @@ export function createLightbox(onNavigate) {
       if (!media) continue;
       const panel = document.createElement('section');
       panel.className = 'lb-panel';
-
-      const label = document.createElement('div');
-      label.className = 'lb-panel-label';
-      label.textContent = angle === 'front' ? 'Frente' : 'Lado';
-      panel.appendChild(label);
 
       panel.appendChild(renderMedia(current, media));
       stageGrid.appendChild(panel);
