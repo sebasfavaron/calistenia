@@ -326,6 +326,12 @@ body.no-scroll { overflow: hidden; }
 }
 .lb-title-row { min-width: 0; }
 .lb-title-row h2 { margin: 0; font-size: 1.25rem; color: var(--text-primary); }
+.lb-helper {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
 .lb-tags {
   display: flex;
   flex-wrap: wrap;
@@ -473,6 +479,7 @@ body.no-scroll { overflow: hidden; }
   }
   .lb-stage-grid { order: unset; }
   .lb-title-row h2 { font-size: 1rem; }
+  .lb-helper { font-size: 0.8rem; }
   .lb-tags { gap: 6px; }
   .lb-tags span { padding: 5px 8px; font-size: 0.75rem; }
   .pill { font-size: 0.8rem; padding: 6px 10px; }

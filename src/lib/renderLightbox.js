@@ -1,4 +1,5 @@
 import { getAngleMedia, isVideoMedia } from './media.js';
+import { localizeTaxonomyValue } from './taxonomy.js';
 
 export function createLightbox(onNavigate) {
   const root = document.createElement('div');
@@ -14,6 +15,7 @@ export function createLightbox(onNavigate) {
           <div class="lb-title-row">
             <h2 class="lb-title"></h2>
           </div>
+          <p class="lb-helper"></p>
           <div class="lb-tags"></div>
         </div>
       </div>
@@ -22,6 +24,7 @@ export function createLightbox(onNavigate) {
 
   const stageGrid = root.querySelector('.lb-stage-grid');
   const title = root.querySelector('.lb-title');
+  const helper = root.querySelector('.lb-helper');
   const tags = root.querySelector('.lb-tags');
   let wheelLockUntil = 0;
   let touchStartY = null;
@@ -76,7 +79,13 @@ export function createLightbox(onNavigate) {
   function render() {
     if (!current) return;
     title.textContent = current.name || 'Ejercicio';
-    tags.innerHTML = [current.group, current.muscle, current.equipment, current.difficulty]
+    helper.textContent = buildHelperText(current);
+    tags.innerHTML = [
+      localizeTaxonomyValue('group', current.group),
+      localizeTaxonomyValue('muscle', current.muscle),
+      localizeTaxonomyValue('equipment', current.equipment),
+      localizeTaxonomyValue('difficulty', current.difficulty),
+    ]
       .filter(Boolean)
       .map((t) => `<span>${escapeHtml(t)}</span>`)
       .join('');
@@ -106,6 +115,26 @@ export function createLightbox(onNavigate) {
   }
 
   return { root, open, close, isOpen };
+}
+
+function buildHelperText(ex) {
+  const groupLabel = ({
+    push: 'empuje',
+    pull: 'tiron',
+    piernas: 'piernas',
+    core: 'core',
+    movilidad: 'movilidad',
+  })[ex?.group] || 'trabajo general';
+  const muscle = String(localizeTaxonomyValue('muscle', ex?.muscle) || 'cuerpo').toLowerCase();
+  const equipmentLabel = localizeTaxonomyValue('equipment', ex?.equipment);
+  const difficultyLabel = localizeTaxonomyValue('difficulty', ex?.difficulty);
+  const equipment = equipmentLabel ? ` con ${String(equipmentLabel).toLowerCase()}` : '';
+  const difficulty = difficultyLabel ? ` (${String(difficultyLabel)})` : '';
+
+  if (ex?.group === 'movilidad') {
+    return `Ejercicio de movilidad para ${muscle}${equipment}, util para rango de movimiento y control.${difficulty}`;
+  }
+  return `Ejercicio de ${groupLabel} enfocado en ${muscle}${equipment}, util para tecnica y fuerza.${difficulty}`;
 }
 
 function renderMedia(exercise, media) {

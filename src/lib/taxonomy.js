@@ -7,6 +7,50 @@ export const GROUP_LABELS = {
   movilidad: 'Movilidad',
 };
 
+export const EQUIPMENT_LABELS = {
+  Band: 'Banda',
+  Bodyweight: 'Peso corporal',
+  Cardio: 'Cardio',
+  Kettlebells: 'Kettlebells',
+  TRX: 'TRX',
+};
+
+export const DIFFICULTY_LABELS = {
+  Beginner: 'Principiante',
+  Novice: 'Inicial',
+  Intermediate: 'Intermedio',
+  Advanced: 'Avanzado',
+};
+
+export const MUSCLE_LABELS = {
+  Abdominals: 'Abdominales',
+  'Anterior Deltoid': 'Deltoide anterior',
+  Biceps: 'Biceps',
+  Calves: 'Pantorrillas',
+  Chest: 'Pecho',
+  Feet: 'Pies',
+  Forearms: 'Antebrazos',
+  'Front Shoulders': 'Hombros frontales',
+  Glutes: 'Gluteos',
+  Hamstrings: 'Isquiotibiales',
+  'Inner Thigh': 'Aductores',
+  'Lateral Deltoid': 'Deltoide lateral',
+  Lats: 'Dorsales',
+  'Lower Traps': 'Trapecios inferiores',
+  'Lower back': 'Zona lumbar',
+  Neck: 'Cuello',
+  Obliques: 'Oblicuos',
+  'Posterior Deltoid': 'Deltoide posterior',
+  Quads: 'Cuadriceps',
+  'Rectus Femoris': 'Recto femoral',
+  Shoulders: 'Hombros',
+  Tibialis: 'Tibial anterior',
+  Traps: 'Trapecios',
+  'Traps (mid-back)': 'Trapecios (espalda media)',
+  Triceps: 'Triceps',
+  'Upper Traps': 'Trapecios superiores',
+};
+
 export const FILTER_CONFIG = [
   { key: 'group', label: 'Grupo' },
   { key: 'muscle', label: 'Musculo' },
@@ -25,10 +69,20 @@ export function normalizeFilterValues(manifest) {
 
   return {
     groups: sortWithTodos(groups, (v) => GROUP_LABELS[v] ?? v),
-    muscles: sortWithTodos(muscles),
-    equipment: sortWithTodos(equipment),
-    difficulties: sortWithTodos(difficulties),
+    muscles: sortWithTodos(muscles, (v) => localizeTaxonomyValue('muscle', v)),
+    equipment: sortWithTodos(equipment, (v) => localizeTaxonomyValue('equipment', v)),
+    difficulties: sortWithTodos(difficulties, (v) => localizeTaxonomyValue('difficulty', v)),
   };
+}
+
+export function localizeTaxonomyValue(key, value) {
+  if (value == null) return '';
+  if (value === 'todos') return 'Todos';
+  if (key === 'group') return GROUP_LABELS[value] ?? value;
+  if (key === 'muscle') return MUSCLE_LABELS[value] ?? value;
+  if (key === 'equipment') return EQUIPMENT_LABELS[value] ?? value;
+  if (key === 'difficulty') return DIFFICULTY_LABELS[value] ?? value;
+  return value;
 }
 
 function unique(values) {
