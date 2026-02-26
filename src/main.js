@@ -12,7 +12,7 @@ app.innerHTML = `
     <header class="hero">
       <div class="hero-copy">
         <h1>Banco de Ejercicios</h1>
-        <p>Catalogo local, filtros combinables y modal con angulos.</p>
+        <p>Tu biblioteca de ejercicios con filtros y demos en video.</p>
       </div>
       <div class="hero-stats">
         <strong id="result-count">0</strong>
@@ -20,9 +20,12 @@ app.innerHTML = `
       </div>
     </header>
 
-    <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters">
-      Filtros
-    </button>
+    <div class="filters-toggle-wrap">
+      <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+        Filtros
+      </button>
+    </div>
     <section class="filters" id="filters"></section>
 
     <section class="grid-wrap">
@@ -45,7 +48,9 @@ let page = 1;
 let visible = [];
 let currentIndex = -1;
 const filters = { ...defaultFilters };
+const cardCache = new Map();
 let gridVideoObserver = null;
+let gridVideoWarmObserver = null;
 let loadMoreObserver = null;
 let autoPagingLocked = false;
 let suppressUrlSync = false;
@@ -162,6 +167,8 @@ function buildFilters(values) {
         if (window.matchMedia('(max-width: 760px)').matches) {
           setFiltersPanelOpen(false);
           window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          setFiltersPanelOpen(filtersEl.classList.contains('is-open'));
         }
       });
       box.appendChild(btn);
@@ -201,7 +208,22 @@ function sameFilterSelection(a, b) {
 function setFiltersPanelOpen(isOpen) {
   filtersEl.classList.toggle('is-open', isOpen);
   filtersToggleBtn.setAttribute('aria-expanded', String(isOpen));
-  filtersToggleBtn.textContent = isOpen ? 'Cerrar filtros' : 'Filtros';
+  const activeCount = getActiveFilterCount();
+  const badge = activeCount > 0 ? ` (${activeCount})` : '';
+  if (isOpen) {
+    filtersToggleBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Cerrar`;
+  } else {
+    filtersToggleBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Filtros${badge}`;
+  }
+}
+
+function getActiveFilterCount() {
+  let count = 0;
+  for (const config of FILTER_CONFIG) {
+    const selected = Array.isArray(filters[config.key]) ? filters[config.key] : [filters[config.key] ?? 'todos'];
+    if (!selected.includes('todos')) count += selected.length;
+  }
+  return count;
 }
 
 function formatFilterOption(key, value) {
@@ -223,6 +245,7 @@ function rerenderGrid() {
     grid: gridEl,
     items: visible,
     onOpen: openExercise,
+    cardCache,
   });
   setupGridVideoObserver(videos);
 
@@ -235,18 +258,65 @@ function rerenderGrid() {
 
 function setupGridVideoObserver(videos) {
   if (gridVideoObserver) gridVideoObserver.disconnect();
+  if (gridVideoWarmObserver) gridVideoWarmObserver.disconnect();
+
+  gridVideoWarmObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      warmGridVideo(entry.target);
+    }
+  }, { rootMargin: '700px 0px' });
+
   gridVideoObserver = new IntersectionObserver((entries) => {
     for (const entry of entries) {
       const video = entry.target;
       if (entry.isIntersecting) {
-        video.play().catch(() => {});
+        warmGridVideo(video);
+        video.dataset.wantPlay = '1';
+        playGridVideoIfReady(video);
       } else {
+        delete video.dataset.wantPlay;
         video.pause();
       }
     }
   }, { rootMargin: '200px' });
 
-  videos.forEach((video) => gridVideoObserver.observe(video));
+  videos.forEach((video) => {
+    bindGridVideoLifecycle(video);
+    gridVideoWarmObserver.observe(video);
+    gridVideoObserver.observe(video);
+  });
+}
+
+function bindGridVideoLifecycle(video) {
+  if (video.dataset.gridBound === '1') return;
+  video.dataset.gridBound = '1';
+  video.addEventListener('loadeddata', () => {
+    video.classList.add('is-ready');
+    if (video.dataset.wantPlay === '1') playGridVideoIfReady(video);
+  });
+  video.addEventListener('canplay', () => {
+    if (video.dataset.wantPlay === '1') playGridVideoIfReady(video);
+  });
+  video.addEventListener('error', () => {
+    video.classList.add('is-error');
+  });
+}
+
+function warmGridVideo(video) {
+  if (!(video instanceof HTMLVideoElement)) return;
+  if (video.dataset.warmed === '1') return;
+  video.dataset.warmed = '1';
+  video.preload = 'metadata';
+  try {
+    video.load();
+  } catch {}
+}
+
+function playGridVideoIfReady(video) {
+  if (!(video instanceof HTMLVideoElement)) return;
+  if (video.readyState < 2) return;
+  video.play().catch(() => {});
 }
 
 function setupInfiniteScroll(hasMore) {
