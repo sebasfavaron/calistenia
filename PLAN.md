@@ -395,6 +395,35 @@ Resultado esperado:
 - validadores + docs de fuente/permiso
 - limpieza de assets/código legacy no usados
 
-## Next Step (Post-UI)
-- Fix crawler step extraction: parse embedded Next.js payload (`correct_steps`) reliably for most exercises (current dataset has many `No instructions parsed from page`).
-- Regenerate `steps.txt` with `--resume --skip-media` after parser fix.
+## Next Steps (Triage actual)
+### Alta prioridad
+- Optimizar videos (especialmente mobile) para bajar peso de deploy y mejorar carga.
+  - Contexto: `public/data` pesa ~`1.2G` y Pages ya dio warning >1GB.
+  - Enfoque: pipeline/scrip de re-encode por lote con perfiles mobile-first (CRF + scale, manteniendo calidad visual).
+  - Backup local reversible: copiar originales a carpeta fuera de `public/` y fuera de git (ej: `.tmp/video-backups/` o `data/raw/video-backups/` + agregar a `.gitignore`) para no agrandar artifact de deploy.
+  - Medir antes/después: peso total, bitrate promedio, 3-5 muestras visuales en phone.
+
+### Media prioridad
+- Filtros en URL (shareable state).
+  - Persistir/leer query params (`group`, `muscle`, `equipment`, `difficulty`) con soporte multi-select.
+  - Regla `todos`: si está presente en una sección, ignorar el resto de esa sección.
+  - Sincronizar UI <-> URL en `popstate` (back/forward).
+
+- Bug mobile: overlay/texto de card queda pegado visible en grilla después de tocar filtros.
+  - Causa probable: estado `:hover` sticky en touch (iOS/Android) sobre `.card:hover .card-overlay`.
+  - Fix probable: desactivar hover-only overlay en dispositivos `hover: none` / `pointer: coarse`, o usar solo `:focus-visible` en desktop pointer fino.
+
+### Baja prioridad / revisar valor
+- Cache local de videos “para acelerar filtrado”.
+  - Triage: probablemente bajo valor ahora.
+  - Razón: filtrado ya es local (manifest en memoria), cards usan chunking + `preload='none'`; cuello principal es descarga/render de media, no filtro.
+  - Además Cache API / SW agrega complejidad + cuota storage + invalidación.
+  - Reconsiderar solo si queremos offline fuerte / repetidas sesiones móviles.
+
+### Data quality / UX edge cases
+- Caso `Adductor Raise Side Lying Long Lever` (slug `inner-thigh-bodyweight-advanced-movilidad-adductor-raise-side-lying-long-lever`)
+  - Hallazgo: NO tiene dos videos en dataset actual.
+  - `front` = imagen (`poster-front.jpg`), `side` = video (`side.mp4`).
+  - `meta.json` incluso trae `fallbackImages.front` y `.side` apuntando a la misma imagen remota.
+  - Acción UX: dejar claro en UI cuando un ángulo es imagen/fallback (badge `Imagen`) y/o ocultar etiqueta de “Frente/Lado” duplicada si ambos assets son iguales.
+  - Acción técnica opcional: detector en build/validate para marcar `fallback_only` y/o duplicados (hash/size o URL fuente repetida) para no tratarlo como bug de carga.
