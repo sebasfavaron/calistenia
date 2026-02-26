@@ -138,7 +138,10 @@ function normalizeListItem(raw) {
   const name = String(raw.exercise_name ?? raw.name ?? raw.Name ?? '').trim() || id;
   const equipment = pickField(raw, ['equipment','Equipment']);
   const difficulty = pickField(raw, ['difficulty','Difficulty']) || 'Unknown';
-  const muscle = pickField(raw, ['muscle','Muscle','muscle_group','MuscleGroup']) || 'Unknown';
+  const muscle = resolveUnknownMuscle(
+    pickField(raw, ['muscle','Muscle','muscle_group','MuscleGroup']) || 'Unknown',
+    name
+  );
   if (!id) return null;
   return { id, name, equipment, difficulty, muscle, raw };
 }
@@ -148,7 +151,10 @@ function normalizeDetail(detail, fallback) {
   const name = pickField(detail, ['exercise_name','name','Name']) || fallback.name;
   const equipment = pickField(detail, ['equipment','Equipment']) || fallback.equipment;
   const difficulty = pickField(detail, ['difficulty','Difficulty']) || fallback.difficulty || 'Unknown';
-  const muscle = pickField(detail, ['muscle','Muscle','muscle_group','MuscleGroup']) || fallback.muscle || 'Unknown';
+  const muscle = resolveUnknownMuscle(
+    pickField(detail, ['muscle','Muscle','muscle_group','MuscleGroup']) || fallback.muscle || 'Unknown',
+    name
+  );
   const secondary = arrayify(detail?.secondaryMuscles ?? detail?.secondary_muscles ?? detail?.SecondaryMuscles).map(String);
   const force = String(pickField(detail, ['force','Force']) || '').toLowerCase();
   const group = classifyGroup({ muscle, equipment, force, name });
@@ -351,6 +357,16 @@ function arrayify(v) {
   if (Array.isArray(v)) return v;
   if (typeof v === 'string') return v.split(',').map((s) => s.trim()).filter(Boolean);
   return [];
+}
+
+function resolveUnknownMuscle(muscle, name) {
+  if (String(muscle).toLowerCase() !== 'unknown') return muscle;
+  const n = String(name || '').toLowerCase();
+  if (/cervical|chin tucks?|levator scapulae/.test(n)) return 'Neck';
+  if (/radial deviation/.test(n)) return 'Forearms';
+  if (/elliptical/.test(n)) return 'Calves';
+  if (/shoulder|rotator cuff|scapular protraction|reverse expansion teardrops/.test(n)) return 'Shoulders';
+  return muscle;
 }
 
 function walk(value, visit, keyPath = []) {

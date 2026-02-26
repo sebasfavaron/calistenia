@@ -190,7 +190,7 @@ function normalizeParsed(parsed, opts) {
   const name = parsed.name || parsed.url.split('/exercise/')[1].replace(/-/g, ' ');
   const equipment = normalizeEquipment(inferEquipment(parsed) || parsed.equipment || 'Unknown');
   const difficulty = normalizeDifficulty(parsed.difficulty || 'Unknown');
-  const muscle = normalizeMuscle(parsed.muscleGroup[0] || 'Unknown');
+  const muscle = resolveUnknownMuscle(normalizeMuscle(parsed.muscleGroup[0] || 'Unknown'), name);
   const force = '';
   const group = classifyGroup({ muscle, equipment, force, name });
   const slug = [muscle, equipment, difficulty, group, name].map(slugify).filter(Boolean).join('-');
@@ -472,6 +472,16 @@ function inferEquipmentFromSlug(urlSlug) {
 }
 function normalizeDifficulty(v) { return String(v || 'Unknown').trim().replace(/\s+/g, ' '); }
 function normalizeMuscle(v) { return String(v || 'Unknown').trim().replace(/\s+/g, ' '); }
+
+function resolveUnknownMuscle(muscle, name) {
+  if (String(muscle).toLowerCase() !== 'unknown') return muscle;
+  const n = String(name || '').toLowerCase();
+  if (/cervical|chin tucks?|levator scapulae/.test(n)) return 'Neck';
+  if (/radial deviation/.test(n)) return 'Forearms';
+  if (/elliptical/.test(n)) return 'Calves';
+  if (/shoulder|rotator cuff|scapular protraction|reverse expansion teardrops/.test(n)) return 'Shoulders';
+  return muscle;
+}
 
 function classifyGroup({ muscle, equipment, force, name }) {
   const m = String(muscle || '').toLowerCase();
