@@ -54,6 +54,7 @@ let gridVideoWarmObserver = null;
 let loadMoreObserver = null;
 let autoPagingLocked = false;
 let suppressUrlSync = false;
+let searchQuery = '';
 
 const lightbox = createLightbox((dir) => navigateLightbox(dir));
 document.body.appendChild(lightbox.root);
@@ -135,6 +136,28 @@ function resolveAppUrl(value) {
 function buildFilters(values) {
   filtersEl.innerHTML = '';
 
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'filter-search-wrap';
+
+  const searchInput = document.createElement('input');
+  searchInput.className = 'filter-search-input';
+  searchInput.type = 'search';
+  searchInput.placeholder = 'Buscar ejercicio';
+  searchInput.autocomplete = 'off';
+  searchInput.spellcheck = false;
+  searchInput.value = searchQuery;
+  searchInput.setAttribute('aria-label', 'Buscar ejercicios');
+  searchInput.addEventListener('input', () => {
+    const nextQuery = searchInput.value.trim();
+    if (searchQuery === nextQuery) return;
+    searchQuery = nextQuery;
+    page = 1;
+    setFiltersPanelOpen(filtersEl.classList.contains('is-open'));
+    applyFilters();
+  });
+  searchWrap.appendChild(searchInput);
+  filtersEl.appendChild(searchWrap);
+
   const map = {
     group: values.groups,
     muscle: values.muscles,
@@ -164,12 +187,7 @@ function buildFilters(values) {
         page = 1;
         buildFilters(values);
         applyFilters();
-        if (window.matchMedia('(max-width: 760px)').matches) {
-          setFiltersPanelOpen(false);
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        } else {
-          setFiltersPanelOpen(filtersEl.classList.contains('is-open'));
-        }
+        setFiltersPanelOpen(filtersEl.classList.contains('is-open'));
       });
       box.appendChild(btn);
     }
@@ -218,7 +236,7 @@ function setFiltersPanelOpen(isOpen) {
 }
 
 function getActiveFilterCount() {
-  let count = 0;
+  let count = searchQuery ? 1 : 0;
   for (const config of FILTER_CONFIG) {
     const selected = Array.isArray(filters[config.key]) ? filters[config.key] : [filters[config.key] ?? 'todos'];
     if (!selected.includes('todos')) count += selected.length;
@@ -231,10 +249,37 @@ function formatFilterOption(key, value) {
 }
 
 function applyFilters() {
-  filtered = catalog.filter((ex) => matchesFilters(ex, filters));
+  filtered = catalog.filter((ex) => matchesFilters(ex, filters) && matchesSearch(ex, searchQuery));
   countEl.textContent = String(filtered.length);
   syncFiltersToUrl();
   rerenderGrid();
+}
+
+function matchesSearch(ex, query) {
+  const needle = normalizeSearchText(query);
+  if (!needle) return true;
+
+  const haystack = normalizeSearchText([
+    ex.name,
+    ex.group,
+    ex.muscle,
+    ex.equipment,
+    ex.difficulty,
+    formatFilterOption('group', ex.group),
+    formatFilterOption('muscle', ex.muscle),
+    formatFilterOption('equipment', ex.equipment),
+    formatFilterOption('difficulty', ex.difficulty),
+  ].join(' '));
+
+  return haystack.includes(needle);
+}
+
+function normalizeSearchText(value) {
+  return String(value ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
 }
 
 function rerenderGrid() {
@@ -346,10 +391,15 @@ function loadNextPage() {
 
 function applyFiltersFromUrl(values) {
   suppressUrlSync = true;
+  searchQuery = parseSearchParam();
   for (const config of FILTER_CONFIG) {
     filters[config.key] = parseFilterParam(config.key, values);
   }
   suppressUrlSync = false;
+}
+
+function parseSearchParam() {
+  return new URL(window.location.href).searchParams.get('q')?.trim() ?? '';
 }
 
 function parseFilterParam(key, values) {
@@ -394,6 +444,16 @@ function syncFiltersToUrl() {
       url.searchParams.set(config.key, nextValue);
       changed = true;
     }
+  }
+
+  if (searchQuery) {
+    if (url.searchParams.get('q') !== searchQuery) {
+      url.searchParams.set('q', searchQuery);
+      changed = true;
+    }
+  } else if (url.searchParams.has('q')) {
+    url.searchParams.delete('q');
+    changed = true;
   }
 
   if (changed) window.history.replaceState(null, '', url);
