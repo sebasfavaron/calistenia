@@ -55,8 +55,15 @@ let loadMoreObserver = null;
 let autoPagingLocked = false;
 let suppressUrlSync = false;
 let searchQuery = '';
+let filtersPanelOpen = false;
+let pendingExerciseSlug = '';
 
-const lightbox = createLightbox((dir) => navigateLightbox(dir));
+const lightbox = createLightbox((dir) => navigateLightbox(dir), {
+  onOpenChange: (exercise) => {
+    pendingExerciseSlug = exercise?.slug ?? '';
+    syncUrlState({ exerciseSlug: exercise?.slug ?? '' });
+  },
+});
 document.body.appendChild(lightbox.root);
 
 document.addEventListener('keydown', (e) => {
@@ -69,10 +76,11 @@ document.addEventListener('keydown', (e) => {
 window.addEventListener('popstate', () => {
   if (!manifest) return;
   const filterValues = normalizeFilterValues(manifest);
-  applyFiltersFromUrl(filterValues);
+  applyStateFromUrl(filterValues);
   page = 1;
   buildFilters(filterValues);
   applyFilters();
+  restoreExerciseFromState();
 });
 
 loadMoreBtn.addEventListener('click', () => {
@@ -96,9 +104,10 @@ async function init() {
   catalog = Array.isArray(manifest.exercises) ? manifest.exercises.map(normalizeExercisePaths) : [];
 
   const filterValues = normalizeFilterValues(manifest);
-  applyFiltersFromUrl(filterValues);
+  applyStateFromUrl(filterValues);
   buildFilters(filterValues);
   applyFilters();
+  restoreExerciseFromState();
 }
 
 function normalizeExercisePaths(ex) {
@@ -224,6 +233,7 @@ function sameFilterSelection(a, b) {
 }
 
 function setFiltersPanelOpen(isOpen) {
+  filtersPanelOpen = isOpen;
   filtersEl.classList.toggle('is-open', isOpen);
   filtersToggleBtn.setAttribute('aria-expanded', String(isOpen));
   const activeCount = getActiveFilterCount();
@@ -233,6 +243,7 @@ function setFiltersPanelOpen(isOpen) {
   } else {
     filtersToggleBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Filtros${badge}`;
   }
+  syncUrlState();
 }
 
 function getActiveFilterCount() {
@@ -251,7 +262,7 @@ function formatFilterOption(key, value) {
 function applyFilters() {
   filtered = catalog.filter((ex) => matchesFilters(ex, filters) && matchesSearch(ex, searchQuery));
   countEl.textContent = String(filtered.length);
-  syncFiltersToUrl();
+  syncUrlState();
   rerenderGrid();
 }
 
@@ -389,12 +400,14 @@ function loadNextPage() {
   rerenderGrid();
 }
 
-function applyFiltersFromUrl(values) {
+function applyStateFromUrl(values) {
   suppressUrlSync = true;
   searchQuery = parseSearchParam();
   for (const config of FILTER_CONFIG) {
     filters[config.key] = parseFilterParam(config.key, values);
   }
+  filtersPanelOpen = parseFiltersPanelOpenParam();
+  pendingExerciseSlug = parseExerciseParam();
   suppressUrlSync = false;
 }
 
@@ -423,7 +436,16 @@ function parseFilterParam(key, values) {
   return [...new Set(list)];
 }
 
-function syncFiltersToUrl() {
+function parseFiltersPanelOpenParam() {
+  const raw = new URL(window.location.href).searchParams.get('filters');
+  return raw === 'open';
+}
+
+function parseExerciseParam() {
+  return new URL(window.location.href).searchParams.get('exercise')?.trim() ?? '';
+}
+
+function syncUrlState(overrides = {}) {
   if (suppressUrlSync) return;
   const url = new URL(window.location.href);
   let changed = false;
@@ -456,11 +478,34 @@ function syncFiltersToUrl() {
     changed = true;
   }
 
+  const nextFiltersPanelOpen = overrides.filtersPanelOpen ?? filtersPanelOpen;
+  if (nextFiltersPanelOpen) {
+    if (url.searchParams.get('filters') !== 'open') {
+      url.searchParams.set('filters', 'open');
+      changed = true;
+    }
+  } else if (url.searchParams.has('filters')) {
+    url.searchParams.delete('filters');
+    changed = true;
+  }
+
+  const nextExerciseSlug = overrides.exerciseSlug ?? (lightbox.isOpen() ? pendingExerciseSlug : '');
+  if (nextExerciseSlug) {
+    if (url.searchParams.get('exercise') !== nextExerciseSlug) {
+      url.searchParams.set('exercise', nextExerciseSlug);
+      changed = true;
+    }
+  } else if (url.searchParams.has('exercise')) {
+    url.searchParams.delete('exercise');
+    changed = true;
+  }
+
   if (changed) window.history.replaceState(null, '', url);
 }
 
 async function openExercise(ex) {
   currentIndex = visible.findIndex((item) => item.slug === ex.slug);
+  pendingExerciseSlug = ex.slug;
   lightbox.open(ex);
 }
 
@@ -476,6 +521,29 @@ function navigateLightbox(dir) {
   }
 
   if (currentIndex >= visible.length) currentIndex = visible.length - 1;
+  lightbox.open(visible[currentIndex]);
+}
+
+function restoreExerciseFromState() {
+  setFiltersPanelOpen(filtersPanelOpen);
+
+  if (!pendingExerciseSlug) {
+    if (lightbox.isOpen()) lightbox.close();
+    return;
+  }
+
+  const targetIndex = filtered.findIndex((item) => item.slug === pendingExerciseSlug);
+  if (targetIndex < 0) {
+    pendingExerciseSlug = '';
+    if (lightbox.isOpen()) lightbox.close();
+    syncUrlState({ exerciseSlug: '' });
+    return;
+  }
+
+  page = Math.max(1, Math.ceil((targetIndex + 1) / PAGE_SIZE));
+  rerenderGrid();
+  currentIndex = visible.findIndex((item) => item.slug === pendingExerciseSlug);
+  if (currentIndex < 0) return;
   lightbox.open(visible[currentIndex]);
 }
 

@@ -1,7 +1,8 @@
 import { getAngleMedia, isVideoMedia } from './media.js';
 import { localizeTaxonomyValue } from './taxonomy.js';
 
-export function createLightbox(onNavigate) {
+export function createLightbox(onNavigate, options = {}) {
+  const { onOpenChange } = options;
   const root = document.createElement('div');
   root.className = 'lightbox';
   root.innerHTML = `
@@ -93,6 +94,7 @@ export function createLightbox(onNavigate) {
     root.classList.add('open');
     document.body.classList.add('no-scroll');
     render();
+    onOpenChange?.(current);
   }
 
   function render() {
@@ -122,11 +124,14 @@ export function createLightbox(onNavigate) {
   }
 
   function close() {
+    const wasOpen = isOpen();
     root.classList.remove('open');
     document.body.classList.remove('no-scroll');
     touchStartY = null;
     touchStartX = null;
     root.querySelectorAll('video').forEach((video) => video.pause());
+    current = null;
+    if (wasOpen) onOpenChange?.(null);
   }
 
   function isOpen() {
