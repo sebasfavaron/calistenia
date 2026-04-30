@@ -228,7 +228,7 @@ Overrides manuales:
 Mantener look actual (grid + lightbox), pero modular.
 Añadir barra de filtros sticky con 4 controles simultáneos:
 - `Grupo`
-- `Músculo`
+- `Musculo`
 - `Equipo`
 - `Dificultad`
 
