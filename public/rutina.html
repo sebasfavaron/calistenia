@@ -36,13 +36,14 @@
   }
   .why { border-left: 4px solid #14406b; }
   .item {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     align-items: flex-start;
     background: #d4d4d4;
     border-radius: 8px;
-    padding: 12px;
+    padding: 12px 40px 12px 12px;
     margin-bottom: 12px;
   }
   .item .thumb { flex: 0 0 auto; }
@@ -56,6 +57,15 @@
   .item .nombre { font-weight: 700; }
   .item .detalle { font-size: 0.92em; color: #333; margin-top: 2px; }
   .item .nota { font-size: 0.85em; color: #5a5a5a; margin-top: 4px; font-style: italic; }
+  .shuf {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 1em;
+  }
 </style>
 </head>
 <body>
@@ -64,130 +74,155 @@
 <div class="meta">
   Pensada para <strong>75-85 min</strong> total. Equipo: barra, aros, bandas, pesa 10kg.
   Lógica del orden: activación de hombro/tobillo primero (protege en skills y piernas), skill de mayor exigencia nerviosa (handstand/front lever) cuando estás fresco, empuje/tracción en superset para ahorrar tiempo sin perder descanso real, piernas y core después, estiramiento al final.
+  El 🔀 cambia ese ejercicio por otro del mismo slot — es solo de esta vista, si recargás la página vuelve a la rutina de base.
 </div>
 
 <h2>1. Calentamiento general <span class="tiempo">~8 min</span></h2>
 <div class="why">Sube pulso y lubrica articulaciones grandes antes de cargar nada específico.</div>
 
-<div class="item">
+<div class="item" data-pool="calentamiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/dead-hang" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/520/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Colgado pasivo en barra</div><div class="detalle">2 x 30s</div><div class="nota">Abre hombro y activa agarre para todo lo que viene.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Colgado pasivo en barra</span></div><div class="detalle">2 x 30s</div><div class="nota">Abre hombro y activa agarre para todo lo que viene.</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="calentamiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/standing-hip-circle" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/510/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Círculos de cadera</div><div class="detalle">2 x 10 por lado</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Círculos de cadera</span></div><div class="detalle">2 x 10 por lado</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="calentamiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitnessprogramer.com/exercise/standing-dorsiflexion/" target="_blank" rel="noopener"><img src="https://fitnessprogramer.com/wp-content/uploads/2022/02/Standing-Dorsiflexion.gif" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">Movilidad de tobillo (dorsiflexión en pared)</div><div class="detalle">2 x 10 por pierna</div><div class="nota">Clave: sin esto el pistol y las sentadillas búlgaras sufren.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Movilidad de tobillo (dorsiflexión en pared)</span></div><div class="detalle">2 x 10 por pierna</div><div class="nota">Clave: sin esto el pistol y las sentadillas búlgaras sufren.</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="calentamiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/mini-loop-band-lateral-walk" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/572/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Pasos laterales con mini banda</div><div class="detalle">2 x 10 por lado</div><div class="nota">Activa glúteo medio, protege la rodilla en el bloque de piernas.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Pasos laterales con mini banda</span></div><div class="detalle">2 x 10 por lado</div><div class="nota">Activa glúteo medio, protege la rodilla en el bloque de piernas.</div></div>
 </div>
 
 <h2>2. Activación específica <span class="tiempo">~7 min</span></h2>
 <div class="why">Prehab de hombro y tobillo antes de cargarlos en skill/piernas — no es "relleno", es lo que evita lesión.</div>
 
-<div class="item">
+<div class="item" data-pool="accesorio">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/loop-band-shoulder-external-rotation" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/502/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Rotación externa de hombro con banda</div><div class="detalle">2 x 12</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Rotación externa de hombro con banda</span></div><div class="detalle">2 x 12</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="accesorio">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/loop-band-face-pull" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/789/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Face pull con banda</div><div class="detalle">2 x 12</div><div class="nota">Contrapesa todo el empuje que viene después — hombro sano.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Face pull con banda</span></div><div class="detalle">2 x 12</div><div class="nota">Contrapesa todo el empuje que viene después — hombro sano.</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="accesorio">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><img src="https://images.squarespace-cdn.com/content/v1/5f5e8592d2b0854b18af6975/1646927563523-LO0X82N2O12OCXLQ8JI3/Banded%2Bankle%2BDorsiflexion.jpg" alt="referencia"></div>
-  <div class="info"><div class="nombre">Dorsiflexión de tobillo con banda</div><div class="detalle">2 x 10</div><div class="nota">Directo a preparar el tobillo para la progresión de pistol.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Dorsiflexión de tobillo con banda</span></div><div class="detalle">2 x 10</div><div class="nota">Directo a preparar el tobillo para la progresión de pistol.</div></div>
 </div>
 
 <h2>3. Skill / isométrico <span class="tiempo">~13 min</span></h2>
 <div class="why">Handstand y front lever exigen mucho al sistema nervioso — van con el cuerpo fresco, antes de la fatiga de fuerza.</div>
 
-<div class="item">
+<div class="item" data-pool="isometrico">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/handstand-hold" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/537/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Handstand freestanding</div><div class="detalle">6 intentos x 10-20s (o hasta perder la forma)</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Handstand freestanding</span></div><div class="detalle">6 intentos x 10-20s (o hasta perder la forma)</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="isometrico">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://calisthenics.com/exercise/tuck-front-lever/" target="_blank" rel="noopener"><img src="https://calisthenics.com/wp-content/uploads/2025/01/tuck-front-lever-progression.jpg" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">Front lever tuck hold</div><div class="detalle">4 x 8-12s</div><div class="nota">Si el tuck se siente sólido y controlado, probá 1-2 series de advanced tuck.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Front lever tuck hold</span></div><div class="detalle">4 x 8-12s</div><div class="nota">Si el tuck se siente sólido y controlado, probá 1-2 series de advanced tuck.</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="isometrico">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://liftmanual.com/skin-the-cat/" target="_blank" rel="noopener"><img src="https://liftmanual.com/wp-content/uploads/2023/04/skin-the-cat.jpg" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">Skin the cat</div><div class="detalle">3 x 3-5 reps controladas</div><div class="nota">Rotalo con el front lever día por medio — mismo slot, no ambos el mismo día.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Skin the cat</span></div><div class="detalle">3 x 3-5 reps controladas</div><div class="nota">Rotalo con el front lever día por medio — mismo slot, no ambos el mismo día.</div></div>
 </div>
 
 <h2>4. Empuje / tracción en superset <span class="tiempo">~20 min</span></h2>
 <div class="why">Alternar empuje y tracción (antagonistas) ahorra tiempo real: mientras un grupo descansa, trabaja el otro. 4 rondas, 60-90s de descanso entre A y B.</div>
 
-<div class="item">
+<div class="item" data-pool="traccion">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/pull-up" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/279/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">A1 — Dominadas con pausa arriba</div><div class="detalle">4 x 5-6</div></div>
+  <div class="info"><div class="nombre">A1 — <span class="ntext">Dominadas con pausa arriba</span></div><div class="detalle">4 x 5-6</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="empuje">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/ring-dip" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/290/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">A2 — Fondos en aros</div><div class="detalle">4 x 6-8</div></div>
+  <div class="info"><div class="nombre">A2 — <span class="ntext">Fondos en aros</span></div><div class="detalle">4 x 6-8</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="traccion">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/archer-pull-up" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/443/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">B1 — Dominadas archer</div><div class="detalle">3 x 3-4 por lado</div><div class="nota">Si todavía no sale limpio: remo invertido en aros a una pierna (mismo slot).</div></div>
+  <div class="info"><div class="nombre">B1 — <span class="ntext">Dominadas archer</span></div><div class="detalle">3 x 3-4 por lado</div><div class="nota">Si todavía no sale limpio: remo invertido en aros a una pierna (mismo slot).</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="empuje">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitnessprogramer.com/exercise/archer-push-up/" target="_blank" rel="noopener"><img src="https://fitnessprogramer.com/wp-content/uploads/2022/07/Archer-Push-Up.gif" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">B2 — Flexiones archer</div><div class="detalle">3 x 3-4 por lado</div></div>
+  <div class="info"><div class="nombre">B2 — <span class="ntext">Flexiones archer</span></div><div class="detalle">3 x 3-4 por lado</div></div>
 </div>
 
 <h2>5. Piernas <span class="tiempo">~12 min</span></h2>
 <div class="why">Con el tobillo ya activado en los bloques 1-2, ahora sí tiene sentido cargar la progresión de pistol.</div>
 
-<div class="item">
+<div class="item" data-pool="piernas">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/pistol-squat" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/269/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Sentadilla búlgara con banda de asistencia (progresión pistol)</div><div class="detalle">3 x 5 por pierna</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Sentadilla búlgara con banda de asistencia (progresión pistol)</span></div><div class="detalle">3 x 5 por pierna</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="piernas">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/dumbbell-bulgarian-split-squat" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/549/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Zancada búlgara con pesa de 10kg</div><div class="detalle">3 x 8 por pierna</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Zancada búlgara con pesa de 10kg</span></div><div class="detalle">3 x 8 por pierna</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="piernas">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/single-leg-standing-calf-raise" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/3386/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Elevación de talones a una pierna</div><div class="detalle">3 x 12 por pierna</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Elevación de talones a una pierna</span></div><div class="detalle">3 x 12 por pierna</div></div>
 </div>
 
 <h2>6. Core <span class="tiempo">~10 min</span></h2>
 <div class="why">Después de piernas, antes de estirar — el core ya viene precansado de los holds de skill, así que va liviano en volumen.</div>
 
-<div class="item">
+<div class="item" data-pool="core">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitnessprogramer.com/exercise/dragon-flag/" target="_blank" rel="noopener"><img src="https://fitnessprogramer.com/wp-content/uploads/2022/07/Leg-Raise-Dragon-Flag.gif" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">Dragon flag negativo</div><div class="detalle">3 x 5</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Dragon flag negativo</span></div><div class="detalle">3 x 5</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="core">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitnessprogramer.com/exercise/hollow-hold/" target="_blank" rel="noopener"><img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/HollowHold.png" alt="referencia"></a></div>
-  <div class="info"><div class="nombre">Hollow body hold</div><div class="detalle">3 x 20-30s</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Hollow body hold</span></div><div class="detalle">3 x 20-30s</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="core">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/l-sit" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/206/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">L-sit (aros o piso)</div><div class="detalle">3 x 10-15s</div><div class="nota">Si ya lo sostenés cómodo, probá L-sit a V-sit.</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">L-sit (aros o piso)</span></div><div class="detalle">3 x 10-15s</div><div class="nota">Si ya lo sostenés cómodo, probá L-sit a V-sit.</div></div>
 </div>
 
 <h2>7. Estiramiento / vuelta a la calma <span class="tiempo">~10 min</span></h2>
 <div class="why">Bajás pulso y soltás lo que más cargaste: hombro (empuje/tracción/handstand), cadera y tobillo (piernas).</div>
 
-<div class="item">
+<div class="item" data-pool="estiramiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/cross-body-arm-stretch" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/565/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Estiramiento de hombro (cross-body)</div><div class="detalle">2 x 30s por lado</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Estiramiento de hombro (cross-body)</span></div><div class="detalle">2 x 30s por lado</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="estiramiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/pigeon-pose" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/491/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Estiramiento de cadera (pigeon pose)</div><div class="detalle">2 x 30s por lado</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Estiramiento de cadera (pigeon pose)</span></div><div class="detalle">2 x 30s por lado</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="estiramiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/crossover-standing-forward-bend" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/3330/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Estiramiento de isquios</div><div class="detalle">2 x 30s por lado</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Estiramiento de isquios</span></div><div class="detalle">2 x 30s por lado</div></div>
 </div>
-<div class="item">
+<div class="item" data-pool="estiramiento">
+  <button class="shuf" onclick="shuf(this)">🔀</button>
   <div class="thumb"><a href="https://fitbod.me/exercises/heel-press" target="_blank" rel="noopener"><video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/483/videos/full_1080p.mp4" type="video/mp4"></video></a></div>
-  <div class="info"><div class="nombre">Estiramiento de tobillo/pantorrilla contra pared</div><div class="detalle">2 x 30s por lado</div></div>
+  <div class="info"><div class="nombre"><span class="ntext">Estiramiento de tobillo/pantorrilla contra pared</span></div><div class="detalle">2 x 30s por lado</div></div>
 </div>
 
 <div style="position:fixed;bottom:8px;right:8px;font-size:12px;font-family:sans-serif;background:#0a0a0b;padding:4px 8px;border-radius:6px;z-index:9999;">
@@ -196,6 +231,92 @@
   <a href="rutina.html" style="color:#aaa;margin-right:8px;">Rutina</a>
   <a href="desk-mobility.html" style="color:#aaa;">Movilidad escritorio</a>
 </div>
+
+<script>
+const POOLS = {
+  calentamiento: [
+    {n:"Rotación de hombros con banda", h:"https://fitbod.me/exercises/loop-band-shoulder-external-rotation", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/502/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Círculos de cadera", h:"https://fitbod.me/exercises/standing-hip-circle", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/510/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Movilidad de tobillo (dorsiflexión en pared)", h:"https://fitnessprogramer.com/exercise/standing-dorsiflexion/", m:'<img src="https://fitnessprogramer.com/wp-content/uploads/2022/02/Standing-Dorsiflexion.gif" alt="referencia">'},
+    {n:"Pasos laterales con mini banda", h:"https://fitbod.me/exercises/mini-loop-band-lateral-walk", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/572/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Colgado pasivo en barra", h:"https://fitbod.me/exercises/dead-hang", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/520/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  accesorio: [
+    {n:"Rotación externa de hombro con banda", h:"https://fitbod.me/exercises/loop-band-shoulder-external-rotation", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/502/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Face pull con banda", h:"https://fitbod.me/exercises/loop-band-face-pull", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/789/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Curl de muñeca/antebrazo con pesa 10kg", h:"https://fitbod.me/exercises/palms-up-dumbbell-wrist-curl", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/267/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Dorsiflexión de tobillo con banda", h:null, m:'<img src="https://images.squarespace-cdn.com/content/v1/5f5e8592d2b0854b18af6975/1646927563523-LO0X82N2O12OCXLQ8JI3/Banded%2Bankle%2BDorsiflexion.jpg" alt="referencia">'},
+    {n:"Pallof press con banda", h:"https://fitbod.me/exercises/pallof-press", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/263/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  isometrico: [
+    {n:"Handstand contra pared", h:"https://fitbod.me/exercises/handstand-hold", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/537/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Handstand freestanding", h:"https://fitbod.me/exercises/handstand-hold", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/537/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Front lever tuck hold", h:"https://calisthenics.com/exercise/tuck-front-lever/", m:'<img src="https://calisthenics.com/wp-content/uploads/2025/01/tuck-front-lever-progression.jpg" alt="referencia">'},
+    {n:"Front lever advanced tuck", h:"https://calisthenics.com/exercise/advanced-tuck-front-lever/", m:'<img src="https://calisthenics.com/wp-content/uploads/2025/01/advanced-tuck-front-lever-exercise.jpg" alt="referencia">'},
+    {n:"Skin the cat", h:"https://liftmanual.com/skin-the-cat/", m:'<img src="https://liftmanual.com/wp-content/uploads/2023/04/skin-the-cat.jpg" alt="referencia">'},
+    {n:"L-sit a V-sit", h:"https://fitbod.me/exercises/l-sit", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/206/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  traccion: [
+    {n:"Dominadas estrictas", h:"https://fitbod.me/exercises/pull-up", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/279/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Dominadas con pausa arriba", h:"https://fitbod.me/exercises/pull-up", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/279/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Remo en aros", h:"https://fitbod.me/exercises/ring-row", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/291/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Dominadas archer", h:"https://fitbod.me/exercises/archer-pull-up", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/443/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Remo invertido en aros a una pierna", h:"https://fitbod.me/exercises/ring-row", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/291/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  empuje: [
+    {n:"Fondos en aros", h:"https://fitbod.me/exercises/ring-dip", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/290/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Flexiones con pausa/tempo lento", h:"https://fitbod.me/exercises/push-up", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/282/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Pike push-up", h:"https://fitbod.me/exercises/pike-push-up", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/455/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Flexiones archer", h:"https://fitnessprogramer.com/exercise/archer-push-up/", m:'<img src="https://fitnessprogramer.com/wp-content/uploads/2022/07/Archer-Push-Up.gif" alt="referencia">'},
+    {n:"Press con banda (hombro)", h:"https://fitbod.me/exercises/handle-band-shoulder-press", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/583/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  piernas: [
+    {n:"Sentadilla búlgara con banda de asistencia (progresión pistol)", h:"https://fitbod.me/exercises/pistol-squat", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/269/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Sentadilla a caja baja a una pierna", h:"https://fitbod.me/exercises/trx-single-leg-squat", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/419/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Zancada búlgara con pesa de 10kg", h:"https://fitbod.me/exercises/dumbbell-bulgarian-split-squat", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/549/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Elevación de talones a una pierna", h:"https://fitbod.me/exercises/single-leg-standing-calf-raise", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/3386/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Nordic curl asistido con banda", h:"https://fitnessprogramer.com/exercise/nordic-hamstring-curl/", m:'<img src="https://fitnessprogramer.com/wp-content/uploads/2021/06/Nordic-Hamstring-Curl.gif" alt="referencia">'},
+  ],
+  core: [
+    {n:"Front lever tuck hold", h:"https://calisthenics.com/exercise/tuck-front-lever/", m:'<img src="https://calisthenics.com/wp-content/uploads/2025/01/tuck-front-lever-progression.jpg" alt="referencia">'},
+    {n:"L-sit (aros o piso)", h:"https://fitbod.me/exercises/l-sit", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/206/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Dragon flag negativo", h:"https://fitnessprogramer.com/exercise/dragon-flag/", m:'<img src="https://fitnessprogramer.com/wp-content/uploads/2022/07/Leg-Raise-Dragon-Flag.gif" alt="referencia">'},
+    {n:"Hollow body hold", h:"https://fitnessprogramer.com/exercise/hollow-hold/", m:'<img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/HollowHold.png" alt="referencia">'},
+    {n:"Plancha con deslizamiento en aros", h:"https://fitbod.me/exercises/plank-body-saw", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/821/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+  estiramiento: [
+    {n:"Estiramiento de isquios", h:"https://fitbod.me/exercises/crossover-standing-forward-bend", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/3330/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Estiramiento de hombro (cross-body)", h:"https://fitbod.me/exercises/cross-body-arm-stretch", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/565/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Estiramiento de cadera (pigeon pose)", h:"https://fitbod.me/exercises/pigeon-pose", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/491/videos/full_1080p.mp4" type="video/mp4"></video>'},
+    {n:"Estiramiento de tobillo/pantorrilla contra pared", h:"https://fitbod.me/exercises/heel-press", m:'<video autoplay muted loop playsinline ontimeupdate="if(this.currentTime>18){this.currentTime=0}"><source src="https://app-media-r2.fitbod.me/v2/483/videos/full_1080p.mp4" type="video/mp4"></video>'},
+  ],
+};
+
+function shuf(btn) {
+  const item = btn.closest('.item');
+  const poolKey = item.dataset.pool;
+  const pool = POOLS[poolKey];
+  const span = item.querySelector('.ntext');
+  const thumb = item.querySelector('.thumb');
+
+  const visible = document.querySelectorAll('.item[data-pool="' + poolKey + '"] .ntext');
+  const used = new Set();
+  visible.forEach(function (s) { used.add(s.textContent.trim()); });
+
+  let choices = pool.filter(function (p) { return !used.has(p.n); });
+  if (choices.length === 0) {
+    const current = span.textContent.trim();
+    choices = pool.filter(function (p) { return p.n !== current; });
+  }
+  if (choices.length === 0) choices = pool;
+
+  const pick = choices[Math.floor(Math.random() * choices.length)];
+  span.textContent = pick.n;
+  thumb.innerHTML = pick.h
+    ? '<a href="' + pick.h + '" target="_blank" rel="noopener">' + pick.m + '</a>'
+    : pick.m;
+}
+</script>
 
 </body>
 </html>
