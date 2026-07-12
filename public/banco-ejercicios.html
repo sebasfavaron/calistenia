@@ -59,7 +59,8 @@
     max-width: 100%;
   }
 </style>
-</head>
+    <link rel="manifest" href="./manifest.json" />
+  </head>
 <body>
 
 <h1>Banco de ejercicios — clase solo</h1>
@@ -233,5 +234,11 @@
   <a href="desk-mobility.html" style="color:#aaa;">Movilidad escritorio</a>
 </div>
 
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').catch((error) => console.error('Service worker registration failed:', error));
+      }
+      if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
+    </script>
 </body>
 </html>
