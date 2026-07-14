@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Guía de acción para dolor de rodilla u hombro antes de calistenia.">
+  <title>Semáforo de dolor — Calistenia</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root { color-scheme: dark; --bg:#0a0a0b; --surface:#151518; --line:#2b2b30; --text:#f4f4f5; --muted:#a1a1aa; --green:#4ade80; --yellow:#facc15; --red:#fb7185; --critical:#f97316; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 32px)); margin:0 auto; padding:32px 0 72px; }
+    h1 { font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.08; margin:0 0 8px; }
+    h2 { margin:0; font-size:1.15rem; }
+    .lead, .source { color:var(--muted); margin:0; }
+    .lead { font-size:1.05rem; }
+    .notice { margin:24px 0; padding:14px 16px; border:1px solid var(--line); border-left:4px solid var(--yellow); background:var(--surface); border-radius:10px; }
+    .steps { display:grid; gap:12px; margin:22px 0; }
+    .step { display:grid; grid-template-columns:12px 1fr; gap:14px; padding:18px; background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+    .bar { border-radius:99px; background:var(--green); }
+    .step.warning .bar { background:var(--yellow); } .step.alert .bar { background:var(--red); } .step.critical .bar { background:var(--critical); }
+    .step p { color:var(--muted); margin:7px 0 0; } .step strong { color:var(--text); }
+    .check { padding:18px; background:#102018; border:1px solid #245436; border-radius:12px; }
+    .check ul { margin:10px 0 0; padding-left:20px; } .check li { margin:6px 0; }
+    .source { border-top:1px solid var(--line); margin-top:28px; padding-top:18px; font-size:.9rem; }
+    nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; } nav a { color:#fbbf24; text-decoration:none; font-weight:650; } nav a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Semáforo de dolor</h1>
+    <p class="lead">Antes de cargar hombro o rodilla: contá cuántas veces apareció dolor en los últimos 7 días. Esta guía decide la sesión; no intenta diagnosticar.</p>
+
+    <div class="notice"><strong>Regla rápida:</strong> si hay dolor nuevo o cambió de tipo/intensidad, anotá ubicación, intensidad 1–10 y momento. No lo tapes para completar la rutina.</div>
+
+    <section class="steps" aria-label="Acción por frecuencia de dolor">
+      <article class="step">
+        <div class="bar" aria-hidden="true"></div>
+        <div><h2>1.ª vez esta semana — registrar y bajar atención</h2><p>Marcá intensidad y qué movimiento lo provocó. No hay escalada automática todavía; mantené sólo rango cómodo y no fuerces repeticiones dolorosas.</p></div>
+      </article>
+      <article class="step warning">
+        <div class="bar" aria-hidden="true"></div>
+        <div><h2>2.ª vez en 7 días — reducir volumen</h2><p>Si es la misma zona/tipo, tratá la sesión como <strong>advertencia</strong>: bajá volumen de ese patrón y elegí movilidad suave o una variante sin dolor. El sistema de salud indica considerar reducir volumen en la próxima sesión.</p></div>
+      </article>
+      <article class="step alert">
+        <div class="bar" aria-hidden="true"></div>
+        <div><h2>3.ª vez en 7 días — sesión corta, fisio</h2><p><strong>No hagas la rutina normal.</strong> Reducí calistenia a 1 h, evitá cargar la zona y agendá/consultá fisioterapia. Es el umbral de alerta del health-system para un patrón que empeora.</p></div>
+      </article>
+      <article class="step critical">
+        <div class="bar" aria-hidden="true"></div>
+        <div><h2>4.ª vez en 7 días — parar ejercicio intenso</h2><p><strong>Bloqueá la próxima sesión intensa.</strong> Sólo movilidad suave permitida hasta ver especialista. No conviertas esto en una rutina alternativa de fuerza.</p></div>
+      </article>
+    </section>
+
+    <section class="check">
+      <h2>Chequeo de salida</h2>
+      <ul>
+        <li>¿Dolor de hombro? Saltá handstand, fondos, dominadas o el patrón que duela.</li>
+        <li>¿Dolor de rodilla? Saltá pistol/búlgara/sentadilla o el patrón que duela.</li>
+        <li>Dolor repetido + pocas pausas de movimiento: el health-system aumenta breaks a cada 45 min; usá <a href="desk-mobility.html">movilidad de escritorio</a> sólo si es suave y no duele.</li>
+      </ul>
+    </section>
+
+    <p class="source">Derivado de <code>health-system/logic/decision_tree.md</code> y <code>logic/escalation_rules.md</code>. Esta PWA estática no lee los logs locales: el conteo es manual y el registro sigue viviendo en health-system.</p>
+    <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a></nav>
+  </main>
+  <script src="./pwa-init.js"></script>
+</body>
+</html>
