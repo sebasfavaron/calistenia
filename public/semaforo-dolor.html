@@ -66,9 +66,6 @@
     <p class="source">Derivado de <code>health-system/logic/decision_tree.md</code> y <code>logic/escalation_rules.md</code>. Esta PWA estática no lee los logs locales: el conteo es manual y el registro sigue viviendo en health-system.</p>
     <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a></nav>
   </main>
-  <script>
-    if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch((error) => console.error('Service worker registration failed:', error));
-    if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
-  </script>
+  <script src="./pwa-init.js"></script>
 </body>
 </html>

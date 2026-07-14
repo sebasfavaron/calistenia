@@ -8,6 +8,7 @@ const APP_SHELL = [
   './desk-mobility.html',
   './semaforo-dolor.html',
   './manifest.json',
+  './pwa-init.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
 ];
@@ -18,14 +19,20 @@ self.addEventListener('install', (event) => {
     await cache.addAll(APP_SHELL);
 
     // Vite hashes the index CSS/JS. Read the built page so those exact files are
-    // precached without globbing public/data/.
-    const indexResponse = await fetch('./index.html');
-    const indexHtml = await indexResponse.text();
-    const assetUrls = [...indexHtml.matchAll(/(?:src|href)=["']([^"']+)["']/g)]
-      .map(([, value]) => new URL(value, self.location.href))
-      .filter((url) => url.origin === self.location.origin && url.pathname.includes('/assets/'))
-      .map((url) => url.href);
-    await cache.addAll(assetUrls);
+    // precached without globbing public/data/. A transient failure here must not
+    // discard the already-cached base shell.
+    try {
+      const indexResponse = await fetch('./index.html');
+      const indexHtml = await indexResponse.text();
+      const assetUrls = [...indexHtml.matchAll(/(?:src|href)=["']([^"']+)["']/g)]
+        .map(([, value]) => new URL(value, self.location.href))
+        .filter((url) => url.origin === self.location.origin && url.pathname.includes('/assets/'))
+        .map((url) => url.href);
+      await cache.addAll(assetUrls);
+    } catch (error) {
+      console.error('Failed to precache Vite assets:', error);
+    }
+
     await self.skipWaiting();
   })());
 });
@@ -34,7 +41,10 @@ self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
     await Promise.all(keys
-      .filter((key) => key.startsWith('calistenia-shell-') && key !== SHELL_CACHE)
+      .filter((key) => (
+        (key.startsWith('calistenia-shell-') && key !== SHELL_CACHE)
+        || (key.startsWith('calistenia-runtime-') && key !== RUNTIME_CACHE)
+      ))
       .map((key) => caches.delete(key)));
     await self.clients.claim();
   })());
@@ -48,8 +58,9 @@ self.addEventListener('fetch', (event) => {
   const dataPath = new URL('./data/', self.location.href).pathname;
   const isLocalExerciseAsset = url.origin === self.location.origin && url.pathname.startsWith(dataPath);
   const isFitbodVideo = url.hostname === 'app-media-r2.fitbod.me';
-  const isShellPage = url.origin === self.location.origin && APP_SHELL.some((path) =>
-    url.href === new URL(path, self.location.href).href);
+  const isBuiltAsset = url.origin === self.location.origin && url.pathname.includes('/assets/');
+  const isShellPage = isBuiltAsset || (url.origin === self.location.origin && APP_SHELL.some((path) =>
+    url.href === new URL(path, self.location.href).href));
 
   if (!isLocalExerciseAsset && !isFitbodVideo && !isShellPage) return;
 

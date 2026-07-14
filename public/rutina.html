@@ -320,11 +320,6 @@ function shuf(btn) {
 }
 </script>
 
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js').catch((error) => console.error('Service worker registration failed:', error));
-      }
-      if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
-    </script>
+    <script src="./pwa-init.js"></script>
 </body>
 </html>
