@@ -23,3 +23,15 @@
   - done 2026-07-14: published `semaforo-dolor.html`, linked it from every existing surface, and included it in the PWA shell
   - narrow integration; no health-system data is read at runtime because this static GitHub Pages app cannot access the sibling repo's local logs
 - tags: [project:calistenia, type:pain-frequency-guardrail, criterion:health-recommendations-cheatsheet]
+
+### T-042.2 - Add post-lunch energy action guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates the health-system breakfast-protein → post-lunch-fatigue correlation into a practical action and desk-mobility choice
+- source: `T-042; health-system/logic/correlations.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-15: published `energia-post-almuerzo.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation: it tells Sebas to prioritize breakfast protein for the detected pattern and routes the current movement break to the existing desk-mobility routine; no health-system logs are read at runtime
+- tags: [project:calistenia, type:post-lunch-energy-correlation, criterion:health-recommendations-cheatsheet]
