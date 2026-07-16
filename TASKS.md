@@ -35,3 +35,16 @@
   - done 2026-07-15: published `energia-post-almuerzo.html`, linked it from every existing surface, and included it in the PWA shell
   - narrow static translation: it tells Sebas to prioritize breakfast protein for the detected pattern and routes the current movement break to the existing desk-mobility routine; no health-system logs are read at runtime
 - tags: [project:calistenia, type:post-lunch-energy-correlation, criterion:health-recommendations-cheatsheet]
+
+### T-042.3 - Add post-workout recovery reset
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's post-workout water + protein reminder into an immediate recovery action
+- source: `T-042; health-system/config/calendar_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-16: published `recuperacion-post-entreno.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation of health-system’s post-workout “2 vasos de agua + proteína” calendar reminder; manual trigger only, with no runtime calendar/log access or nutrition prescription
+  - distinct from pain-frequency training guardrail and breakfast-protein/post-lunch-fatigue correlation
+- tags: [project:calistenia, type:post-workout-recovery-reset, criterion:health-recommendations-cheatsheet]
