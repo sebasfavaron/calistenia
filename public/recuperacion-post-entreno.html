@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Reset breve después de calistenia: agua, proteína y próximo paso seguro.">
+  <title>Reset post-entreno — Calistenia</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root { color-scheme:dark; --bg:#0a0a0b; --surface:#151518; --line:#2b2b30; --text:#f4f4f5; --muted:#a1a1aa; --accent:#4ade80; --accent-bg:#102018; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 32px)); margin:0 auto; padding:32px 0 72px; }
+    h1 { font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.08; margin:0 0 8px; }
+    h2 { font-size:1.08rem; margin:0; } p { margin:7px 0 0; }
+    .lead, .source { color:var(--muted); } .lead { font-size:1.05rem; }
+    .notice { margin:24px 0; padding:14px 16px; border:1px solid #245436; border-left:4px solid var(--accent); border-radius:10px; background:var(--accent-bg); }
+    .steps { display:grid; gap:12px; margin:22px 0; }
+    .step { display:grid; grid-template-columns:36px 1fr; gap:14px; padding:18px; background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+    .num { width:28px; height:28px; display:grid; place-items:center; border-radius:50%; background:#14532d; color:#dcfce7; font-weight:750; }
+    .step p { color:var(--muted); } .step strong { color:var(--text); }
+    .choice { margin-top:10px; padding:11px 12px; border:1px solid #245436; border-radius:8px; background:var(--accent-bg); color:#d1fae5; }
+    a { color:#fbbf24; } .source { border-top:1px solid var(--line); margin-top:28px; padding-top:18px; font-size:.9rem; }
+    nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; } nav a { text-decoration:none; font-weight:650; } nav a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Reset post-entreno</h1>
+    <p class="lead">Al terminar calistenia: cerrá la sesión con agua y proteína. Es el recordatorio post-workout del health-system, convertido en una acción de 2 minutos.</p>
+
+    <div class="notice"><strong>Regla rápida:</strong> antes de ducha, traslado o pantalla, tomá <strong>2 vasos de agua</strong> y dejá definida tu proteína. No es una prescripción ni compensa dolor, mareo o malestar.</div>
+
+    <section class="steps" aria-label="Reset después de calistenia">
+      <article class="step">
+        <div class="num">1</div>
+        <div><h2>Terminó la sesión: agua ahora</h2><p>Tomá 2 vasos de agua al cerrar el entrenamiento. Hacelo antes de pasar a otra tarea: la regla existe como recordatorio post-workout, no para esperar a tener sed.</p></div>
+      </article>
+      <article class="step">
+        <div class="num">2</div>
+        <div><h2>Resolvé proteína</h2><p>Elegí una comida o colación con proteína para después. La regla no fija gramos ni alimentos: el punto práctico es no terminar el entrenamiento sin decidir cuál será tu opción.</p><div class="choice">Acción mínima: dejá lista la opción concreta que vas a comer; si ya toca una comida, incorporala ahí.</div></div>
+      </article>
+      <article class="step">
+        <div class="num">3</div>
+        <div><h2>Si hubo dolor, no lo tapes con el reset</h2><p>Agua y comida no cambian la carga permitida. Si apareció dolor de hombro o rodilla, anotálo y usá el <a href="semaforo-dolor.html">semáforo de dolor</a> antes de la próxima sesión.</p></div>
+      </article>
+    </section>
+
+    <p class="source">Derivado de <code>health-system/config/calendar_rules.md</code>: al detectar calistenia, el sistema envía “💧 2 vasos de agua + proteína” post-workout. <code>health_config.yaml</code> aporta el objetivo diario de 10 vasos. Esta PWA estática no lee calendario ni logs: el disparador es manual.</p>
+    <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a><a href="semaforo-dolor.html">Semáforo dolor</a><a href="energia-post-almuerzo.html">Bajón post-almuerzo</a></nav>
+  </main>
+  <script src="./pwa-init.js"></script>
+</body>
+</html>
