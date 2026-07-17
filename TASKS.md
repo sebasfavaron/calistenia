@@ -48,3 +48,16 @@
   - narrow static translation of health-system’s post-workout “2 vasos de agua + proteína” calendar reminder; manual trigger only, with no runtime calendar/log access or nutrition prescription
   - distinct from pain-frequency training guardrail and breakfast-protein/post-lunch-fatigue correlation
 - tags: [project:calistenia, type:post-workout-recovery-reset, criterion:health-recommendations-cheatsheet]
+
+### T-042.4 - Add post-meeting mobility reset
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates the health-system meeting-end movement-break and long-meeting water rules into a practical desk-mobility reset
+- source: `T-042; health-system/config/calendar_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-17: published `reset-post-reunion.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation: after a meeting, do 2 minutes of existing desk mobility; meetings over 1 hour add a glass of water; no runtime calendar or log access
+  - distinct from pain-frequency, breakfast/post-lunch fatigue, and post-workout recovery guides
+- tags: [project:calistenia, type:post-meeting-mobility-reset, criterion:health-recommendations-cheatsheet]
