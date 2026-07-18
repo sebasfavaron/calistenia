@@ -61,3 +61,16 @@
   - narrow static translation: after a meeting, do 2 minutes of existing desk mobility; meetings over 1 hour add a glass of water; no runtime calendar or log access
   - distinct from pain-frequency, breakfast/post-lunch fatigue, and post-workout recovery guides
 - tags: [project:calistenia, type:post-meeting-mobility-reset, criterion:health-recommendations-cheatsheet]
+
+### T-042.5 - Add sleep screen-cutoff guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's non-cancelable 22:30 screen cutoff into a manual sleep-transition action
+- source: `T-042; health-system/config/calendar_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-18: published `corte-pantallas.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation of the health-system 22:30 screen cutoff; manual trigger only, with no runtime calendar, screen-use, or log access
+  - distinct from pain-frequency, post-lunch energy, post-workout recovery, and post-meeting mobility guides
+- tags: [project:calistenia, type:sleep-screen-cutoff, criterion:health-recommendations-cheatsheet]
