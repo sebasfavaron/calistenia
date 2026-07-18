@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Cierre de pantallas nocturno: guía manual basada en el recordatorio de salud de las 22:30.">
+  <title>Cierre de pantallas — Calistenia</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root { color-scheme:dark; --bg:#0a0a0b; --surface:#151518; --line:#2b2b30; --text:#f4f4f5; --muted:#a1a1aa; --accent:#818cf8; --accent-bg:#171a35; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 32px)); margin:0 auto; padding:32px 0 72px; }
+    h1 { font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.08; margin:0 0 8px; }
+    h2 { font-size:1.08rem; margin:0; } p { margin:7px 0 0; }
+    .lead, .source { color:var(--muted); } .lead { font-size:1.05rem; }
+    .notice { margin:24px 0; padding:14px 16px; border:1px solid #454b91; border-left:4px solid var(--accent); border-radius:10px; background:var(--accent-bg); }
+    .steps { display:grid; gap:12px; margin:22px 0; }
+    .step { display:grid; grid-template-columns:36px 1fr; gap:14px; padding:18px; background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+    .num { width:28px; height:28px; display:grid; place-items:center; border-radius:50%; background:#373b78; color:#e0e7ff; font-weight:750; }
+    .step p { color:var(--muted); } .choice { margin-top:10px; padding:11px 12px; border:1px solid #454b91; border-radius:8px; background:var(--accent-bg); color:#e0e7ff; }
+    a { color:#fbbf24; } .source { border-top:1px solid var(--line); margin-top:28px; padding-top:18px; font-size:.9rem; }
+    nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; } nav a { text-decoration:none; font-weight:650; } nav a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cierre de pantallas</h1>
+    <p class="lead">Cuando llega el corte de las 22:30: cerrá pantallas y empezá la transición a dormir. Es el recordatorio no cancelable del health-system, convertido en una guía manual; no mide tu sueño.</p>
+
+    <div class="notice"><strong>Regla rápida:</strong> a las <strong>22:30</strong>, terminá el uso no esencial de pantallas. No hace falta “compensar” con entrenamiento, movilidad o más tareas.</div>
+
+    <section class="steps" aria-label="Cierre nocturno de pantallas">
+      <article class="step">
+        <div class="num">1</div>
+        <div><h2>Detectá el momento</h2><p>Usá esta guía cuando sea cerca de las 22:30 o cuando quieras adelantar el cierre. La configuración de health-system define ése como screen cutoff y mantiene el recordatorio incluso si cambia el contexto del calendario.</p></div>
+      </article>
+      <article class="step">
+        <div class="num">2</div>
+        <div><h2>Cerrá lo que no sea imprescindible</h2><p>Terminá la pestaña, video, chat o tarea recreativa actual. Si queda trabajo real, definí el primer paso de mañana y salí: esta página no decide excepciones ni bloquea dispositivos.</p><div class="choice">Acción mínima: dejá una nota de una línea para retomar mañana y apagá/alejá la pantalla.</div></div>
+      </article>
+      <article class="step">
+        <div class="num">3</div>
+        <div><h2>Elegí una transición sin pantalla</h2><p>Higiene, preparar ropa/agua para mañana, leer en papel o simplemente ir a dormir. No conviertas el cierre en otra rutina obligatoria: el objetivo es respetar el corte, no optimizarlo.</p></div>
+      </article>
+      <article class="step">
+        <div class="num">4</div>
+        <div><h2>Mañana: retomá la base</h2><p>La referencia de health-system es 7 horas de sueño. Si entrenás, la carga sigue dependiendo de cómo estés y de cualquier dolor: usá el <a href="semaforo-dolor.html">semáforo de dolor</a> antes de forzar una sesión.</p></div>
+      </article>
+    </section>
+
+    <p class="source">Derivado de <code>health-system/config/calendar_rules.md</code>: el screen cutoff de las 22:30 nunca se cancela, incluso en viajes; y de <code>config/health_config.yaml</code>: <code>screen_cutoff_time: "22:30"</code> y referencia de 7 h de sueño. Esta PWA estática no lee calendario, uso de pantalla ni logs: el disparador es manual.</p>
+    <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a><a href="semaforo-dolor.html">Semáforo dolor</a><a href="energia-post-almuerzo.html">Bajón post-almuerzo</a><a href="recuperacion-post-entreno.html">Reset post-entreno</a><a href="reset-post-reunion.html">Reset post-reunión</a></nav>
+  </main>
+  <script src="./pwa-init.js"></script>
+</body>
+</html>
