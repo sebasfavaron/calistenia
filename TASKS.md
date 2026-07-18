@@ -74,3 +74,16 @@
   - narrow static translation of the health-system 22:30 screen cutoff; manual trigger only, with no runtime calendar, screen-use, or log access
   - distinct from pain-frequency, post-lunch energy, post-workout recovery, and post-meeting mobility guides
 - tags: [project:calistenia, type:sleep-screen-cutoff, criterion:health-recommendations-cheatsheet]
+
+### T-042.6 - Add resting-heart-rate training-rest guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's sustained elevated resting-heart-rate escalation into a manual rest-or-walk decision before training
+- source: `T-042; health-system/logic/escalation_rules.md; health-system/config/health_config.yaml; health-system/config/xiaomi_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-18: published `frecuencia-cardiaca-reposo.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation: >70 bpm for 3 days means rest complete; >80 bpm for 5 days means no calisthenia, only walks and professional follow-up; manual trigger/count only, with no runtime watch or health-system access
+  - distinct from pain-frequency, post-lunch energy, post-workout recovery, post-meeting mobility, and sleep screen-cutoff guides
+- tags: [project:calistenia, type:resting-heart-rate-training-rest, criterion:health-recommendations-cheatsheet]
