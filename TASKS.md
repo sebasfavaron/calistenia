@@ -87,3 +87,16 @@
   - narrow static translation: >70 bpm for 3 days means rest complete; >80 bpm for 5 days means no calisthenia, only walks and professional follow-up; manual trigger/count only, with no runtime watch or health-system access
   - distinct from pain-frequency, post-lunch energy, post-workout recovery, post-meeting mobility, and sleep screen-cutoff guides
 - tags: [project:calistenia, type:resting-heart-rate-training-rest, criterion:health-recommendations-cheatsheet]
+
+### T-042.7 - Add deep-work movement-break guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's 90-minute deep-work movement-break rule into a manual desk-mobility reset
+- source: `T-042; health-system/config/calendar_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-19: published `pausa-deep-work.html`, linked it from every existing surface, and included it in the PWA shell
+  - narrow static translation: deep work changes breaks to every 90 minutes; take a gentle 2-minute desk-mobility pause, manual trigger/count only, with no runtime calendar or health-system access
+  - distinct from post-meeting mobility: it applies during solo focus blocks rather than at a meeting end
+- tags: [project:calistenia, type:deep-work-movement-break, criterion:health-recommendations-cheatsheet]
