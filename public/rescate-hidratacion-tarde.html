@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Rescate de hidratación: guía manual si después de las 16 h llevás menos de 6 vasos de agua.">
+  <title>Agua después de las 16 h — Calistenia</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root { color-scheme:dark; --bg:#0a0a0b; --surface:#151518; --line:#2b2b30; --text:#f4f4f5; --muted:#a1a1aa; --accent:#38bdf8; --accent-bg:#112c3a; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 32px)); margin:0 auto; padding:32px 0 72px; } h1 { font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.08; margin:0 0 8px; }
+    h2 { font-size:1.08rem; margin:0; } p { margin:7px 0 0; } .lead, .source { color:var(--muted); } .lead { font-size:1.05rem; }
+    .notice { margin:24px 0; padding:14px 16px; border:1px solid #18749b; border-left:4px solid var(--accent); border-radius:10px; background:var(--accent-bg); }
+    .steps { display:grid; gap:12px; margin:22px 0; } .step { display:grid; grid-template-columns:36px 1fr; gap:14px; padding:18px; background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+    .num { width:28px; height:28px; display:grid; place-items:center; border-radius:50%; background:#0c5d7e; color:#dff6ff; font-weight:750; } .step p { color:var(--muted); }
+    .choice { margin-top:10px; padding:11px 12px; border:1px solid #18749b; border-radius:8px; background:var(--accent-bg); color:#dff6ff; } a { color:#fbbf24; }
+    .source { border-top:1px solid var(--line); margin-top:28px; padding-top:18px; font-size:.9rem; } nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; } nav a { text-decoration:none; font-weight:650; } nav a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Agua después de las 16 h</h1>
+    <p class="lead">Guía manual para la escalada de hidratación de health-system. Usala si contaste menos de 6 vasos a las 16 h o más tarde; no lee registros ni envía avisos.</p>
+    <div class="notice"><strong>Regla rápida:</strong> menos de <strong>6 vasos</strong> después de las <strong>16 h</strong> activa un recordatorio cada 30 minutos hasta llegar a <strong>8 vasos</strong>. El objetivo diario configurado sigue siendo 10.</div>
+    <section class="steps" aria-label="Rescate manual de hidratación">
+      <article class="step"><div class="num">1</div><div><h2>Contá lo que ya tomaste</h2><p>Usá vasos, no una estimación vaga. Esta guía sólo aplica si son más de las 16 h y el total es menor que 6. Si no llevás el conteo, empezá ahora sin inventar el acumulado.</p></div></article>
+      <article class="step"><div class="num">2</div><div><h2>Tomá un vaso ahora</h2><p>No hace falta convertir el rescate en una competencia ni tomar varios de golpe. Tomá un vaso y dejá agua visible para el siguiente corte.</p><div class="choice">Acción mínima: un vaso ahora + timer de 30 minutos.</div></div></article>
+      <article class="step"><div class="num">3</div><div><h2>Repetí cada 30 min hasta 8</h2><p>En cada alarma, revisá el total y tomá otro vaso si todavía no llegaste a 8. Al llegar, detené este rescate; la meta diaria configurada es 10, pero esta regla no prescribe el ritmo restante.</p></div></article>
+      <article class="step"><div class="num">4</div><div><h2>No confundas agua con permiso para forzar</h2><p>Hidratarte no cambia carga, dolor ni descanso. Si vas a entrenar y hubo dolor, aplicá el <a href="semaforo-dolor.html">semáforo de dolor</a>; si terminaste de entrenar, usá el <a href="recuperacion-post-entreno.html">reset post-entreno</a>.</p></div></article>
+    </section>
+    <p class="source">Derivado de <code>health-system/logic/escalation_rules.md</code>: <code>water_intake &lt; 6</code> y hora &gt;16:00 → recordatorio cada 30 min hasta 8 vasos; y <code>config/health_config.yaml</code>: objetivo diario de 10 vasos. PWA estática: hora, conteo y alarmas manuales, sin acceso a health-system.</p>
+    <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a><a href="semaforo-dolor.html">Semáforo dolor</a><a href="energia-post-almuerzo.html">Bajón post-almuerzo</a><a href="recuperacion-post-entreno.html">Reset post-entreno</a><a href="reset-post-reunion.html">Reset post-reunión</a><a href="corte-pantallas.html" style="color:#818cf8;">Cierre de pantallas</a><a href="frecuencia-cardiaca-reposo.html" style="color:#fb7185;">FC reposo alta</a><a href="pausa-deep-work.html" style="color:#22d3ee;">Pausa de foco</a><a href="rescate-hidratacion-tarde.html" style="color:#38bdf8;">Agua 16 h</a></nav>
+  </main>
+  <script src="./pwa-init.js"></script>
+</body>
+</html>

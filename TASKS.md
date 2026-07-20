@@ -100,3 +100,17 @@
   - narrow static translation: deep work changes breaks to every 90 minutes; take a gentle 2-minute desk-mobility pause, manual trigger/count only, with no runtime calendar or health-system access
   - distinct from post-meeting mobility: it applies during solo focus blocks rather than at a meeting end
 - tags: [project:calistenia, type:deep-work-movement-break, criterion:health-recommendations-cheatsheet]
+
+
+### T-042.8 - Add afternoon hydration catch-up guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's after-16:00 low-water escalation into a manual hydration catch-up action
+- source: `T-042; health-system/logic/escalation_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-20: published `rescate-hidratacion-tarde.html`, linked it from every existing surface, and included it in PWA shell v9
+  - narrow static translation: after 16:00, fewer than 6 glasses means one glass now and a manual 30-minute reminder until 8; configured daily target remains 10; no runtime health-system, water-log, or notification access
+  - evidence: `npm run build`; JS/service-worker syntax checks; every `dist/*.html` links the page; built preview returned HTTP 200 for page/index/service worker; `git diff --check`
+- tags: [project:calistenia, type:afternoon-hydration-catchup, criterion:health-recommendations-cheatsheet]
