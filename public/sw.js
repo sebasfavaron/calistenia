@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'calistenia-shell-v9';
+const SHELL_CACHE = 'calistenia-shell-v10';
 const RUNTIME_CACHE = 'calistenia-runtime-v1';
 const APP_SHELL = [
   './',
@@ -14,6 +14,7 @@ const APP_SHELL = [
   './frecuencia-cardiaca-reposo.html',
   './pausa-deep-work.html',
   './rescate-hidratacion-tarde.html',
+  './pausas-dolor-rodilla.html',
   './manifest.json',
   './pwa-init.js',
   './icons/icon-192.png',
