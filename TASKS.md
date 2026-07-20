@@ -114,3 +114,16 @@
   - narrow static translation: after 16:00, fewer than 6 glasses means one glass now and a manual 30-minute reminder until 8; configured daily target remains 10; no runtime health-system, water-log, or notification access
   - evidence: `npm run build`; JS/service-worker syntax checks; every `dist/*.html` links the page; built preview returned HTTP 200 for page/index/service worker; `git diff --check`
 - tags: [project:calistenia, type:afternoon-hydration-catchup, criterion:health-recommendations-cheatsheet]
+
+### T-042.9 - Add knee-pain movement-break cadence guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's low-movement-breaks plus knee-pain rule into a manual desk-mobility cadence
+- source: `T-042; health-system/logic/escalation_rules.md`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-20: published `pausas-dolor-rodilla.html`, linked it from every existing surface, and included it in PWA shell v10
+  - narrow static translation: knee pain logged today plus fewer than 4 movement breaks changes remaining desk-mobility pauses to every 45 minutes; manual trigger/count only, with no runtime health-system, symptom-log, or timer access
+  - distinct from the pain-frequency training guardrail: this addresses same-day desk-break cadence rather than pain recurrence or training volume
+- tags: [project:calistenia, type:knee-pain-movement-break-cadence, criterion:health-recommendations-cheatsheet]
