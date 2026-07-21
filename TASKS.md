@@ -140,3 +140,16 @@
   - narrow static translation: after two consecutive breakfasts without protein, manually choose and prepare an option for tomorrow; no runtime health-system, meal-log, or notification access
   - distinct from the post-lunch energy correlation: this handles the two-day missed-input escalation before any fatigue outcome
 - tags: [project:calistenia, type:breakfast-protein-restart, criterion:health-recommendations-cheatsheet]
+
+### T-042.11 - Add severe hydration reset guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's two-consecutive-days severe low-water escalation into a manual hydration reset
+- source: `T-042; health-system/logic/escalation_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/tasks/T-042.11/`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-21: published `reinicio-hidratacion-severa.html`, linked it from all 15 current HTML surfaces, and included it in PWA shell v12
+  - narrow static translation: <3 glasses for 2 consecutive days means a manual one-glass-now, visible-water, 15-minute-reset; no runtime health-system, water-log, or notification access
+  - distinct from T-042.8's same-day after-16:00 low-water catch-up; evidence: build, JS syntax, source/built links, local HTTP 200 preview, `git diff --check`
+- tags: [project:calistenia, type:severe-hydration-reset, criterion:health-cheat-sheet]
