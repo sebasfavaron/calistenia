@@ -127,3 +127,16 @@
   - narrow static translation: knee pain logged today plus fewer than 4 movement breaks changes remaining desk-mobility pauses to every 45 minutes; manual trigger/count only, with no runtime health-system, symptom-log, or timer access
   - distinct from the pain-frequency training guardrail: this addresses same-day desk-break cadence rather than pain recurrence or training volume
 - tags: [project:calistenia, type:knee-pain-movement-break-cadence, criterion:health-recommendations-cheatsheet]
+
+### T-042.10 - Add breakfast-protein restart guide
+- status: `done`
+- goal: add a calistenia cheat-sheet page that translates health-system's two-consecutive-missed-breakfast-protein rule into a manual next-breakfast reset
+- source: `T-042; health-system/logic/escalation_rules.md`
+- workspace: `/home/sebas/work/projects/calistenia`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-21: published `reinicio-proteina-desayuno.html`, linked it from every existing surface, and included it in PWA shell v11
+  - narrow static translation: after two consecutive breakfasts without protein, manually choose and prepare an option for tomorrow; no runtime health-system, meal-log, or notification access
+  - distinct from the post-lunch energy correlation: this handles the two-day missed-input escalation before any fatigue outcome
+- tags: [project:calistenia, type:breakfast-protein-restart, criterion:health-recommendations-cheatsheet]
