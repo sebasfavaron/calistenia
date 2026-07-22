@@ -141,6 +141,19 @@
   - distinct from the post-lunch energy correlation: this handles the two-day missed-input escalation before any fatigue outcome
 - tags: [project:calistenia, type:breakfast-protein-restart, criterion:health-recommendations-cheatsheet]
 
+### T-042.12 - Add pre-meal water guide
+- status: done
+- goal: add a calistenia cheat-sheet page that translates health-system's scheduled-meal pre-water reminder into one manual hydration action before lunch or dinner
+- source: `T-042; health-system/config/calendar_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/tasks/T-042.12/`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-22: published `agua-antes-comida.html` and linked it from all 16 source/built HTML surfaces
+  - narrow static translation: take one glass of water about 15 minutes before a scheduled lunch or dinner; manual trigger only, with no runtime calendar, intake-log, or notification access
+  - distinct from T-042.8/T-042.11 hydration recovery rules: preventive and meal-timed, not a low-intake escalation; evidence: build, source/built link counts, local HTTP 200 preview, `git diff --check`; no PWA/service-worker/manifest changes
+- tags: [project:calistenia, type:pre-meal-water, criterion:health-cheat-sheet]
+
 ### T-042.11 - Add severe hydration reset guide
 - status: `done`
 - goal: add a calistenia cheat-sheet page that translates health-system's two-consecutive-days severe low-water escalation into a manual hydration reset
