@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="Guía manual ante cuatro cortes de pantalla incumplidos en una semana.">
+  <title>Reinicio de pantallas — Calistenia</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    :root { color-scheme:dark; --bg:#0a0a0b; --surface:#151518; --line:#2b2b30; --text:#f4f4f5; --muted:#a1a1aa; --accent:#818cf8; --accent-bg:#1e1b4b; }
+    * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(760px, calc(100% - 32px)); margin:0 auto; padding:32px 0 72px; } h1 { font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.08; margin:0 0 8px; }
+    h2 { font-size:1.08rem; margin:0; } p { margin:7px 0 0; } .lead, .source { color:var(--muted); } .lead { font-size:1.05rem; }
+    .notice { margin:24px 0; padding:14px 16px; border:1px solid #6366f1; border-left:4px solid var(--accent); border-radius:10px; background:var(--accent-bg); }
+    .steps { display:grid; gap:12px; margin:22px 0; } .step { display:grid; grid-template-columns:36px 1fr; gap:14px; padding:18px; background:var(--surface); border:1px solid var(--line); border-radius:12px; }
+    .num { width:28px; height:28px; display:grid; place-items:center; border-radius:50%; background:#4338ca; color:#e0e7ff; font-weight:750; } .step p { color:var(--muted); }
+    .choice { margin-top:10px; padding:11px 12px; border:1px solid #6366f1; border-radius:8px; background:var(--accent-bg); color:#e0e7ff; } a { color:#a5b4fc; }
+    .source { border-top:1px solid var(--line); margin-top:28px; padding-top:18px; font-size:.9rem; } nav { display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:24px; } nav a { text-decoration:none; font-weight:650; } nav a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Reinicio de pantallas</h1>
+    <p class="lead">Guía manual si incumpliste el corte de pantallas cuatro veces esta semana. No cuenta usos, bloquea snoozes ni manda cuestionarios.</p>
+    <div class="notice"><strong>Regla rápida:</strong> cuatro incumplimientos semanales ya son una escalada. Esta noche, no negocies otro aplazamiento: definí qué te frenó y dejá un cambio concreto listo antes del corte.</div>
+    <section class="steps" aria-label="Reinicio tras cortes de pantalla repetidos">
+      <article class="step"><div class="num">1</div><div><h2>Confirmá el patrón</h2><p>Usá esta guía sólo si contás cuatro noches de esta semana en que seguiste con pantallas después de tu corte. Si no llegaste a cuatro, volvés al <a href="corte-pantallas.html">cierre normal de pantallas</a>.</p></div></article>
+      <article class="step"><div class="num">2</div><div><h2>Respondé una causa, sin excusas largas</h2><p>Anotá en una línea qué pasó más veces: trabajo que se extendió, contenido automático, dispositivo cerca de la cama u horario de inicio tardío. El sistema original escala con cuestionario; acá la revisión es manual.</p><div class="choice">Pregunta útil: ¿qué fricción puedo quitar antes de la próxima noche?</div></div></article>
+      <article class="step"><div class="num">3</div><div><h2>Elegí un bloqueo físico para hoy</h2><p>Una acción: cargador fuera del dormitorio, teléfono lejos de la cama, pestañas cerradas o alarma previa al corte. Preparala ahora; no dependas de recordarla cuando ya estés cansado.</p></div></article>
+      <article class="step"><div class="num">4</div><div><h2>No postergues el siguiente corte</h2><p>Tratala como una regla firme esta noche: al llegar al corte, cerrá la pantalla en vez de sumar otro “cinco minutos”. Esta página no puede bloquear un snooze; la decisión sigue siendo manual.</p></div></article>
+      <article class="step"><div class="num">5</div><div><h2>Separalo de entrenamiento</h2><p>Este reinicio ordena la transición al sueño; no modifica la rutina de calistenia. Si además tu frecuencia cardíaca en reposo sigue alta, aplicá la <a href="frecuencia-cardiaca-reposo.html">guía de FC en reposo</a>.</p></div></article>
+    </section>
+    <p class="source">Derivado de <code>health-system/logic/escalation_rules.md</code>: <em>screen_time_violations ≥ 4 this_week</em> activa alerta, cuestionario y bloqueo de snooze. Traducción estática: conteo, revisión y acción manuales; sin acceso runtime a health-system, pantalla, cuestionarios, bloqueos ni notificaciones.</p>
+    <nav aria-label="Calistenia"><a href="index.html">Inicio</a><a href="banco-ejercicios.html">Banco</a><a href="rutina.html">Rutina</a><a href="desk-mobility.html">Movilidad escritorio</a><a href="semaforo-dolor.html">Semáforo dolor</a><a href="energia-post-almuerzo.html">Bajón post-almuerzo</a><a href="recuperacion-post-entreno.html">Reset post-entreno</a><a href="reset-post-reunion.html">Reset post-reunión</a><a href="corte-pantallas.html" style="color:#818cf8;">Cierre de pantallas</a><a href="reinicio-corte-pantallas.html" style="color:#a5b4fc;">Reinicio pantallas</a><a href="frecuencia-cardiaca-reposo.html" style="color:#fb7185;">FC reposo alta</a><a href="pausa-deep-work.html" style="color:#22d3ee;">Pausa de foco</a><a href="rescate-hidratacion-tarde.html" style="color:#38bdf8;">Agua 16 h</a><a href="pausas-dolor-rodilla.html" style="color:#f59e0b;">Rodilla + pausas</a><a href="reinicio-proteina-desayuno.html" style="color:#a3e635;">Proteína desayuno</a><a href="reinicio-hidratacion-severa.html" style="color:#f97316;">Reinicio agua</a><a href="agua-antes-comida.html" style="color:#38bdf8;">Agua antes de comer</a></nav>
+  </main>
+  <script src="./pwa-init.js"></script>
+</body>
+</html>
