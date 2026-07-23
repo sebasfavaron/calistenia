@@ -166,3 +166,16 @@
   - narrow static translation: <3 glasses for 2 consecutive days means a manual one-glass-now, visible-water, 15-minute-reset; no runtime health-system, water-log, or notification access
   - distinct from T-042.8's same-day after-16:00 low-water catch-up; evidence: build, JS syntax, source/built links, local HTTP 200 preview, `git diff --check`
 - tags: [project:calistenia, type:severe-hydration-reset, criterion:health-cheat-sheet]
+
+### T-042.13 - Add repeated screen-cutoff reset guide
+- status: done
+- goal: add a calistenia cheat-sheet page that translates health-system's fourth weekly screen-cutoff violation escalation into a manual no-postponement reset
+- source: `T-042; health-system/logic/escalation_rules.md`
+- workspace: `/home/sebas/work/tasks/T-042.13/`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-23: published `reinicio-corte-pantallas.html` and linked it from all existing source HTML surfaces
+  - narrow static translation: four screen-cutoff violations in one week means manually identify one friction source, prepare one physical barrier, and do not postpone the next cutoff; no runtime screen tracking, questionnaire, snooze block, or notification access
+  - distinct from T-042.5's normal nightly 22:30 cutoff: this is the repeated-violation escalation; no PWA/service-worker/manifest changes
+- tags: [project:calistenia, type:repeated-screen-cutoff-reset, criterion:health-cheat-sheet]
