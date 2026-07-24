@@ -179,3 +179,16 @@
   - narrow static translation: four screen-cutoff violations in one week means manually identify one friction source, prepare one physical barrier, and do not postpone the next cutoff; no runtime screen tracking, questionnaire, snooze block, or notification access
   - distinct from T-042.5's normal nightly 22:30 cutoff: this is the repeated-violation escalation; no PWA/service-worker/manifest changes
 - tags: [project:calistenia, type:repeated-screen-cutoff-reset, criterion:health-cheat-sheet]
+
+### T-042.14 - Add repeated knee-pain training-stop guide
+- status: done
+- goal: add a calistenia cheat-sheet page that translates health-system's three weekly knee-pain escalation into a manual next-session stop and physiotherapy action
+- source: `T-042; health-system/logic/escalation_rules.md; health-system/config/health_config.yaml`
+- workspace: `/home/sebas/work/projects/calistenia/`
+- next_step:
+  - none; choose a different narrow criterion slice for the next T-042.x task
+- notes:
+  - done 2026-07-24: published `lesion-rodilla-repetida.html` and linked it from all existing source HTML surfaces
+  - narrow static translation: three or more knee-pain logs in one week means manually remove knee-loading calisthenics from the next session and arrange professional evaluation; no runtime health-system, symptom-log, scheduling, session-blocking, or notification access
+  - distinct from T-042.1's general pain-frequency guardrail and T-042.9's same-day desk-break cadence; no PWA/service-worker/manifest changes
+- tags: [project:calistenia, type:repeated-knee-pain-training-stop, criterion:health-cheat-sheet]
